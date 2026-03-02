@@ -8,6 +8,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
   title: "Cornerstone Builder Software — Construction Scheduling, Simplified.",
   description:
     "Built by builders, for builders. Smart scheduling, vendor portals, AI support, and more — starting at $60/month.",
