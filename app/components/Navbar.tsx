@@ -32,9 +32,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-emerald-500 flex items-center justify-center font-bold text-slate-950 text-sm">
-              C
-            </div>
+            <img src="/logo.png" alt="Cornerstone" className="w-[125px] h-[125px] object-contain" />
             <span className="font-bold text-lg text-white hidden sm:block">
               Cornerstone
             </span>

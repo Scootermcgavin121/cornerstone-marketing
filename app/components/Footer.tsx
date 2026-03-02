@@ -62,9 +62,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-emerald-500 flex items-center justify-center font-bold text-slate-950 text-sm">
-                C
-              </div>
+              <img src="/logo.png" alt="Cornerstone" className="w-9 h-9 object-contain" />
               <span className="font-bold text-lg text-white">Cornerstone</span>
             </div>
             <p className="text-sm text-slate-400 mb-4 italic">
