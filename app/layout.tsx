@@ -1,0 +1,42 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+export const metadata: Metadata = {
+  title: "Cornerstone Builder Software — Construction Scheduling, Simplified.",
+  description:
+    "Built by builders, for builders. Smart scheduling, vendor portals, AI support, and more — starting at $60/month.",
+  keywords: [
+    "construction scheduling",
+    "builder software",
+    "project management",
+    "vendor portal",
+    "construction management",
+  ],
+  openGraph: {
+    title: "Cornerstone Builder Software",
+    description: "Construction Scheduling, Simplified. Starting at $60/month.",
+    url: "https://cornerstonepm.ai",
+    siteName: "Cornerstone Builder Software",
+    type: "website",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className={`${inter.variable} scroll-smooth`}>
+      <body className="bg-slate-950 text-slate-100 font-sans antialiased">
+        {children}
+      </body>
+    </html>
+  );
+}
