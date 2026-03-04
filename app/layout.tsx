@@ -28,6 +28,20 @@ export const metadata: Metadata = {
     url: "https://cornerstonepm.ai",
     siteName: "Cornerstone Builder Software",
     type: "website",
+    images: [
+      {
+        url: "https://www.cornerstonepm.ai/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Cornerstone Builder Software - Construction Scheduling, Simplified",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cornerstone Builder Software",
+    description: "Construction Scheduling, Simplified. Starting at $60/month.",
+    images: ["https://www.cornerstonepm.ai/og-image.png"],
   },
 };
 
