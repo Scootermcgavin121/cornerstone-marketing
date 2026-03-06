@@ -20,7 +20,7 @@ export default function SocialProof() {
             Trusted by Builders
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4">
-            Builders across Delaware{" "}
+            Builders across the US{" "}
             <span className="gradient-text">trust Cornerstone</span>
           </h2>
         </AnimateOnScroll>
@@ -48,7 +48,7 @@ export default function SocialProof() {
                 &quot;Cornerstone replaced our entire scheduling workflow. Our vendors love the portal — they just click a link and confirm. No more phone calls.&quot;
               </p>
               <div>
-                <p className="font-semibold text-white">Coming Soon</p>
+                <p className="font-semibold text-white">— Steve W.</p>
                 <p className="text-sm text-slate-500">Real testimonials from our beta users</p>
               </div>
             </div>

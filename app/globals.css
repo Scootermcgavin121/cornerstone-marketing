@@ -11,6 +11,7 @@
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
+  background: #020617;
 }
 
 /* Custom scrollbar */
@@ -109,4 +110,15 @@ html {
     linear-gradient(rgba(6, 182, 212, 0.03) 1px, transparent 1px),
     linear-gradient(90deg, rgba(6, 182, 212, 0.03) 1px, transparent 1px);
   background-size: 60px 60px;
+}
+
+/* Shrink chatbot icon in phone landscape only */
+@media (orientation: landscape) and (max-height: 450px) and (max-width: 950px) {
+  .chatbot-landscape {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .chatbot-label-mobile {
+    display: none !important;
+  }
 }

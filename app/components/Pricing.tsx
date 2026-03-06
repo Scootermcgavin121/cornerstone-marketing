@@ -7,14 +7,20 @@ const tiers = [
     name: "Starter",
     price: "$60",
     period: "/month",
-    desc: "Everything you need to get organized.",
+    desc: "Enterprise-grade power at a fraction of the price.",
     features: [
-      "Full scheduling app",
-      "AI chatbot support",
+      "1,000 homes, vendors, users & customers",
+      "Full scheduling engine",
+      "Task dependencies with auto-shifting",
       "Vendor portal with magic links",
+      "AI chatbot support",
       "Real-time dashboards",
-      "Phase management",
-      "Document uploads",
+      "Gantt charts with critical path",
+      "Vendor insurance expiry alerts",
+      "Email notifications for everything",
+      "In-app messaging with file attachments",
+      "Excel import from any platform",
+      "Customer portal for build progress",
     ],
     cta: "Start Free Trial",
     highlighted: false,
@@ -23,33 +29,31 @@ const tiers = [
     name: "Pro",
     price: "$120",
     period: "/month",
-    desc: "For builders who want it all.",
+    desc: "For builders who want hands-on support.",
     badge: "Most Popular",
     features: [
-      "Everything in Starter",
-      "Unlimited projects",
-      "Unlimited vendors",
+      "Everything in Starter, plus:",
       "Priority email support",
-      "Advanced reports & analytics",
-      "Custom branding",
-      "API access",
+      "Onboarding assistance",
+      "Dedicated setup & training",
     ],
     cta: "Start Free Trial",
     highlighted: true,
   },
   {
     name: "Enterprise",
-    price: "Custom",
-    period: "",
+    price: "$250",
+    period: "/month",
     desc: "For multi-company operations.",
     features: [
-      "Everything in Pro",
-      "Multi-company management",
+      "Everything in Pro, plus:",
+      "Custom branding & white-label",
+      "Custom API access",
       "Dedicated account manager",
       "Custom integrations",
-      "SLA guarantee",
-      "Onboarding & training",
-      "Volume discounts",
+      "Priority support",
+      "Multi-company management",
+      "Volume discounts available",
     ],
     cta: "Contact Sales",
     highlighted: false,
@@ -76,11 +80,7 @@ export default function Pricing() {
           {tiers.map((tier, i) => (
             <AnimateOnScroll key={i} delay={i * 0.1}>
               <div
-                className={`relative flex flex-col p-8 rounded-2xl border h-full ${
-                  tier.highlighted
-                    ? "border-cyan-500/50 bg-gradient-to-b from-cyan-500/10 to-emerald-500/5 glow"
-                    : "border-slate-800/50 bg-slate-900/50"
-                }`}
+                className="relative flex flex-col p-8 rounded-2xl border border-cyan-500/50 bg-gradient-to-b from-cyan-500/10 to-emerald-500/5 glow h-full"
               >
                 {tier.badge && (
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full text-xs font-bold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500">
@@ -111,11 +111,7 @@ export default function Pricing() {
 
                 <a
                   href={tier.name === "Enterprise" ? "#cta" : "https://app.cornerstonepm.ai/register"}
-                  className={`block text-center py-3 rounded-xl font-semibold transition-all ${
-                    tier.highlighted
-                      ? "bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 hover:from-cyan-400 hover:to-emerald-400 shadow-lg shadow-cyan-500/25"
-                      : "border border-slate-700 text-slate-300 hover:border-slate-500 hover:text-white"
-                  }`}
+                  className="block text-center py-3 rounded-xl font-semibold transition-all bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 hover:from-cyan-400 hover:to-emerald-400 shadow-lg shadow-cyan-500/25"
                 >
                   {tier.cta}
                 </a>
@@ -123,6 +119,15 @@ export default function Pricing() {
             </AnimateOnScroll>
           ))}
         </div>
+
+        <AnimateOnScroll className="text-center mt-12">
+          <a
+            href="/features"
+            className="inline-block px-10 py-4 text-lg font-bold rounded-2xl border-2 border-cyan-500/50 text-white hover:bg-cyan-500/10 hover:border-cyan-400 transition-all shadow-lg shadow-cyan-500/10"
+          >
+            See All Features →
+          </a>
+        </AnimateOnScroll>
       </div>
     </section>
   );
