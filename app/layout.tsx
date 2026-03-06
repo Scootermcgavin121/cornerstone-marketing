@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/logo.png",
+    icon: "/favicon.png",
     apple: "/logo.png",
   },
   title: "Cornerstone Builder Software — Construction Scheduling, Simplified.",

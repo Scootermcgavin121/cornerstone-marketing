@@ -1,45 +1,46 @@
 "use client";
 
 import AnimateOnScroll from "./AnimateOnScroll";
+import Image from "next/image";
 
 const features = [
   {
-    emoji: "📅",
+    icon: "/assets/icons/scheduling.png",
     title: "Smart Scheduling",
     desc: "Auto-cascading dependencies, weekday-only scheduling, and holiday-aware timelines that adjust automatically.",
   },
   {
-    emoji: "👷",
+    icon: "/assets/icons/vendor.png",
     title: "Vendor Portal",
     desc: "Magic links — no accounts needed. Vendors confirm or decline in one click. Dead simple.",
   },
   {
-    emoji: "💬",
+    icon: "/assets/icons/messaging.png",
     title: "Built-in Messaging",
     desc: "Email notifications with full task context. No more phone tag or missed updates.",
   },
   {
-    emoji: "📊",
+    icon: "/assets/icons/dashboards.png",
     title: "Real-time Dashboards",
     desc: "KPIs, progress bars, overdue alerts — everything at a glance. Know exactly where every project stands.",
   },
   {
-    emoji: "🏗️",
+    icon: "/assets/icons/phases.png",
     title: "Phase Management",
     desc: "12 construction phases, milestone tracking, and permit gates built right in.",
   },
   {
-    emoji: "🤖",
+    icon: "/assets/icons/ai-support.png",
     title: "AI Support",
     desc: "24/7 intelligent chatbot that knows your schedule inside and out. Ask anything, get instant answers.",
   },
   {
-    emoji: "📱",
+    icon: "/assets/icons/mobile.png",
     title: "Mobile Ready",
     desc: "Responsive design that works on any device. Check schedules from the job site.",
   },
   {
-    emoji: "📋",
+    icon: "/assets/icons/documents.png",
     title: "Document Management",
     desc: "Drag & drop file attachments per task. Keep plans, permits, and photos organized.",
   },
@@ -66,7 +67,7 @@ export default function Features() {
           {features.map((f, i) => (
             <AnimateOnScroll key={i} delay={i * 0.05}>
               <div className="group relative p-6 rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-cyan-500/30 transition-all duration-300 hover:bg-slate-900/80 h-full">
-                <div className="text-4xl mb-4">{f.emoji}</div>
+                <Image src={f.icon} alt={f.title} width={64} height={64} className="mb-4 object-contain" />
                 <h3 className="text-lg font-bold text-white mb-2">{f.title}</h3>
                 <p className="text-sm text-slate-400 leading-relaxed">{f.desc}</p>
               </div>

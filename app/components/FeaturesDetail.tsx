@@ -114,6 +114,10 @@ const sections = [
         desc: "No importer deletes existing records. Add new data, update existing — never remove. Safe by design.",
       },
       {
+        name: "Mass Vendor Invite",
+        desc: "Import your vendor list from Excel, then send magic link invites to all of them at once. Entire vendor network onboarded in minutes, not weeks.",
+      },
+      {
         name: "Excel Export",
         desc: "Branded exports with builder logo, phase-colored headers, and professional formatting. Home schedules, vendor calendars, task lists — all exportable.",
       },

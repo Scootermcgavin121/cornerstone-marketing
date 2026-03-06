@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import PainPoints from "./components/PainPoints";
 import Features from "./components/Features";
+import PoweredBy from "./components/PoweredBy";
 import Comparison from "./components/Comparison";
 import Pricing from "./components/Pricing";
 import SocialProof from "./components/SocialProof";
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <PainPoints />
         <Features />
+        <PoweredBy />
         <Comparison />
         <Pricing />
         <SocialProof />
