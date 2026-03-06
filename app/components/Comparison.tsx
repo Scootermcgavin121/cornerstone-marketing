@@ -3,9 +3,9 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 
 const competitors = [
-  { name: "Buildertrend", price: "$99–499/mo", con: "Bloated & complex", rating: 1 },
-  { name: "CoConstruct", price: "$99+/mo", con: "Dated interface", rating: 1 },
-  { name: "Procore", price: "$375+/mo", con: "Enterprise overkill", rating: 1 },
+  { name: "Buildertrend", price: "$99–499/mo", con: "Every add-on costs extra" },
+  { name: "CoConstruct", price: "$99+/mo", con: "Features locked behind tiers" },
+  { name: "Procore", price: "$375+/mo", con: "Per-home pricing adds up fast" },
 ];
 
 const cornerstone = {
@@ -61,6 +61,11 @@ export default function Comparison() {
               <span className="text-right text-emerald-400 font-medium">{cornerstone.pro}</span>
             </div>
           </div>
+
+          <p className="text-center text-slate-400 text-sm mt-6">
+            <span className="text-white font-semibold">Cornerstone: one price, every feature, up to 1,000 homes.</span>{" "}
+            No per-home fees. No feature gates. No surprises.
+          </p>
         </AnimateOnScroll>
       </div>
     </section>
