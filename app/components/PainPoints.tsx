@@ -37,7 +37,7 @@ const pains = [
       </svg>
     ),
     title: "Paying $500+/mo for Bloated Software",
-    desc: "Enterprise tools built for billion-dollar GCs. You just need scheduling that works.",
+    desc: "Enterprise tools built for billion-dollar GCs. You're building 10–20 homes a year — you shouldn't need a $500/mo app for that.",
   },
 ];
 
