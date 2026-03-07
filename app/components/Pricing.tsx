@@ -4,7 +4,7 @@ import AnimateOnScroll from "./AnimateOnScroll";
 
 const tiers = [
   {
-    name: "Starter",
+    name: "Builder",
     price: "$60",
     period: "/month",
     desc: "Enterprise-grade power at a fraction of the price.",
@@ -32,7 +32,7 @@ const tiers = [
     desc: "For builders who want hands-on support.",
     badge: "Most Popular",
     features: [
-      "Everything in Starter, plus:",
+      "Everything in Builder, plus:",
       "Priority email support",
       "Onboarding assistance",
       "Dedicated setup & training",

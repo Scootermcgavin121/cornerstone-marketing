@@ -79,9 +79,9 @@ All plans are monthly subscriptions, no long-term contracts required.
 
 | Plan | Price | Best For |
 |------|-------|----------|
-| **Starter** | $60/month | Unlimited homes & projects. Self-service - perfect for builders who don't need hand-holding. |
-| **Pro** | $120/month | Unlimited homes & projects. Includes dedicated human support & onboarding assistance. |
-| **Enterprise** | $250/month | Unlimited homes & projects. Priority human support, custom onboarding, and account management. |
+| **Builder** | $60/month | Up to 1,000 homes, vendors & users. Self-service - perfect for builders who don't need hand-holding. |
+| **Pro** | $120/month | Up to 1,000 homes, vendors & users. Includes dedicated human support & onboarding assistance. |
+| **Enterprise** | $250/month | Up to 1,000 homes, vendors & users. Priority human support, custom onboarding, and account management. |
 
 Visit https://cornerstonepm.ai for full pricing details and feature comparison.
 
