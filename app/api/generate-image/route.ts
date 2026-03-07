@@ -18,7 +18,7 @@ export async function POST(req: Request) {
 
     return Response.json({
       success: true,
-      images: response.data.map(image => ({
+      images: response.data?.map(image => ({
         url: image.url,
         filename: filename || 'generated-image.png'
       }))
@@ -27,7 +27,7 @@ export async function POST(req: Request) {
   } catch (error) {
     console.error('Image generation error:', error);
     return Response.json(
-      { success: false, error: error.message || 'Failed to generate image' },
+      { success: false, error: (error as Error).message || 'Failed to generate image' },
       { status: 500 }
     );
   }
