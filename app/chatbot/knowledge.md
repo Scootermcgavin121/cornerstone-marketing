@@ -156,7 +156,7 @@ Visit https://cornerstonepm.ai for full pricing details and feature comparison.
 
 > *Built by builders, for builders.*
 
-_Last updated: 2026-03-02_
+_Last updated: 2026-03-08_
 
 A summary of key features and differentiators for the Cornerstone Builder Software construction scheduling platform.
 
@@ -191,6 +191,7 @@ Builders switching from BuilderTrend, CoConstruct, Procore, or spreadsheets can 
 
 ### Key Features:
 - **Universal Column Mapper** â€" upload any Excel/CSV file and map its columns to Cornerstone Builder Software fields via dropdowns. Handles duplicate column names (shows "#1", "#2"). No reformatting needed â€" works with exports from any platform.
+- **Smart Column Recognition** â€" automatically recognizes similar column names. For example, "Job", "Title", or "Position" all auto-map to Role. "Mobile" or "Cell" maps to Cell Phone. The system lowercases headers and checks against alias lists, so builders don't need to rename their columns to match our format.
 - **Diff Preview** before applying â€" see exactly what will be added or modified with field-level change tracking
 - **Validation warnings** â€" catches duplicates, missing scope references, invalid data before import
 - **Download templates** â€" pre-formatted Excel templates with example data for each import type
@@ -199,6 +200,7 @@ Builders switching from BuilderTrend, CoConstruct, Procore, or spreadsheets can 
 
 All three are **independent and composable** â€" mix and match any permitting template with any construction template and any inspection template without creating duplicates for every combination.
 - **Why this matters:** A builder with 5 communities and 3 floorplans doesn't need 15+ templates. One permitting template + one inspection template + a few construction templates covers everything. Templates run in sync once applied â€" permitting, inspection, and construction tasks auto-cascade alongside each other on the same timeline.
+- **Template task reordering** â€" drag-and-drop task ordering within templates, plus searchable MasterTask dropdown for adding tasks
 - **Master task library** with canonical definitions shared across all templates â€" change a task once, it updates everywhere
 - **One-click template application** with configurable start date
 
@@ -300,6 +302,34 @@ Vendors (subcontractors) get their own login with a purpose-built dashboard that
   - Completed and locked tasks are excluded from urgency highlighting
 - **Bulk Mark as Complete:** Checkbox column on task tables allows selecting multiple tasks and marking them all complete at once via a floating action bar. Useful for onboarding homes already under construction.
 
+## ðŸ ï¸ Customer Portal â€" Milestone Carousel & Photo Gallery
+
+### Milestone Carousel (Schell Brothers-style)
+- **Horizontal scrollable cards** showing 20 construction milestones from Pre-Construction Meeting through Certificate of Occupancy
+- Each card displays a **real construction photo**, milestone description, and **status badge** (Done âœ… / Learn More ðŸ" / Locked ðŸ"')
+- **Phase-colored borders** match the construction phase (e.g., Foundation = amber, Framing = orange, Finishes = emerald)
+- **Scroll arrows** inside the carousel for easy navigation
+- Clicking "Learn More" expands milestone details
+
+### Milestone Photos
+- 20 real construction photos mapped to each milestone (site clearing, foundation pour, framing, roofing, mechanicals, drywall, finishes, landscaping, etc.)
+- **PM/PA photo upload** â€" Project Managers and Permitting Agents can upload up to 5 photos per milestone via a ðŸ"· button on task rows
+- Photos are stored and displayed in the customer portal
+
+### Job Site Photos Gallery
+- **Thumbnail buttons** below the milestone carousel showing uploaded milestone photos
+- Customers can browse actual job site progress photos organized by milestone
+- Gives homeowners a visual timeline of their home being built
+
+### Dark Mode Fix
+- Fixed white screen bug on the customer portal homes list page â€" now properly renders in dark mode
+
+## ðŸ"„ Company Documents
+- **Admin-uploaded company documents** visible to all users
+- Organized by categories: Insurance, Licenses, Permits, Safety, Contracts, etc.
+- Admins upload and manage; all team members and vendors can view/download
+- Centralized document repository for company-wide files
+
 ## ðŸ"Š Dashboard
 - Role-specific views (Admin, PM, Permitting, Vendor, Customer)
 - KPI cards: completed homes, in-progress, overdue tasks, expiring insurance
@@ -315,6 +345,12 @@ The Master Task Library is the single source of truth for all task definitions. 
 - In the UI, click **"+ Add"** or the **âœŽ** icon in the Task Dependencies column to open a search/select picker
 - Dependencies are shown as removable pills â€" click âœ• to remove one
 - The scheduling engine uses dependencies to auto-cascade dates: when a task's dates shift, all downstream dependent tasks shift too
+
+### UX Improvements (March 2026)
+- **Delete with warning** â€" deleting a master task shows how many templates and active homes use it before confirming, instead of greying out the button
+- **Scope dropdown selector** â€" choose scope from existing Scopes list via dropdown instead of free-text input
+- **Sticky column headers** â€" headers stay visible while scrolling through long task lists
+- **Active home count** â€" each task shows how many active homes currently use it
 
 ### Sort Order vs Dependencies
 - **Sort Order** is for **display only** â€" it controls the visual position of tasks in lists and schedules

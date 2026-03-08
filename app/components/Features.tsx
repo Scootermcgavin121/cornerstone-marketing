@@ -44,6 +44,11 @@ const features = [
     title: "Document Management",
     desc: "Drag & drop file attachments per task. Keep plans, permits, and photos organized.",
   },
+  {
+    icon: "/assets/icons/customer-portal.png",
+    title: "Customer Portal",
+    desc: "Homeowners see their build progress with a milestone carousel, real construction photos, and job site gallery.",
+  },
 ];
 
 export default function Features() {

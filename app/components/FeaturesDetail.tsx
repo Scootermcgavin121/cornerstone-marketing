@@ -85,7 +85,11 @@ const sections = [
       },
       {
         name: "Master Task Library",
-        desc: "Single source of truth for all task definitions. Change a task once, it updates everywhere across all templates.",
+        desc: "Single source of truth for all task definitions. Change a task once, it updates everywhere across all templates. Smart delete warnings, scope dropdowns, and active home counts per task.",
+      },
+      {
+        name: "Template Task Reordering",
+        desc: "Drag-and-drop task ordering within templates plus a searchable dropdown to add tasks from the master library. Build your schedule in minutes.",
       },
       {
         name: "Permit Gate System",
@@ -104,6 +108,10 @@ const sections = [
       {
         name: "Universal Column Mapper",
         desc: "Upload any Excel or CSV file and map columns via dropdowns. No reformatting needed — works with exports from any platform.",
+      },
+      {
+        name: "Smart Column Recognition",
+        desc: "Our importer automatically recognizes similar column names — \"Job\", \"Title\", or \"Position\" all map to Role. \"Mobile\" or \"Cell\" maps to Cell Phone. No need to rename your columns to match our format.",
       },
       {
         name: "Diff Preview Before Applying",
@@ -180,8 +188,16 @@ const sections = [
         desc: "Admin, Project Manager, Permitting Agent, Vendor, and Customer roles — each sees only what they need.",
       },
       {
-        name: "Customer Portal",
-        desc: "Homeowners get a read-only view of their build progress. Task completion, milestone status, estimated timeline — no access to vendor details or costs.",
+        name: "Customer Portal — Milestone Carousel",
+        desc: "Homeowners see a beautiful horizontal carousel of 20 construction milestones with real photos, phase-colored borders, and status badges (Done / Learn More / Locked). Scroll through their home's journey from Pre-Construction Meeting to Certificate of Occupancy.",
+      },
+      {
+        name: "Job Site Photo Gallery",
+        desc: "PMs upload milestone photos directly from task rows. Homeowners browse a thumbnail gallery of actual job site progress — giving them a visual timeline of their home being built.",
+      },
+      {
+        name: "Company Documents",
+        desc: "Admins upload company-wide documents (insurance, licenses, permits, safety docs) visible to all users. One central place for everything your team and vendors need.",
       },
       {
         name: "Vendor Admin & Member Roles",
