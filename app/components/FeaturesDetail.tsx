@@ -196,12 +196,20 @@ const sections = [
         desc: "Admin, Project Manager, Permitting Agent, Vendor, and Customer roles — each sees only what they need.",
       },
       {
-        name: "Customer Portal — Milestone Carousel",
+        name: "CRM Portal — Milestone Carousel",
         desc: "Homeowners see a beautiful horizontal carousel of 20 construction milestones with real photos, phase-colored borders, and status badges (Done / Learn More / Locked). Scroll through their home's journey from Pre-Construction Meeting to Certificate of Occupancy.",
       },
       {
-        name: "Job Site Photo Gallery",
-        desc: "PMs upload milestone photos directly from task rows. Homeowners browse a thumbnail gallery of actual job site progress — giving them a visual timeline of their home being built.",
+        name: "Milestone Photo Gallery",
+        desc: "Every milestone showcases real construction photos uploaded by your PMs. Homeowners get a curated visual journal of their home being built — from breaking ground to handing over keys.",
+      },
+      {
+        name: "Download All Photos (.zip)",
+        desc: "Homeowners can download every job site photo as a single zip file organized by milestone. A keepsake of their entire build journey — ready to print, share, or archive.",
+      },
+      {
+        name: "Customer Messaging",
+        desc: "Homeowners message their PM and sales agent directly from the portal. Threaded conversations keep communication organized and in context — no more lost emails or phone tag.",
       },
       {
         name: "Company Documents",
@@ -254,6 +262,10 @@ const sections = [
       {
         name: "Custom API Access",
         desc: "Enterprise plan includes API access for custom integrations with your existing tools and workflows.",
+      },
+      {
+        name: "Self-Service Demo",
+        desc: "Prospects sign up and get their own private sandbox with pre-loaded data — homes, vendors, tasks, and photos. 3-day trial, no credit card required. Seamless upgrade to a paid plan preserves all data.",
       },
     ],
   },
