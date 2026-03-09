@@ -151,6 +151,14 @@ const sections = [
         name: "AI Chatbot Support",
         desc: "24/7 intelligent chatbot that knows your schedule inside and out. Ask anything, get instant answers.",
       },
+      {
+        name: "Jobsite Notes",
+        desc: "Per-home notes with titles, timestamps, and author tracking. Search across all homes from a central notes hub — never lose a field observation or meeting note again.",
+      },
+      {
+        name: "Customer Photo Gallery",
+        desc: "PMs upload milestone photos grouped by construction phase. Homeowners browse a visual timeline of their build. Photo hub shows all homes with counts, cover images, and latest activity.",
+      },
     ],
   },
   {
