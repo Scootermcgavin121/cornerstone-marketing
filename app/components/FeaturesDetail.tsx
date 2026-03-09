@@ -263,10 +263,6 @@ const sections = [
         name: "Custom API Access",
         desc: "Enterprise plan includes API access for custom integrations with your existing tools and workflows.",
       },
-      {
-        name: "Self-Service Demo",
-        desc: "Prospects sign up and get their own private sandbox with pre-loaded data — homes, vendors, tasks, and photos. 3-day trial, no credit card required. Seamless upgrade to a paid plan preserves all data.",
-      },
     ],
   },
 ];
