@@ -20,7 +20,7 @@ const tiers = [
       "Email notifications for everything",
       "In-app messaging with file attachments",
       "Excel import from any platform",
-      "Customer portal for build progress",
+      "Customer CRM portal for build progress",
     ],
     cta: "Start Free Trial",
     highlighted: false,
