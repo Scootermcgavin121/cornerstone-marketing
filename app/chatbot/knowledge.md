@@ -60,6 +60,12 @@ Cornerstone helps residential builders schedule, track, and manage their constru
 - Email notifications for task assignments, schedule changes, and updates
 - Keep everyone in the loop automatically
 
+### AI Assistant
+- 24/7 intelligent chatbot built into every account
+- **Dedicated memory per account** — your AI assistant learns your business over time
+- The more you use it, the smarter it gets about your operation
+- Ask questions about your schedule, vendors, tasks, or anything else — get instant, tailored answers
+
 ### Import & Export
 - **Import from Excel**: Upload your existing schedules and templates from Excel/CSV â€" no need to start from scratch
 - **Export to Excel**: Export schedules and data for reporting, sharing with owners/lenders, or backup

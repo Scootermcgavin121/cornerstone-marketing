@@ -149,7 +149,7 @@ const sections = [
       },
       {
         name: "AI Chatbot Support",
-        desc: "24/7 intelligent chatbot that knows your schedule inside and out. Ask anything, get instant answers.",
+        desc: "Your AI assistant learns your business. The more you use it, the smarter it gets about your operation — with a dedicated memory file for every account. Ask anything, get instant answers tailored to your company.",
       },
       {
         name: "Jobsite Notes",
