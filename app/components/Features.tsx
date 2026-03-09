@@ -20,14 +20,9 @@ const features = [
     desc: "Email notifications with full task context. No more phone tag or missed updates.",
   },
   {
-    icon: "/assets/icons/dashboards.png",
-    title: "Real-time Dashboards",
-    desc: "KPIs, progress bars, overdue alerts — everything at a glance. Know exactly where every project stands.",
-  },
-  {
-    icon: "/assets/icons/phases.png",
-    title: "Phase Management",
-    desc: "12 construction phases, milestone tracking, and permit gates built right in.",
+    icon: "/assets/icons/crm.png",
+    title: "CRM Portal",
+    desc: "Homeowners see their build progress with a milestone carousel, real construction photos, and job site gallery.",
   },
   {
     icon: "/assets/icons/ai-support.png",
@@ -45,9 +40,9 @@ const features = [
     desc: "Drag & drop file attachments per task. Keep plans, permits, and photos organized.",
   },
   {
-    icon: "/assets/icons/customer-portal.png",
-    title: "Customer Portal",
-    desc: "Homeowners see their build progress with a milestone carousel, real construction photos, and job site gallery.",
+    icon: "/assets/icons/dashboards.png",
+    title: "Real-time Dashboards",
+    desc: "KPIs, progress bars, overdue alerts — everything at a glance. Know exactly where every project stands.",
   },
 ];
 
