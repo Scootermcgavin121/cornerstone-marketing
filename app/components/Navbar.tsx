@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <img src="/logo-new.png" alt="Cornerstone PM" className="h-14 sm:h-16 w-auto object-contain" />
+            <img src="/logo-new.png" alt="Cornerstone PM" className="h-10 sm:h-16 w-auto object-contain" />
           </a>
 
           {/* Desktop links */}
