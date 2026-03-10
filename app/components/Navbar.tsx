@@ -56,12 +56,11 @@ export default function Navbar() {
             >
               Sign In
             </a>
-            <a
-              href="https://app.cornerstonepm.ai/register"
-              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500 hover:from-cyan-400 hover:to-emerald-400 transition-all shadow-lg shadow-cyan-500/25"
+            <span
+              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-slate-400 bg-slate-800 border border-slate-700 cursor-default"
             >
-              Get Started
-            </a>
+              Coming Soon
+            </span>
 
             {/* Mobile hamburger */}
             <button

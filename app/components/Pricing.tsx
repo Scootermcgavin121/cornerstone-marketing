@@ -109,12 +109,11 @@ export default function Pricing() {
                   ))}
                 </ul>
 
-                <a
-                  href={tier.name === "Enterprise" ? "#cta" : "https://app.cornerstonepm.ai/register"}
-                  className="block text-center py-3 rounded-xl font-semibold transition-all bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 hover:from-cyan-400 hover:to-emerald-400 shadow-lg shadow-cyan-500/25"
+                <span
+                  className="block text-center py-3 rounded-xl font-semibold text-slate-400 bg-slate-800 border border-slate-700 cursor-default"
                 >
-                  {tier.cta}
-                </a>
+                  Coming Soon
+                </span>
               </div>
             </AnimateOnScroll>
           ))}
