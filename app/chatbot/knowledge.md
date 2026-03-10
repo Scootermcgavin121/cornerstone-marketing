@@ -282,11 +282,25 @@ Vendors (subcontractors) get their own login with a purpose-built dashboard that
 - Vendors can access their portal via secure magic link (no password required)
 - Token-based authentication tied to vendor record
 
-## ðŸ"" Notification System
-- **Phase 1:** Vendor confirm/decline notifications to PM + Permitting Agent + Vendor
-- **Phase 2 (planned):** Email notifications for declines, daily digest of confirmations
+## 🔔 Notification System
+
+### In-App Notifications
+- Vendor confirm/decline notifications to PM + Permitting Agent + Vendor
 - Bell icon with animated unread badge, 30-second polling
 - Full notifications page with mark-as-read (individual + bulk)
+
+### Automatic Schedule Change Emails
+- When a PM changes a task date, marks a task complete, or adjusts duration, the schedule **cascades downstream** — shifting all dependent tasks.
+- The system **automatically emails every affected vendor** — grouped into one email per vendor listing all their shifted tasks.
+- Emails show **old dates (strikethrough) → new dates (bold)** so vendors instantly see what changed.
+- **Lead time filtering**: Vendors are only notified when their task falls within their notification lead time window. A plumber with 5-day lead time won't get emailed about a task 6 weeks away.
+- **Confirmation dialog**: Before cascading, PMs see a warning to prevent accidental email blasts.
+
+### Custom Lead Time Settings
+- **Per-vendor lead time** — each vendor sets their preferred notification window (in workdays) from their profile.
+- **Admin default** — configurable default lead time in Admin Settings (applies when a vendor hasn't set their own).
+- **Admin toggle** — "Auto-Notify on Schedule Changes" can be turned ON/OFF globally.
+- **Why this matters:** Builders don't spam vendors with irrelevant schedule updates for tasks months away. Vendors get notified at the right time based on their actual workflow needs.
 
 ## ðŸ"¬ Messaging System
 - **In-app messaging** between builders and vendors per task
