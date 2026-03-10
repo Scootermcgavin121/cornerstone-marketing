@@ -327,12 +327,11 @@ export default function FeaturesDetail() {
           <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto">
             All of this — starting at $60/month. No demo required. No sales calls. Just sign up and go.
           </p>
-          <a
-            href="https://app.cornerstonepm.ai/register"
-            className="inline-block px-10 py-4 text-lg font-bold rounded-2xl bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 hover:from-cyan-400 hover:to-emerald-400 shadow-lg shadow-cyan-500/25 transition-all"
+          <span
+            className="inline-block px-10 py-4 text-lg font-bold rounded-2xl bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 cursor-default"
           >
-            Start Free Trial →
-          </a>
+            Coming Soon!
+          </span>
         </AnimateOnScroll>
       </div>
     </section>

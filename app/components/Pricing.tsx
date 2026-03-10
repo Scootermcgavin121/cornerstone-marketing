@@ -110,9 +110,9 @@ export default function Pricing() {
                 </ul>
 
                 <span
-                  className="block text-center py-3 rounded-xl font-semibold text-slate-400 bg-slate-800 border border-slate-700 cursor-default"
+                  className="block text-center py-3 rounded-xl font-semibold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500 cursor-default"
                 >
-                  Coming Soon
+                  Coming Soon!
                 </span>
               </div>
             </AnimateOnScroll>

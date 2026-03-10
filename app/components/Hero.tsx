@@ -73,9 +73,9 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <span
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-lg font-semibold text-slate-400 bg-slate-800 border border-slate-700 cursor-default"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-lg font-semibold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500 cursor-default"
           >
-            Coming Soon 🚧
+            Coming Soon!
           </span>
           <a
             href="https://demo.cornerstonepm.ai"

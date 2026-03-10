@@ -57,9 +57,9 @@ export default function Navbar() {
               Sign In
             </a>
             <span
-              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-slate-400 bg-slate-800 border border-slate-700 cursor-default"
+              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500 cursor-default"
             >
-              Coming Soon
+              Coming Soon!
             </span>
 
             {/* Mobile hamburger */}
