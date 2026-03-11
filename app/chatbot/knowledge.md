@@ -289,18 +289,27 @@ Vendors (subcontractors) get their own login with a purpose-built dashboard that
 - Bell icon with animated unread badge, 30-second polling
 - Full notifications page with mark-as-read (individual + bulk)
 
-### Automatic Schedule Change Emails
-- When a PM changes a task date, marks a task complete, or adjusts duration, the schedule **cascades downstream** — shifting all dependent tasks.
-- The system **automatically emails every affected vendor** — grouped into one email per vendor listing all their shifted tasks.
+### Three-Tier Automatic Schedule Notifications
+When a PM changes a task date, marks a task complete, or adjusts duration, the schedule **cascades downstream** — shifting all dependent tasks. The system emails affected vendors using a **three-tier notification system:**
+
+| Tier | When | Purpose |
+|------|------|---------|
+| 🔴 **Schedule Confirmation** | Task starts within reminder window (default 5 days) | Urgent — vendor should confirm availability |
+| 🔵 **Advance Notice** | Task starts within advance window (default 30 days) | Heads up — no action needed yet |
+| 🟡 **Date Moved Up** | Task date moved earlier than what vendor was previously told | **Critical safety alert — bypasses all lead time filters** |
+
+- Emails are **grouped by vendor** — one email per vendor listing all their shifted tasks, not one per task.
 - Emails show **old dates (strikethrough) → new dates (bold)** so vendors instantly see what changed.
-- **Lead time filtering**: Vendors are only notified when their task falls within their notification lead time window. A plumber with 5-day lead time won't get emailed about a task 6 weeks away.
-- **Confirmation dialog**: Before cascading, PMs see a warning to prevent accidental email blasts.
+- Each email has two buttons: **✅ Confirm in App** and **💬 Reply to Builder** (opens messaging).
+- **Notification tracking**: The system records when each vendor was last emailed about each task and what date they were told. If a date later moves earlier, the vendor is automatically re-notified.
+- **Confirmation dialog**: Before cascading, PMs see a warning showing how many tasks and vendors would be affected — prevents accidental email blasts.
 
 ### Custom Lead Time Settings
-- **Per-vendor lead time** — each vendor sets their preferred notification window (in workdays) from their profile.
-- **Admin default** — configurable default lead time in Admin Settings (applies when a vendor hasn't set their own).
+- **Per-vendor lead times** — each vendor sets their preferred reminder and advance notice windows from their profile.
+- **Admin defaults** — configurable reminder (5 days) and advance notice (30 days) in Admin Settings.
 - **Admin toggle** — "Auto-Notify on Schedule Changes" can be turned ON/OFF globally.
-- **Why this matters:** Builders don't spam vendors with irrelevant schedule updates for tasks months away. Vendors get notified at the right time based on their actual workflow needs.
+- **Safe un-complete** — accidentally marked a task complete? Uncheck it to restore original dates. No cascade, no vendor emails — PM stays in control.
+- **Why this matters:** Builders don't spam vendors with irrelevant schedule updates for tasks months away. Vendors get notified at the right time — and critically, they're ALWAYS notified if their task gets moved up to an earlier date.
 
 ## ðŸ"¬ Messaging System
 - **In-app messaging** between builders and vendors per task
