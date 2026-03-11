@@ -57,7 +57,8 @@ Cornerstone helps residential builders schedule, track, and manage their constru
 - Stay compliant without manual tracking
 
 ### Communication & Notifications
-- Email notifications for task assignments, schedule changes, and updates
+- **Four-tier email notifications** for schedule changes: Confirmation, Advance Notice, Date Moved Up, and Date Postponed
+- Automatic vendor notifications when schedule cascades — grouped by vendor, showing old→new dates
 - Keep everyone in the loop automatically
 
 ### AI Assistant
@@ -289,19 +290,20 @@ Vendors (subcontractors) get their own login with a purpose-built dashboard that
 - Bell icon with animated unread badge, 30-second polling
 - Full notifications page with mark-as-read (individual + bulk)
 
-### Three-Tier Automatic Schedule Notifications
-When a PM changes a task date, marks a task complete, or adjusts duration, the schedule **cascades downstream** — shifting all dependent tasks. The system emails affected vendors using a **three-tier notification system:**
+### Four-Tier Automatic Schedule Notifications
+When a PM changes a task date, marks a task complete, or adjusts duration, the schedule **cascades downstream** — shifting all dependent tasks. The system emails affected vendors using a **four-tier notification system:**
 
 | Tier | When | Purpose |
 |------|------|---------|
 | 🔴 **Schedule Confirmation** | Task starts within reminder window (default 5 days) | Urgent — vendor should confirm availability |
 | 🔵 **Advance Notice** | Task starts within advance window (default 30 days) | Heads up — no action needed yet |
-| 🟡 **Date Moved Up** | Task date moved earlier than what vendor was previously told | **Critical safety alert — bypasses all lead time filters** |
+| 🟡 **Date Moved Up** | Task moved earlier than what vendor was told | **Critical safety alert — bypasses lead time** |
+| 🟣 **Date Postponed** | Task moved later than what vendor was told | **Delay alert — bypasses lead time** |
 
 - Emails are **grouped by vendor** — one email per vendor listing all their shifted tasks, not one per task.
 - Emails show **old dates (strikethrough) → new dates (bold)** so vendors instantly see what changed.
 - Each email has two buttons: **✅ Confirm in App** and **💬 Reply to Builder** (opens messaging).
-- **Notification tracking**: The system records when each vendor was last emailed about each task and what date they were told. If a date later moves earlier, the vendor is automatically re-notified.
+- **Notification tracking**: The system records when each vendor was last emailed about each task and what date they were told. If a date later moves earlier or is postponed, the vendor is automatically re-notified.
 - **Confirmation dialog**: Before cascading, PMs see a warning showing how many tasks and vendors would be affected — prevents accidental email blasts.
 
 ### Custom Lead Time Settings
