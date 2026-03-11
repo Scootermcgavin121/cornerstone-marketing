@@ -178,10 +178,11 @@ A summary of key features and differentiators for the Cornerstone Builder Softwa
 - **Smart cascading** â€" auto-sets start/end dates when tasks are marked in-progress or complete
 
 ## ðŸ"‹ Template System
-Three template types work together to cover the full construction lifecycle:
-- **Construction templates** â€" define the full build sequence from sitework through landscaping. Variants for foundation types (basement, crawlspace, slab) and story count (1-story, 2-story).
+Four modular template types work together to cover the full construction lifecycle:
 - **Permitting templates** â€" define the permit application and approval workflow. Gate task ("Building Permit Received") unlocks the construction schedule when complete.
+- **Foundation templates** â€" 7 foundation-specific templates covering every major foundation type: Slab on Grade, Basement, Stem Wall (Block/CMU), Stem Wall (Panels), Crawlspace (Pier & Beam), and Coastal Pilings. Each includes proper inspection gates, parallel task paths, and industry-standard sequencing.
 - **Inspection templates** â€" 20 granular inspection scopes (footing, framing, mechanical, final building, etc.) that can be independently assigned to either internal users or external vendors per community. This matters because not all inspections are handled the same way: a **Mechanical Rough-In Inspection** might be performed by a private third-party inspection company (vendor), while a **Foundation Inspection** is scheduled through the local municipality â€" since county inspectors won't create app logins, the PM is assigned as the coordinator. Each community can configure this differently based on local jurisdiction requirements.
+- **Construction templates** â€" define the build sequence from framing through landscaping. Foundation-agnostic (foundation tasks come from Foundation templates). 1-Story (65 tasks) and 2-Story (68 tasks) variants. Smart Garage Slab Skip automatically excludes the garage slab task when the home has a Slab or Basement foundation (already part of the foundation pour).
 
 ## ðŸ"¥ Data Import System â€" Migrate from Anywhere
 Builders switching from BuilderTrend, CoConstruct, Procore, or spreadsheets can bulk-import their existing data from a single page (`/admin/import`):
@@ -205,8 +206,9 @@ Builders switching from BuilderTrend, CoConstruct, Procore, or spreadsheets can 
 - **100% additive** â€" no importer deletes existing records. Add new data and update existing, but never remove. Manual deletion available from individual admin pages.
 - **Accepts .xlsx and .csv** formats
 
-All three are **independent and composable** â€" mix and match any permitting template with any construction template and any inspection template without creating duplicates for every combination.
-- **Why this matters:** A builder with 5 communities and 3 floorplans doesn't need 15+ templates. One permitting template + one inspection template + a few construction templates covers everything. Templates run in sync once applied â€" permitting, inspection, and construction tasks auto-cascade alongside each other on the same timeline.
+All four are **independent and composable** â€" mix and match any permitting template with any foundation template, any inspection template, and any construction template without creating duplicates for every combination.
+- **Why this matters:** A builder with 5 communities and 3 foundation types doesn't need 15+ templates. One permitting + one foundation + one inspection + one construction template covers everything. Templates run in sync once applied â€" permitting, foundation, inspection, and construction tasks auto-cascade alongside each other on the same timeline.
+- **Template copy/clone** â€" duplicate any template with all tasks and dependencies in one click. Great for creating variations per community.
 - **Template task reordering** â€" drag-and-drop task ordering within templates, plus searchable MasterTask dropdown for adding tasks
 - **Master task library** with canonical definitions shared across all templates â€" change a task once, it updates everywhere
 - **One-click template application** with configurable start date
