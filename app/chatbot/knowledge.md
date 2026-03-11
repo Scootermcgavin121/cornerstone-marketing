@@ -309,9 +309,14 @@ When a PM changes a task date, marks a task complete, or adjusts duration, the s
 ### Custom Lead Time Settings
 - **Per-vendor lead times** — each vendor sets their preferred reminder and advance notice windows from their profile.
 - **Admin defaults** — configurable reminder (5 days) and advance notice (30 days) in Admin Settings.
-- **Admin toggle** — "Auto-Notify on Schedule Changes" can be turned ON/OFF globally.
+- **Admin controls** (Admin Settings → Vendor Notifications):
+  - **Auto-Notify on Schedule Changes** — master toggle (ON by default). Enables/disables all automatic vendor notifications.
+  - **Advance Notice window** — configurable in workdays (default 30). First heads-up email when a task enters this window.
+  - **Reminder / Confirmation window** — configurable in workdays (default 5). Final confirmation email with exact dates.
+  - **⚠️ Date Moved Up Alerts** — amber toggle (ON by default). Sends alert when a task is rescheduled earlier than what the vendor was told. Bypasses lead time — safety feature so vendors don't show up late.
+  - **📅 Date Postponed Alerts** — purple toggle (ON by default). Sends alert when a task is pushed later than what the vendor was told. Bypasses lead time — prevents vendors from showing up when work isn't ready.
 - **Safe un-complete** — accidentally marked a task complete? Uncheck it to restore original dates. No cascade, no vendor emails — PM stays in control.
-- **Why this matters:** Builders don't spam vendors with irrelevant schedule updates for tasks months away. Vendors get notified at the right time — and critically, they're ALWAYS notified if their task gets moved up to an earlier date.
+- **Why this matters:** Builders don't spam vendors with irrelevant schedule updates for tasks months away. Vendors get notified at the right time — and critically, they're ALWAYS notified if their task gets moved up or pushed back. It's proactive communication for every scenario.
 
 ## ðŸ"¬ Messaging System
 - **In-app messaging** between builders and vendors per task
