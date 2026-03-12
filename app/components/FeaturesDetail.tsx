@@ -8,8 +8,8 @@ const sections = [
     icon: "🏗️",
     features: [
       {
-        name: "Task Dependencies with Auto-Shifting",
-        desc: "When a task slips, all downstream tasks automatically cascade forward. No manual rescheduling — ever.",
+        name: "Task Dependencies with Auto-Cascade",
+        desc: "When a task completes, all downstream tasks automatically cascade forward — and affected vendors are notified instantly. Complete a task, uncomplete to restore dates. No manual rescheduling — ever.",
       },
       {
         name: "Gantt Charts with Critical Path",
@@ -43,7 +43,7 @@ const sections = [
       },
       {
         name: "Confirm / Decline Workflow",
-        desc: "Three-state task confirmation — vendors confirm they're showing up, decline if they can't, or it stays pending. Everyone knows the real status.",
+        desc: "Three-state task confirmation — vendors confirm they're showing up, decline if they can't, or it stays pending. Confirm directly from email with one click or from the vendor portal. Everyone knows the real status.",
       },
       {
         name: "Vendor Calendar",
@@ -69,7 +69,15 @@ const sections = [
     features: [
       {
         name: "Construction Templates",
-        desc: "Define the full build sequence. Variants for foundation types (basement, crawlspace, slab) and story count.",
+        desc: "Define the full build sequence for 1-story and 2-story homes. Foundation-agnostic — pair with any foundation template for a complete schedule.",
+      },
+      {
+        name: "7 Foundation Templates",
+        desc: "Slab on Grade, Basement, Stem Wall (Block/CMU), Stem Wall (Panels), Crawlspace (Pier & Beam), and Coastal Pilings — each with accurate task sequences, durations, and dependencies built by real builders.",
+      },
+      {
+        name: "Smart Foundation Logic",
+        desc: "Auto-skips irrelevant tasks based on foundation type. Garage slab pours skip for slab and basement foundations. The system thinks so you don't have to.",
       },
       {
         name: "Permitting Templates",
@@ -80,8 +88,12 @@ const sections = [
         desc: "20+ granular inspection scopes — footing, framing, mechanical, final building, and more. Assignable per community to internal users or external vendors.",
       },
       {
-        name: "Unified Schedule",
-        desc: "All three template types are independent and composable. Mix and match without creating duplicates. They run in sync on the same timeline.",
+        name: "4 Modular Template Types",
+        desc: "Permitting, Foundation, Inspection, and Construction templates are fully independent and composable. Mix and match without creating duplicates. They run in sync on the same timeline.",
+      },
+      {
+        name: "Template Copy & Clone",
+        desc: "Duplicate any template with one click — all tasks, durations, and dependencies are remapped automatically. Start from a proven base and customize for each community.",
       },
       {
         name: "Master Task Library",
@@ -136,8 +148,20 @@ const sections = [
     icon: "💬",
     features: [
       {
-        name: "Email Notifications",
-        desc: "Task assignments, schedule changes, vendor declines, insurance expirations — everyone stays in the loop automatically.",
+        name: "4-Tier Smart Notifications",
+        desc: "Four intelligent notification tiers: Schedule Confirmation (≤5 days), Advance Notice (≤30 days), Date Moved Up, and Date Postponed. Each tier has its own color-coded branded email template. Configure lead times and toggle tiers on/off per account.",
+      },
+      {
+        name: "Auto-Cascade Notifications",
+        desc: "When a task completes and downstream dates shift, vendors are notified automatically — grouped by vendor so each sub gets one email listing all their affected tasks. Respects lead time windows so vendors aren't spammed about tasks months away.",
+      },
+      {
+        name: "One-Click Confirm from Email",
+        desc: "Vendors confirm their schedule directly from the notification email — no login required. Cryptographically signed magic links confirm all tasks in the email with a single click. Confirmation page is idempotent — repeat clicks just show 'Already Confirmed ✓'.",
+      },
+      {
+        name: "Per-Vendor Lead Time Overrides",
+        desc: "Set a global default lead time for all vendors, then override it per vendor. Your excavator needs 2 weeks notice? Your plumber needs 3 days? Configure each one independently.",
       },
       {
         name: "In-App Messaging",
@@ -181,6 +205,10 @@ const sections = [
         name: "Dashboard Warnings",
         desc: "Admin dashboard surfaces vendors with expiring or expired insurance. Vendor dashboard shows their own alerts.",
       },
+      {
+        name: "Branded Insurance Emails",
+        desc: "Automated expiry alerts match your company branding with status badges, info cards, and CTA buttons. Org-scoped — each builder's admins get their own vendor alerts.",
+      },
     ],
   },
   {
@@ -222,6 +250,28 @@ const sections = [
     ],
   },
   {
+    title: "Warranty Management",
+    icon: "🔧",
+    features: [
+      {
+        name: "2-Year Warranty Tracking",
+        desc: "Automatic 2-year warranty window from Certificate of Occupancy. Homeowners submit service requests through the customer portal with descriptions, photos, and category selection.",
+      },
+      {
+        name: "5 Service Categories",
+        desc: "Plumbing, Electrical, HVAC, Structural/Drywall, and General/Other. Route requests to the right warranty tech automatically.",
+      },
+      {
+        name: "Admin Approval Workflow",
+        desc: "Service requests require admin approval before work begins. Assign to internal warranty techs, set priority, add notes, and track through completion.",
+      },
+      {
+        name: "Customer Status Tracking",
+        desc: "Homeowners see real-time status updates on their service requests — Pending, Approved, In Progress, Completed. No more phone calls asking 'where's my repair?'",
+      },
+    ],
+  },
+  {
     title: "Dashboards & Reporting",
     icon: "📊",
     features: [
@@ -249,7 +299,7 @@ const sections = [
     features: [
       {
         name: "Custom Branding",
-        desc: "Upload your logo, customize your company name. White-label ready with 'Powered by Cornerstone' badge.",
+        desc: "Upload your logo (icon + full wordmark), customize your company name. Your brand shows in the navbar, emails, and exports. White-label ready with 'Powered by Cornerstone' badge.",
       },
       {
         name: "Dark & Light Mode",
