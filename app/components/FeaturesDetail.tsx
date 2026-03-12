@@ -272,8 +272,8 @@ const sections = [
         desc: "Automatic 2-year warranty window from Certificate of Occupancy. Homeowners submit service requests through the customer portal with descriptions, photos, and category selection.",
       },
       {
-        name: "5 Service Categories",
-        desc: "Plumbing, Electrical, HVAC, Structural/Drywall, and General/Other. Route requests to the right warranty tech automatically.",
+        name: "Service Categories for All Tasks",
+        desc: "Plumbing, Electrical, HVAC, Structural/Drywall, General/Other, and more. Categorize warranty requests and route them to the right tech automatically.",
       },
       {
         name: "Admin Approval Workflow",
