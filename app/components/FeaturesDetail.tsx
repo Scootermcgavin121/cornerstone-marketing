@@ -224,28 +224,42 @@ const sections = [
         desc: "Admin, Project Manager, Permitting Agent, Vendor, and Customer roles — each sees only what they need.",
       },
       {
-        name: "CRM Portal — Milestone Carousel",
-        desc: "Homeowners see a beautiful horizontal carousel of 20 construction milestones with real photos, phase-colored borders, and status badges (Done / Learn More / Locked). Scroll through their home's journey from Pre-Construction Meeting to Certificate of Occupancy.",
-      },
-      {
-        name: "Milestone Photo Gallery",
-        desc: "Every milestone showcases real construction photos uploaded by your PMs. Homeowners get a curated visual journal of their home being built — from breaking ground to handing over keys.",
-      },
-      {
-        name: "Download All Photos (.zip)",
-        desc: "Homeowners can download every job site photo as a single zip file organized by milestone. A keepsake of their entire build journey — ready to print, share, or archive.",
-      },
-      {
-        name: "Customer Messaging",
-        desc: "Homeowners message their PM and sales agent directly from the portal. Threaded conversations keep communication organized and in context — no more lost emails or phone tag.",
-      },
-      {
         name: "Company Documents",
         desc: "Admins upload company-wide documents (insurance, licenses, permits, safety docs) visible to all users. One central place for everything your team and vendors need.",
       },
       {
         name: "Vendor Admin & Member Roles",
         desc: "Vendor Admin manages company info, team members, and invites. Vendor Members get the same portal access minus company management.",
+      },
+    ],
+  },
+  {
+    title: "Homeowner Portal",
+    icon: "🏠",
+    features: [
+      {
+        name: "Milestone Journey Carousel",
+        desc: "Homeowners see a beautiful horizontal carousel of 20 construction milestones — from Pre-Construction Meeting to Certificate of Occupancy. Phase-colored borders, status badges (Complete / In Progress / Upcoming), and real job site photos at every step.",
+      },
+      {
+        name: "Real-Time Build Progress",
+        desc: "Homeowners watch their home come to life. Each milestone updates as PMs complete tasks — no manual status updates needed. Progress flows automatically from your construction schedule.",
+      },
+      {
+        name: "Job Site Photo Gallery",
+        desc: "Every milestone showcases real construction photos uploaded by your PMs. Homeowners get a curated visual journal of their home being built — from breaking ground to handing over keys.",
+      },
+      {
+        name: "Download All Photos (.zip)",
+        desc: "Homeowners download every job site photo as a single zip file organized by milestone. A keepsake of their entire build journey — ready to print, share, or archive.",
+      },
+      {
+        name: "Warranty Service Requests",
+        desc: "After closing, homeowners submit warranty requests with descriptions, photos, and category selection. Track status in real-time — Pending, Approved, In Progress, Completed. No more phone calls.",
+      },
+      {
+        name: "Direct Messaging",
+        desc: "Homeowners message their PM and sales agent directly from the portal. Threaded conversations keep communication organized and in context — no more lost emails or phone tag.",
       },
     ],
   },
