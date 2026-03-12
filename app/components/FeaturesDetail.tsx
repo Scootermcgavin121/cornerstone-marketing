@@ -69,7 +69,7 @@ const sections = [
     features: [
       {
         name: "Construction Templates",
-        desc: "Define the full build sequence for 1-story and 2-story homes. Foundation-agnostic — pair with any foundation template for a complete schedule.",
+        desc: "Define the full build sequence for 1-story and 2-story homes. Pair with any permitting, inspection, and foundation template — they all merge into one unified schedule.",
       },
       {
         name: "7 Foundation Templates",
