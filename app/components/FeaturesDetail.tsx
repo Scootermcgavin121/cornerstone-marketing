@@ -34,6 +34,48 @@ const sections = [
     ],
   },
   {
+    title: "Communication",
+    icon: "💬",
+    features: [
+      {
+        name: "4-Tier Smart Notifications",
+        desc: "Four intelligent notification tiers: Schedule Confirmation (≤7 days), Advance Notice (≤21 days), Date Moved Up, and Date Postponed. Each tier has its own color-coded branded email template. Configure lead times and toggle tiers on/off per account.",
+      },
+      {
+        name: "Auto-Cascade Notifications",
+        desc: "When a task completes and downstream dates shift, vendors are notified automatically — grouped by vendor so each sub gets one email listing all their affected tasks. Respects lead time windows so vendors aren't spammed about tasks months away.",
+      },
+      {
+        name: "One-Click Confirm from Email",
+        desc: "Vendors confirm their schedule directly from the notification email — no login required. Cryptographically signed magic links confirm all tasks in the email with a single click. Confirmation page is idempotent — repeat clicks just show 'Already Confirmed ✓'.",
+      },
+      {
+        name: "Per-Vendor Lead Time Overrides",
+        desc: "Set a global default lead time for all vendors, then override it per vendor. Your excavator needs 2 weeks notice? Your plumber needs 3 days? Configure each one independently.",
+      },
+      {
+        name: "In-App Messaging",
+        desc: "Threaded conversations tied to specific tasks and homes. Drag & drop file attachments up to 10MB each.",
+      },
+      {
+        name: "Notification Center",
+        desc: "Bell icon with unread badge, full notifications page with mark-as-read. 30-second polling keeps everything fresh.",
+      },
+      {
+        name: "AI Chatbot Support",
+        desc: "Your AI assistant learns your business. The more you use it, the smarter it gets about your operation — with a dedicated memory file for every account. Ask anything, get instant answers tailored to your company.",
+      },
+      {
+        name: "Jobsite Notes",
+        desc: "Per-home notes with titles, timestamps, and author tracking. Search across all homes from a central notes hub — never lose a field observation or meeting note again.",
+      },
+      {
+        name: "Customer Photo Gallery",
+        desc: "PMs upload milestone photos grouped by construction phase. Homeowners browse a visual timeline of their build. Photo hub shows all homes with counts, cover images, and latest activity.",
+      },
+    ],
+  },
+  {
     title: "Templates & Setup",
     icon: "📋",
     features: [
@@ -174,48 +216,6 @@ const sections = [
       {
         name: "Excel Export",
         desc: "Branded exports with builder logo, phase-colored headers, and professional formatting. Home schedules, vendor calendars, task lists — all exportable.",
-      },
-    ],
-  },
-  {
-    title: "Communication",
-    icon: "💬",
-    features: [
-      {
-        name: "4-Tier Smart Notifications",
-        desc: "Four intelligent notification tiers: Schedule Confirmation (≤5 days), Advance Notice (≤30 days), Date Moved Up, and Date Postponed. Each tier has its own color-coded branded email template. Configure lead times and toggle tiers on/off per account.",
-      },
-      {
-        name: "Auto-Cascade Notifications",
-        desc: "When a task completes and downstream dates shift, vendors are notified automatically — grouped by vendor so each sub gets one email listing all their affected tasks. Respects lead time windows so vendors aren't spammed about tasks months away.",
-      },
-      {
-        name: "One-Click Confirm from Email",
-        desc: "Vendors confirm their schedule directly from the notification email — no login required. Cryptographically signed magic links confirm all tasks in the email with a single click. Confirmation page is idempotent — repeat clicks just show 'Already Confirmed ✓'.",
-      },
-      {
-        name: "Per-Vendor Lead Time Overrides",
-        desc: "Set a global default lead time for all vendors, then override it per vendor. Your excavator needs 2 weeks notice? Your plumber needs 3 days? Configure each one independently.",
-      },
-      {
-        name: "In-App Messaging",
-        desc: "Threaded conversations tied to specific tasks and homes. Drag & drop file attachments up to 10MB each.",
-      },
-      {
-        name: "Notification Center",
-        desc: "Bell icon with unread badge, full notifications page with mark-as-read. 30-second polling keeps everything fresh.",
-      },
-      {
-        name: "AI Chatbot Support",
-        desc: "Your AI assistant learns your business. The more you use it, the smarter it gets about your operation — with a dedicated memory file for every account. Ask anything, get instant answers tailored to your company.",
-      },
-      {
-        name: "Jobsite Notes",
-        desc: "Per-home notes with titles, timestamps, and author tracking. Search across all homes from a central notes hub — never lose a field observation or meeting note again.",
-      },
-      {
-        name: "Customer Photo Gallery",
-        desc: "PMs upload milestone photos grouped by construction phase. Homeowners browse a visual timeline of their build. Photo hub shows all homes with counts, cover images, and latest activity.",
       },
     ],
   },
