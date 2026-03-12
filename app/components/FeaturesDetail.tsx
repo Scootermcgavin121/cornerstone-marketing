@@ -80,36 +80,6 @@ const sections = [
     ],
   },
   {
-    title: "Scheduling Engine",
-    icon: "🏗️",
-    features: [
-      {
-        name: "Task Dependencies with Auto-Cascade",
-        desc: "When a task completes, all downstream tasks automatically cascade forward — and affected vendors are notified instantly. Complete a task, uncomplete to restore dates. No manual rescheduling — ever.",
-      },
-      {
-        name: "Gantt Charts with Critical Path",
-        desc: "Visual timeline of your entire project. See the critical path at a glance and know exactly what's holding things up.",
-      },
-      {
-        name: "Phase-Based Scheduling",
-        desc: "12 construction phases from sitework through landscaping, plus a dedicated permitting phase. Organize your build the way you actually build.",
-      },
-      {
-        name: "Weekday-Only Scheduling",
-        desc: "Respects US federal holidays and custom overrides. No more manually skipping weekends.",
-      },
-      {
-        name: "Milestone Tracking",
-        desc: "Set key milestones like Frame Complete, Drywall Hung, Final Inspection — and track progress against them.",
-      },
-      {
-        name: "Calendar & List Views",
-        desc: "See what's happening day by day, week by week, or as a simple filtered task list. Your schedule, your way.",
-      },
-    ],
-  },
-  {
     title: "Vendor Portal",
     icon: "👷",
     features: [
@@ -136,6 +106,36 @@ const sections = [
       {
         name: "Self-Service Company Profile",
         desc: "Vendors manage their own info — company details, contacts, insurance docs, W-9s. Zero admin data entry on your end.",
+      },
+    ],
+  },
+  {
+    title: "Scheduling Engine",
+    icon: "🏗️",
+    features: [
+      {
+        name: "Task Dependencies with Auto-Cascade",
+        desc: "When a task completes, all downstream tasks automatically cascade forward — and affected vendors are notified instantly. Complete a task, uncomplete to restore dates. No manual rescheduling — ever.",
+      },
+      {
+        name: "Gantt Charts with Critical Path",
+        desc: "Visual timeline of your entire project. See the critical path at a glance and know exactly what's holding things up.",
+      },
+      {
+        name: "Phase-Based Scheduling",
+        desc: "12 construction phases from sitework through landscaping, plus a dedicated permitting phase. Organize your build the way you actually build.",
+      },
+      {
+        name: "Weekday-Only Scheduling",
+        desc: "Respects US federal holidays and custom overrides. No more manually skipping weekends.",
+      },
+      {
+        name: "Milestone Tracking",
+        desc: "Set key milestones like Frame Complete, Drywall Hung, Final Inspection — and track progress against them.",
+      },
+      {
+        name: "Calendar & List Views",
+        desc: "See what's happening day by day, week by week, or as a simple filtered task list. Your schedule, your way.",
       },
     ],
   },
