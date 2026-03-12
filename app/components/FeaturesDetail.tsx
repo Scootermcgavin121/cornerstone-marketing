@@ -341,7 +341,7 @@ const sections = [
       },
       {
         name: "Lead Time Configuration",
-        desc: "Set a global default lead time for schedule confirmations (default 5 days) and advance notice window (default 30 days). Override per vendor for subs who need more or less heads-up.",
+        desc: "Set a global default lead time for schedule confirmations (default 7 days) and advance notice window (default 21 days). Override per vendor for subs who need more or less heads-up.",
       },
       {
         name: "Custom API Access",
