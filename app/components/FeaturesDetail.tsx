@@ -320,8 +320,28 @@ const sections = [
         desc: "Toggle between dark and light themes. Because not everyone likes staring at a bright screen at 6 AM on the job site.",
       },
       {
-        name: "Configurable Document Requirements",
-        desc: "Toggle SOW, W-9, GL, and WC requirements on or off per account. Every builder runs differently.",
+        name: "Permit Gate Toggle",
+        desc: "Lock construction tasks until building permits are obtained — or turn it off if your workflow doesn't need it. One toggle controls the entire gate system.",
+      },
+      {
+        name: "Warranty System Toggle",
+        desc: "Enable or disable the homeowner warranty request system per account. Turn it on when you're ready to accept service requests through the portal.",
+      },
+      {
+        name: "Auto-Notify Vendors Toggle",
+        desc: "Control whether vendors automatically receive email notifications when schedule dates change. Turn it off during initial setup, flip it on when you go live.",
+      },
+      {
+        name: "Moved Up / Postponed Alerts",
+        desc: "Independent toggles for date-moved-earlier and date-postponed notification tiers. Want vendors to know when dates move up but not when they're pushed back? You can do that.",
+      },
+      {
+        name: "Document Requirement Toggles",
+        desc: "Turn SOW, W-9, GL Insurance, and Workers Comp requirements on or off independently. Every builder has different compliance needs — configure yours in seconds.",
+      },
+      {
+        name: "Lead Time Configuration",
+        desc: "Set a global default lead time for schedule confirmations (default 5 days) and advance notice window (default 30 days). Override per vendor for subs who need more or less heads-up.",
       },
       {
         name: "Custom API Access",
