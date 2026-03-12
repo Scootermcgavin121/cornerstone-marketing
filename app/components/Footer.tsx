@@ -1,6 +1,6 @@
 const footerLinks = {
   Product: [
-    { label: "Features", href: "#features" },
+    { label: "Features", href: "/features" },
     { label: "Pricing", href: "#pricing" },
     { label: "Compare", href: "#compare" },
   ],
