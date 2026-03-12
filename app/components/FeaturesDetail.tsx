@@ -58,6 +58,10 @@ const sections = [
         desc: "20+ granular inspection scopes — footing, framing, mechanical, final building, and more. Assignable per community to internal users or external vendors.",
       },
       {
+        name: "10 Pre-Built Templates, 307 Tasks",
+        desc: "Hit the ground running with 6 foundation templates, 2 construction templates, 1 permitting template, and 1 site development template — all pre-loaded with accurate task sequences, durations, and dependencies. 12+ build variations out of the box. Build a home anywhere in the US with minor modifications.",
+      },
+      {
         name: "4 Modular Template Types",
         desc: "Permitting, Foundation, Inspection, and Construction templates are fully independent and composable. Mix and match without creating duplicates. They run in sync on the same timeline.",
       },
