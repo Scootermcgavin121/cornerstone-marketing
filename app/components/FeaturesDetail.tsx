@@ -34,6 +34,52 @@ const sections = [
     ],
   },
   {
+    title: "Templates & Setup",
+    icon: "📋",
+    features: [
+      {
+        name: "Construction Templates",
+        desc: "Define the full build sequence for 1-story and 2-story homes. Pair with any permitting, inspection, and foundation template — they all merge into one unified schedule.",
+      },
+      {
+        name: "7 Foundation Templates",
+        desc: "Slab on Grade, Basement, Stem Wall (Block/CMU), Stem Wall (Panels), Crawlspace (Pier & Beam), and Coastal Pilings — each with accurate task sequences, durations, and dependencies built by real builders.",
+      },
+      {
+        name: "Smart Foundation Logic",
+        desc: "Auto-skips irrelevant tasks based on foundation type. Garage slab pours skip for slab and basement foundations. The system thinks so you don't have to.",
+      },
+      {
+        name: "Permitting Templates",
+        desc: "Define your permit workflow. Gate task unlocks construction when the building permit is received.",
+      },
+      {
+        name: "Inspection Templates",
+        desc: "20+ granular inspection scopes — footing, framing, mechanical, final building, and more. Assignable per community to internal users or external vendors.",
+      },
+      {
+        name: "4 Modular Template Types",
+        desc: "Permitting, Foundation, Inspection, and Construction templates are fully independent and composable. Mix and match without creating duplicates. They run in sync on the same timeline.",
+      },
+      {
+        name: "Template Copy & Clone",
+        desc: "Duplicate any template with one click — all tasks, durations, and dependencies are remapped automatically. Start from a proven base and customize for each community.",
+      },
+      {
+        name: "Master Task Library",
+        desc: "Single source of truth for all task definitions. Change a task once, it updates everywhere across all templates. Smart delete warnings, scope dropdowns, and active home counts per task.",
+      },
+      {
+        name: "Template Task Reordering",
+        desc: "Drag-and-drop task ordering within templates plus a searchable dropdown to add tasks from the master library. Build your schedule in minutes.",
+      },
+      {
+        name: "Permit Gate System",
+        desc: "Block downstream construction tasks until permits are obtained. Configurable per account — toggle on or off.",
+      },
+    ],
+  },
+  {
     title: "Scheduling Engine",
     icon: "🏗️",
     features: [
@@ -90,52 +136,6 @@ const sections = [
       {
         name: "Self-Service Company Profile",
         desc: "Vendors manage their own info — company details, contacts, insurance docs, W-9s. Zero admin data entry on your end.",
-      },
-    ],
-  },
-  {
-    title: "Templates & Setup",
-    icon: "📋",
-    features: [
-      {
-        name: "Construction Templates",
-        desc: "Define the full build sequence for 1-story and 2-story homes. Pair with any permitting, inspection, and foundation template — they all merge into one unified schedule.",
-      },
-      {
-        name: "7 Foundation Templates",
-        desc: "Slab on Grade, Basement, Stem Wall (Block/CMU), Stem Wall (Panels), Crawlspace (Pier & Beam), and Coastal Pilings — each with accurate task sequences, durations, and dependencies built by real builders.",
-      },
-      {
-        name: "Smart Foundation Logic",
-        desc: "Auto-skips irrelevant tasks based on foundation type. Garage slab pours skip for slab and basement foundations. The system thinks so you don't have to.",
-      },
-      {
-        name: "Permitting Templates",
-        desc: "Define your permit workflow. Gate task unlocks construction when the building permit is received.",
-      },
-      {
-        name: "Inspection Templates",
-        desc: "20+ granular inspection scopes — footing, framing, mechanical, final building, and more. Assignable per community to internal users or external vendors.",
-      },
-      {
-        name: "4 Modular Template Types",
-        desc: "Permitting, Foundation, Inspection, and Construction templates are fully independent and composable. Mix and match without creating duplicates. They run in sync on the same timeline.",
-      },
-      {
-        name: "Template Copy & Clone",
-        desc: "Duplicate any template with one click — all tasks, durations, and dependencies are remapped automatically. Start from a proven base and customize for each community.",
-      },
-      {
-        name: "Master Task Library",
-        desc: "Single source of truth for all task definitions. Change a task once, it updates everywhere across all templates. Smart delete warnings, scope dropdowns, and active home counts per task.",
-      },
-      {
-        name: "Template Task Reordering",
-        desc: "Drag-and-drop task ordering within templates plus a searchable dropdown to add tasks from the master library. Build your schedule in minutes.",
-      },
-      {
-        name: "Permit Gate System",
-        desc: "Block downstream construction tasks until permits are obtained. Configurable per account — toggle on or off.",
       },
     ],
   },
