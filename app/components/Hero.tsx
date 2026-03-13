@@ -33,7 +33,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-slate-700/50 bg-slate-800/50 text-sm text-slate-300 mb-8">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            Now in Beta — Join 50+ builders already on board
+            Now in Beta — Contact us for free beta access with 5 years free
           </div>
         </motion.div>
 
