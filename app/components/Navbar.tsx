@@ -50,12 +50,11 @@ export default function Navbar() {
 
           {/* CTA */}
           <div className="flex items-center gap-3">
-            <a
-              href="https://app.cornerstonepm.ai"
-              className="hidden sm:inline-flex text-sm text-slate-300 hover:text-white transition-colors"
+            <span
+              className="hidden sm:inline-flex text-sm text-slate-500 cursor-default"
             >
               Sign In
-            </a>
+            </span>
             <span
               className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500 cursor-default"
             >
@@ -100,12 +99,11 @@ export default function Navbar() {
                   {l.label}
                 </a>
               ))}
-              <a
-                href="https://app.cornerstonepm.ai"
-                className="block text-slate-400 hover:text-white py-2"
+              <span
+                className="block text-slate-500 py-2 cursor-default"
               >
-                Sign In
-              </a>
+                Sign In (Coming Soon)
+              </span>
             </div>
           </motion.div>
         )}
