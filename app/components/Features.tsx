@@ -74,6 +74,48 @@ export default function Features() {
             </AnimateOnScroll>
           ))}
         </div>
+
+        {/* Feature page links */}
+        <AnimateOnScroll className="mt-12">
+          <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            <a
+              href="/features/construction"
+              className="group flex items-center gap-4 p-5 rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-amber-500/30 transition-all duration-300"
+            >
+              <div className="shrink-0 w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-400 group-hover:bg-amber-500/20 transition-colors">
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
+              <div>
+                <div className="text-sm font-bold text-white group-hover:text-amber-400 transition-colors">
+                  Construction Scheduling →
+                </div>
+                <div className="text-xs text-slate-500">
+                  Gantt charts, vendors, notifications &amp; more
+                </div>
+              </div>
+            </a>
+            <a
+              href="/features/purchasing"
+              className="group flex items-center gap-4 p-5 rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-cyan-500/30 transition-all duration-300"
+            >
+              <div className="shrink-0 w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500/20 transition-colors">
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                </svg>
+              </div>
+              <div>
+                <div className="text-sm font-bold text-white group-hover:text-cyan-400 transition-colors">
+                  Purchasing &amp; Design Center →
+                </div>
+                <div className="text-xs text-slate-500">
+                  Budgets, POs, design selections &amp; more
+                </div>
+              </div>
+            </a>
+          </div>
+        </AnimateOnScroll>
       </div>
     </section>
   );
