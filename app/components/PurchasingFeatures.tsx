@@ -79,9 +79,9 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
       </svg>
     ),
-    title: "5 Spec Levels",
-    desc: "Standard through Premium tier system. Automatic tier pricing adjusts across all selections. Upgrade delta tracking shows buyers exactly what each step-up costs.",
-    badge: "5 Tiers",
+    title: "Unlimited Spec Levels",
+    desc: "Create as many finish tiers as you need — Standard, Upgrade, Premium, or anything custom. Each community is assigned a spec level, and the Design Center automatically pulls in the right options and upgrade pricing for that tier. Buyers see exactly what's included and what each step-up costs.",
+    badge: "Custom Tiers",
   },
   {
     icon: (
