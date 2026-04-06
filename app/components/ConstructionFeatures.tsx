@@ -37,26 +37,6 @@ const features = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-      </svg>
-    ),
-    title: "Phase-Based Scheduling",
-    desc: "Foundation → Framing → Rough-Ins → Finishes → Close. Organize tasks by construction phase with built-in sequencing. Each phase gates the next — no framing before the slab cures.",
-    badge: "5 Phases",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-      </svg>
-    ),
-    title: "Weekday-Only Scheduling",
-    desc: "Auto-skips weekends when calculating task dates. No more manually dodging Saturdays and Sundays — the engine handles it so your schedules reflect reality.",
-    badge: "Smart Dates",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm0 0h18" />
       </svg>
     ),
@@ -240,6 +220,17 @@ const features = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+    ),
+    title: "Job Site Photo Uploads",
+    desc: "Upload photos directly from the task view at each milestone. Photos auto-sync to the customer portal so buyers see real-time progress of their home being built — no manual sharing required.",
+    badge: "Auto-Sync",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
       </svg>
     ),
@@ -256,6 +247,27 @@ const features = [
     title: "Mobile Responsive",
     desc: "Full functionality on any device. Check schedules from the job site, confirm tasks from your truck, review progress from anywhere. No app download required.",
     badge: "Any Device",
+  },
+  // ── SCHEDULING OPTIONS ──
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+      </svg>
+    ),
+    title: "Phase-Based Scheduling",
+    desc: "Foundation → Framing → Rough-Ins → Finishes → Close. Organize tasks by construction phase with built-in sequencing. Each phase gates the next — no framing before the slab cures.",
+    badge: "5 Phases",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      </svg>
+    ),
+    title: "Weekday-Only Scheduling",
+    desc: "Auto-skips weekends when calculating task dates. No more manually dodging Saturdays and Sundays — the engine handles it so your schedules reflect reality.",
+    badge: "Smart Dates",
   },
   // ── COMPLIANCE & CLOSING ──
   {
