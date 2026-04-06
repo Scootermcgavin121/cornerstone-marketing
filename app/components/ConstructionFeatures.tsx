@@ -30,7 +30,7 @@ const features = [
       </svg>
     ),
     title: "Vendor Management",
-    desc: "69+ vendor profiles with community-vendor assignments. Vendor portal with magic links — no passwords needed. One-click batch confirmation lets subs confirm all tasks from a single email.",
+    desc: "Unlimited vendor profiles with community-vendor assignments. Vendor portal with magic links — no passwords needed. One-click batch confirmation lets subs confirm all tasks from a single email.",
     badge: "Zero Friction",
   },
   {
