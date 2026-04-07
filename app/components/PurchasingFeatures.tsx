@@ -106,6 +106,36 @@ const features = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3-3a1 1 0 000-1.4l-1.6-1.6a1 1 0 00-1.4 0l-3 3zM8.3 12.7a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3-3a1 1 0 000-1.4l-1.6-1.6a1 1 0 00-1.4 0l-3 3zM3 21l3-3M10 14l-4 4" />
+      </svg>
+    ),
+    title: "Bid Management",
+    desc: "Send bid requests to vendors, track responses in real-time, and manage the full RFP lifecycle. Vendors submit through a branded portal with token-based secure access. Excel import/export for line items, document attachments, and automated reminder emails.",
+    badge: "Full Lifecycle",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 6h6l3-6M6 6h12M12 3v3M9 12a3 3 0 106 0M3 12h2m14 0h2" />
+      </svg>
+    ),
+    title: "Bid Comparison",
+    desc: "Side-by-side vendor bid comparison with automatic lowest-price highlighting. Filter by scope, community, or floorplan. Line-item level comparison shows exactly where each vendor is cheaper or more expensive — green for lowest, red for highest.",
+    badge: "Side by Side",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 21h8m-4-4v4M6 4h12l-1 7a5 5 0 01-10 0L6 4zM4 4h1M19 4h1M4 4c0 2-1 3-2 4M20 4c0 2 1 3 2 4" />
+      </svg>
+    ),
+    title: "Award & Budget Flow",
+    desc: "Award the winning bid and automatically update your base budgets and generate PO drafts in one click. Vendors receive branded acceptance or rejection emails. The winning bid's pricing flows directly into your cost management system.",
+    badge: "One Click",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
       </svg>
     ),
@@ -148,7 +178,7 @@ export default function PurchasingFeatures() {
             <span className="gradient-text">every dollar goes</span>
           </h1>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            From parts catalog to purchase orders — a complete purchasing and design system
+            From bid management to purchase orders — a complete purchasing, bidding, and design system
             built for home builders who refuse to fly blind on costs.
           </p>
         </AnimateOnScroll>
