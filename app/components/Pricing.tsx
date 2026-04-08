@@ -119,7 +119,16 @@ export default function Pricing() {
           ))}
         </div>
 
-        <AnimateOnScroll className="text-center mt-12">
+        <AnimateOnScroll className="text-center mt-8 mb-4">
+          <p className="text-sm text-slate-500">
+            All plans include 150 GB construction storage + 200 GB purchasing storage per organization.{" "}
+            <a href="/service-limits" className="text-cyan-400 hover:text-cyan-300 underline">
+              View all service limits →
+            </a>
+          </p>
+        </AnimateOnScroll>
+
+        <AnimateOnScroll className="text-center mt-6">
           <a
             href="/features"
             className="inline-block px-10 py-4 text-lg font-bold rounded-2xl border-2 border-cyan-500/50 text-white hover:bg-cyan-500/10 hover:border-cyan-400 transition-all shadow-lg shadow-cyan-500/10"
