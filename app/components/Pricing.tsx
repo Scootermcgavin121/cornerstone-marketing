@@ -121,7 +121,7 @@ export default function Pricing() {
 
         <AnimateOnScroll className="text-center mt-8 mb-4">
           <p className="text-sm text-slate-500">
-            All plans include 150 GB construction storage + 200 GB purchasing storage per organization.{" "}
+            All plans include 150 GB construction storage, 200 GB purchasing storage, and 500K records per organization.{" "}
             <a href="/service-limits" className="text-cyan-400 hover:text-cyan-300 underline">
               View all service limits →
             </a>

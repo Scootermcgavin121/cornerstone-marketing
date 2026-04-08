@@ -158,13 +158,26 @@ export default function ServiceLimits() {
             <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
               <span className="text-cyan-400">📊</span> Records
             </h2>
-            <p className="text-slate-400 text-sm mb-6">
-              We don&apos;t enforce hard record limits today. The platform is
-              designed to handle thousands of homes, vendors, and budget lines
-              per organization. If your usage grows to a scale that impacts
-              infrastructure, we&apos;ll work with you to find a solution —
-              never a surprise lockout.
-            </p>
+            <div className="rounded-2xl border border-slate-700/50 bg-slate-800/30 p-6 mb-6">
+              <div className="flex items-baseline justify-between mb-2">
+                <span className="text-lg font-semibold text-white">
+                  Total Record Limit
+                </span>
+                <span className="text-2xl font-extrabold gradient-text">
+                  500,000
+                </span>
+              </div>
+              <p className="text-xs text-slate-500 uppercase tracking-wide mb-3">
+                Per organization — across all entity types combined
+              </p>
+              <p className="text-sm text-slate-400">
+                This includes homes, vendors, users, floorplans, templates,
+                budget lines, takeoffs, bids, purchase orders, parts, and
+                options. Most builders use a fraction of this. If you need
+                more, contact us — we&apos;re happy to work with high-volume
+                operations.
+              </p>
+            </div>
             <div className="rounded-2xl border border-slate-700/50 bg-slate-800/30 overflow-hidden">
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-px bg-slate-700/20">
                 {Object.entries(entityDescriptions).map(([entity, desc]) => (

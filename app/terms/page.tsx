@@ -124,6 +124,23 @@ export default function TermsOfService() {
               </li>
             </ul>
 
+            <h3>Records</h3>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>
+                <strong>500,000 total records</strong> per organization across
+                all entity types (homes, vendors, budget lines, takeoffs, bids,
+                purchase orders, parts catalog entries, options, etc.)
+              </li>
+            </ul>
+
+            <h3>Rate Limiting</h3>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>
+                Write operations are limited to <strong>1,000 requests per
+                minute</strong> per organization to protect platform stability
+              </li>
+            </ul>
+
             <h3>General</h3>
             <ul className="list-disc pl-6 space-y-1">
               <li>
