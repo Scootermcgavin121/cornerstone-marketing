@@ -69,24 +69,19 @@ export default function PrivacyPolicy() {
             </p>
 
             <h2>3. Data Storage &amp; Security</h2>
-            <p>Your data is stored on:</p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li><strong>Vercel</strong> — application hosting &amp; edge network (SOC 2 Type II)</li>
-              <li><strong>Neon</strong> — PostgreSQL database with encryption at rest (SOC 2 Type II)</li>
-              <li><strong>Vercel Blob Storage</strong> — file storage with encryption at rest</li>
-            </ul>
             <p>
-              All data is transmitted over HTTPS/TLS. Database connections use
-              SSL. We use industry-standard security practices including
-              hashed passwords, role-based access controls, and session
-              management.
+              Your data is stored on secure, encrypted infrastructure hosted
+              in the United States. All data is transmitted over HTTPS/TLS.
+              Database connections use SSL. We use industry-standard security
+              practices including hashed passwords, role-based access controls,
+              and session management.
             </p>
 
             <h2>4. Data Sharing</h2>
             <p>We share data only with:</p>
             <ul className="list-disc pl-6 space-y-1">
-              <li><strong>Infrastructure providers</strong> (Vercel, Neon) — to host and operate the platform</li>
-              <li><strong>AI provider</strong> (OpenAI) — to power the in-app chatbot</li>
+              <li><strong>Infrastructure providers</strong> — to host and operate the platform</li>
+              <li><strong>AI provider</strong> — to power the in-app chatbot</li>
               <li><strong>Email service</strong> — to send transactional notifications</li>
             </ul>
             <p>

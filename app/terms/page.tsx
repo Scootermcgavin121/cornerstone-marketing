@@ -169,8 +169,8 @@ export default function TermsOfService() {
 
             <h2>6. Data &amp; Privacy</h2>
             <p>
-              Your data is stored on secure, encrypted infrastructure (Vercel,
-              Neon Postgres, Vercel Blob Storage). We take reasonable measures
+              Your data is stored on secure, encrypted infrastructure hosted
+              in the United States. We take reasonable measures
               to protect your data. See our{" "}
               <a href="/privacy">Privacy Policy</a> for details on data
               collection and handling.
