@@ -11,7 +11,7 @@ const features = [
       </svg>
     ),
     title: "Smart Scheduling",
-    desc: "Interactive Gantt charts with drag-and-drop task management. 3-tier dependency system — template dependencies, master task dependencies, and cross-template dependencies. Lag days, critical path highlighting, and auto-cascade when tasks complete.",
+    desc: "Interactive Gantt charts with drag-and-drop task management. 3-tier dependency system - template dependencies, master task dependencies, and cross-template dependencies. Lag days, critical path highlighting, and auto-cascade when tasks complete.",
     badge: "Core Engine",
   },
   {
@@ -41,7 +41,7 @@ const features = [
       </svg>
     ),
     title: "Milestone Tracking",
-    desc: "Define key milestones — permit approved, dry-in complete, final inspection — and track progress against them. Instant visibility into where every home stands.",
+    desc: "Define key milestones - permit approved, dry-in complete, final inspection - and track progress against them. Instant visibility into where every home stands.",
     badge: "At a Glance",
   },
   {
@@ -62,7 +62,7 @@ const features = [
       </svg>
     ),
     title: "Template System",
-    desc: "Reusable schedule templates for every home type — 1-story, 2-story, block, frame, and 7 foundation types. Clone any template and customize per community. 270+ build combinations out of the box.",
+    desc: "Reusable schedule templates for every home type - 1-story, 2-story, block, frame, and 7 foundation types. Clone any template and customize per community. 270+ build combinations out of the box.",
     badge: "17 Pre-Built",
   },
   {
@@ -72,7 +72,7 @@ const features = [
       </svg>
     ),
     title: "7 Foundation Templates",
-    desc: "Slab, Monolithic, Stem Wall, Crawl Space, Full Basement, Pier & Beam, and Helical Pile — each with pre-sequenced tasks tuned to that foundation type. Pick one and go.",
+    desc: "Slab, Monolithic, Stem Wall, Crawl Space, Full Basement, Pier & Beam, and Helical Pile - each with pre-sequenced tasks tuned to that foundation type. Pick one and go.",
     badge: "7 Types",
   },
   {
@@ -82,7 +82,7 @@ const features = [
       </svg>
     ),
     title: "Smart Foundation Logic",
-    desc: "Select a home type and the correct foundation template auto-attaches to the schedule. No manual matching, no mistakes — the system knows which foundation fits which build.",
+    desc: "Select a home type and the correct foundation template auto-attaches to the schedule. No manual matching, no mistakes - the system knows which foundation fits which build.",
     badge: "Auto-Match",
   },
   {
@@ -92,7 +92,7 @@ const features = [
       </svg>
     ),
     title: "4 Modular Template Types",
-    desc: "Construction, Foundation, Permitting, and Inspection — four template categories that snap together like building blocks. Mix and match to model any workflow.",
+    desc: "Construction, Foundation, Permitting, and Inspection - four template categories that snap together like building blocks. Mix and match to model any workflow.",
     badge: "Modular",
   },
   {
@@ -102,7 +102,7 @@ const features = [
       </svg>
     ),
     title: "Template Copy & Clone",
-    desc: "Duplicate any template in one click — then tweak it for a new community, floor plan, or build type. Start from proven schedules instead of blank slates.",
+    desc: "Duplicate any template in one click - then tweak it for a new community, floor plan, or build type. Start from proven schedules instead of blank slates.",
     badge: "One Click",
   },
   {
@@ -112,7 +112,7 @@ const features = [
       </svg>
     ),
     title: "Master Task Library",
-    desc: "A shared library of tasks used across all templates. Update a task once and it propagates everywhere. Consistent naming, durations, and vendor assignments — company-wide.",
+    desc: "A shared library of tasks used across all templates. Update a task once and it propagates everywhere. Consistent naming, durations, and vendor assignments - company-wide.",
     badge: "Centralized",
   },
   {
@@ -122,7 +122,7 @@ const features = [
       </svg>
     ),
     title: "Permitting Templates",
-    desc: "Pre-built permit sequences with the right order, dependencies, and lead times already baked in. Foundation permit, framing permit, final — all staged and ready.",
+    desc: "Pre-built permit sequences with the right order, dependencies, and lead times already baked in. Foundation permit, framing permit, final - all staged and ready.",
     badge: "Pre-Sequenced",
   },
   {
@@ -132,7 +132,7 @@ const features = [
       </svg>
     ),
     title: "Inspection Templates",
-    desc: "Punch list and walkthrough checklists built into your schedule as templates. Pre-loaded inspection items by phase — just assign and go. Nothing gets missed at sign-off.",
+    desc: "Punch list and walkthrough checklists built into your schedule as templates. Pre-loaded inspection items by phase - just assign and go. Nothing gets missed at sign-off.",
     badge: "Checklists",
   },
   // ── VENDOR & COMMS ──
@@ -143,7 +143,7 @@ const features = [
       </svg>
     ),
     title: "Vendor Management",
-    desc: "Unlimited vendor profiles with community-vendor assignments. Vendor portal with magic links — no passwords needed. One-click batch confirmation lets subs confirm all tasks from a single email.",
+    desc: "Unlimited vendor profiles with community-vendor assignments. Vendor portal with magic links - no passwords needed. One-click batch confirmation lets subs confirm all tasks from a single email.",
     badge: "Zero Friction",
   },
   {
@@ -163,7 +163,7 @@ const features = [
       </svg>
     ),
     title: "Daily & Weekly Digests",
-    desc: "Automated vendor summaries delivered on your schedule. Configurable send time and timezone per account. Every sub knows exactly what's coming up — without you lifting a finger.",
+    desc: "Automated vendor summaries delivered on your schedule. Configurable send time and timezone per account. Every sub knows exactly what's coming up - without you lifting a finger.",
     badge: "Automated",
   },
   {
@@ -173,7 +173,7 @@ const features = [
       </svg>
     ),
     title: "In-App Messaging",
-    desc: "Direct messaging between PMs, vendors, and homeowners — all inside the platform. No more texting from personal phones or losing context in email threads.",
+    desc: "Direct messaging between PMs, vendors, and homeowners - all inside the platform. No more texting from personal phones or losing context in email threads.",
     badge: "Real-Time",
   },
   {
@@ -183,7 +183,7 @@ const features = [
       </svg>
     ),
     title: "Notification Center",
-    desc: "One centralized inbox for every alert — schedule changes, vendor confirmations, permit updates, insurance expirations. Filter by type, mark as read, never miss what matters.",
+    desc: "One centralized inbox for every alert - schedule changes, vendor confirmations, permit updates, insurance expirations. Filter by type, mark as read, never miss what matters.",
     badge: "Centralized",
   },
   {
@@ -203,7 +203,7 @@ const features = [
       </svg>
     ),
     title: "Jobsite Notes",
-    desc: "Attach notes to any task, home, or vendor — right from the field. Timestamped, searchable, and visible to the whole team. Build a paper trail without the paper.",
+    desc: "Attach notes to any task, home, or vendor - right from the field. Timestamped, searchable, and visible to the whole team. Build a paper trail without the paper.",
     badge: "Field Ready",
   },
   // ── PORTALS & ACCESS ──
@@ -225,7 +225,7 @@ const features = [
       </svg>
     ),
     title: "Job Site Photo Uploads",
-    desc: "Upload photos directly from the task view at each milestone. Photos auto-sync to the customer portal so buyers see real-time progress of their home being built — no manual sharing required.",
+    desc: "Upload photos directly from the task view at each milestone. Photos auto-sync to the customer portal so buyers see real-time progress of their home being built - no manual sharing required.",
     badge: "Auto-Sync",
   },
   {
@@ -235,7 +235,7 @@ const features = [
       </svg>
     ),
     title: "Multi-Role Access",
-    desc: "12 distinct roles: Admin, Project Manager, Sales, Design Center, Purchasing, Customer, Subcontractor, Permitting, and more. Everyone sees exactly what they need — nothing more, nothing less.",
+    desc: "12 distinct roles: Admin, Project Manager, Sales, Design Center, Purchasing, Customer, Subcontractor, Permitting, and more. Everyone sees exactly what they need - nothing more, nothing less.",
     badge: "12 Roles",
   },
   {
@@ -256,7 +256,7 @@ const features = [
       </svg>
     ),
     title: "Phase-Based Scheduling",
-    desc: "Foundation → Framing → Rough-Ins → Finishes → Close. Organize tasks by construction phase with built-in sequencing. Each phase gates the next — no framing before the slab cures.",
+    desc: "Foundation → Framing → Rough-Ins → Finishes → Close. Organize tasks by construction phase with built-in sequencing. Each phase gates the next - no framing before the slab cures.",
     badge: "5 Phases",
   },
   {
@@ -266,7 +266,7 @@ const features = [
       </svg>
     ),
     title: "Weekday-Only Scheduling",
-    desc: "Auto-skips weekends when calculating task dates. No more manually dodging Saturdays and Sundays — the engine handles it so your schedules reflect reality.",
+    desc: "Auto-skips weekends when calculating task dates. No more manually dodging Saturdays and Sundays - the engine handles it so your schedules reflect reality.",
     badge: "Smart Dates",
   },
   // ── COMPLIANCE & CLOSING ──
@@ -277,7 +277,7 @@ const features = [
       </svg>
     ),
     title: "Permit Gate System",
-    desc: "Phase-based locking prevents downstream construction tasks from starting until permits are cleared. Toggle on or off per account — your workflow, your rules.",
+    desc: "Phase-based locking prevents downstream construction tasks from starting until permits are cleared. Toggle on or off per account - your workflow, your rules.",
     badge: "Compliance",
   },
   {
@@ -298,7 +298,7 @@ const features = [
       </svg>
     ),
     title: "Import from Any Platform",
-    desc: "Migrating from BuilderTrend, CoConstruct, or spreadsheets? Upload your data and we'll map it. No re-entry, no lost history — just a clean transition to Cornerstone.",
+    desc: "Migrating from BuilderTrend, CoConstruct, or spreadsheets? Upload your data and we'll map it. No re-entry, no lost history - just a clean transition to Cornerstone.",
     badge: "Migration",
   },
   {
@@ -308,7 +308,7 @@ const features = [
       </svg>
     ),
     title: "Universal Column Mapper",
-    desc: "Drag-and-drop column mapping that works with any CSV or Excel export. Match your columns to Cornerstone fields visually — no formulas, no formatting gymnastics.",
+    desc: "Drag-and-drop column mapping that works with any CSV or Excel export. Match your columns to Cornerstone fields visually - no formulas, no formatting gymnastics.",
     badge: "Drag & Drop",
   },
   {
@@ -318,7 +318,7 @@ const features = [
       </svg>
     ),
     title: "Smart Column Recognition",
-    desc: "AI-assisted column detection auto-suggests field mappings based on your headers. Most imports map themselves — just review, confirm, and go.",
+    desc: "AI-assisted column detection auto-suggests field mappings based on your headers. Most imports map themselves - just review, confirm, and go.",
     badge: "AI-Assisted",
   },
   {
@@ -328,7 +328,7 @@ const features = [
       </svg>
     ),
     title: "100% Additive Imports",
-    desc: "Imports only add data — they never overwrite or delete existing records. Run multiple imports safely. Your current schedules and vendors stay untouched.",
+    desc: "Imports only add data - they never overwrite or delete existing records. Run multiple imports safely. Your current schedules and vendors stay untouched.",
     badge: "Safe",
   },
   // ── INSURANCE & DOCS ──
@@ -339,7 +339,7 @@ const features = [
       </svg>
     ),
     title: "Vendor Insurance Expiry Alerts",
-    desc: "Automatic alerts when a vendor's insurance is expiring or already lapsed. Stop chasing certificates manually — Cornerstone watches the dates so you don't have to.",
+    desc: "Automatic alerts when a vendor's insurance is expiring or already lapsed. Stop chasing certificates manually - Cornerstone watches the dates so you don't have to.",
     badge: "Auto-Alert",
   },
   {
@@ -349,7 +349,7 @@ const features = [
       </svg>
     ),
     title: "Document Management",
-    desc: "Upload, organize, and share contracts, permits, insurance certs, and plans. Everything lives in one place — attached to the right vendor, home, or community.",
+    desc: "Upload, organize, and share contracts, permits, insurance certs, and plans. Everything lives in one place - attached to the right vendor, home, or community.",
     badge: "Organized",
   },
   {
@@ -359,7 +359,7 @@ const features = [
       </svg>
     ),
     title: "Branded Insurance Request Emails",
-    desc: "Send professional, company-branded emails requesting updated insurance certificates directly from the platform. Your logo, your message — sent in seconds.",
+    desc: "Send professional, company-branded emails requesting updated insurance certificates directly from the platform. Your logo, your message - sent in seconds.",
     badge: "Branded",
   },
   // ── WARRANTY ──
@@ -370,7 +370,7 @@ const features = [
       </svg>
     ),
     title: "2-Year Warranty Tracking",
-    desc: "Track every warranty request from submission to resolution across a full 2-year window. Categorize by trade, assign vendors, and close the loop — all in one place.",
+    desc: "Track every warranty request from submission to resolution across a full 2-year window. Categorize by trade, assign vendors, and close the loop - all in one place.",
     badge: "Post-Close",
   },
   {
@@ -380,7 +380,7 @@ const features = [
       </svg>
     ),
     title: "Service Categories",
-    desc: "Plumbing, electrical, HVAC, structural, cosmetic — categorize warranty items by trade so the right vendor gets the right ticket. Clean reporting, faster resolution.",
+    desc: "Plumbing, electrical, HVAC, structural, cosmetic - categorize warranty items by trade so the right vendor gets the right ticket. Clean reporting, faster resolution.",
     badge: "By Trade",
   },
   {
@@ -390,8 +390,29 @@ const features = [
       </svg>
     ),
     title: "Customer Status Tracking",
-    desc: "See where every homeowner stands post-close — active warranty, pending items, resolved history. One dashboard for the entire warranty lifecycle per customer.",
+    desc: "See where every homeowner stands post-close - active warranty, pending items, resolved history. One dashboard for the entire warranty lifecycle per customer.",
     badge: "Lifecycle",
+  },
+  // ── TIMESHEETS ──
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+    title: "Employee Timesheets",
+    desc: "Weekly timesheet tracking with natural shift entry — type '8-5' and hours calculate automatically with 1hr lunch deducted. Submit for manager approval, duplicate last week, autofill Mon–Fri.",
+    badge: "Shift Entry",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+      </svg>
+    ),
+    title: "Timesheet Approval Workflow",
+    desc: "Managers review, approve, or reject submitted timesheets. Role-based visibility — construction managers see their crew, purchasing managers see purchasing agents. Bulk approve, CSV export, full audit trail.",
+    badge: "Approval Flow",
   },
 ];
 
@@ -421,7 +442,7 @@ export default function ConstructionFeatures() {
           </h1>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
             Smart scheduling that auto-cascades dependencies, notifies vendors instantly, and keeps every
-            stakeholder in the loop — from permits to punch list.
+            stakeholder in the loop - from permits to punch list.
           </p>
         </AnimateOnScroll>
 
@@ -469,7 +490,7 @@ export default function ConstructionFeatures() {
               </span>
             </h2>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-              One connected workflow. Every phase, every stakeholder, every notification — handled.
+              One connected workflow. Every phase, every stakeholder, every notification - handled.
             </p>
           </div>
 
@@ -508,7 +529,7 @@ export default function ConstructionFeatures() {
             </span>
           </h2>
           <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto">
-            Join our beta and get 5 years free. All construction scheduling features included — no feature gates, no per-home pricing.
+            Join our beta and get 5 years free. All construction scheduling features included - no feature gates, no per-home pricing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
