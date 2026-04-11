@@ -1,19 +1,19 @@
-﻿# Cornerstone Builder Software â€" Product Knowledge
+# Cornerstone Builder Software — Product Knowledge
 
 ## Overview
-Cornerstone is construction scheduling software built specifically for residential home builders. Our slogan is **"Built by builders, for builders"** â€" because the founders are builders themselves who got tired of clunky, overpriced software that wasn't designed for how residential construction actually works.
+Cornerstone is an all-in-one construction management platform built specifically for residential home builders. It covers the entire build lifecycle with four integrated modules: **Construction Scheduling**, **Purchasing & Budgets**, **Design Center**, and **Sales & Pricing**. Our slogan is **"Built by builders, for builders"** — because the founders are builders themselves who got tired of clunky, overpriced software that wasn't designed for how residential construction actually works.
 
 Website: https://cornerstonepm.ai
 
 ## What Cornerstone Does
-Cornerstone helps residential builders schedule, track, and manage their construction projects from start to finish. It replaces spreadsheets, whiteboards, and the chaos of managing builds through texts and phone calls.
+Cornerstone helps residential builders schedule, track, budget, and manage their construction projects from start to finish. It replaces spreadsheets, whiteboards, and the chaos of managing builds through texts and phone calls — and now covers purchasing, design selections, and sales pricing too.
 
 ## Core Features
 
 ### Task Scheduling & Dependencies
 - Create tasks with start/end dates
 - Set dependencies between tasks (Task B can't start until Task A is done)
-- **Auto-shifting**: When a task slips, all dependent tasks automatically shift forward â€" no manual rescheduling
+- **Auto-shifting**: When a task slips, all dependent tasks automatically shift forward — no manual rescheduling
 - Drag-and-drop scheduling
 
 ### Vendor Portal
@@ -27,7 +27,7 @@ Cornerstone helps residential builders schedule, track, and manage their constru
 
 ### PM Ready / Vendor Ready Workflow
 - Two-step readiness system: the PM marks a task as "PM Ready" (site is prepped), then the vendor marks "Vendor Ready" (they're confirmed to show up)
-- Everyone knows the real status â€" no guessing
+- Everyone knows the real status — no guessing
 
 ### Views
 - **Gantt Charts**: Visual timeline of the entire project
@@ -63,12 +63,10 @@ Cornerstone helps residential builders schedule, track, and manage their constru
 
 ### AI Assistant
 - 24/7 intelligent chatbot built into every account
-- **Dedicated memory per account** — your AI assistant learns your business over time
-- The more you use it, the smarter it gets about your operation
-- Ask questions about your schedule, vendors, tasks, or anything else — get instant, tailored answers
+- Ask questions about scheduling, vendors, purchasing, selections, or anything else — get instant answers
 
 ### Import & Export
-- **Import from Excel**: Upload your existing schedules and templates from Excel/CSV â€" no need to start from scratch
+- **Import from Excel**: Upload your existing schedules and templates from Excel/CSV — no need to start from scratch
 - **Export to Excel**: Export schedules and data for reporting, sharing with owners/lenders, or backup
 - Generate reports for owners, lenders, or internal use
 
@@ -77,18 +75,46 @@ Cornerstone helps residential builders schedule, track, and manage their constru
 - Great for production builders running several neighborhoods
 
 ### Role-Based Access
-- **Admin**: Full access to everything â€" settings, users, all projects
+- **Admin**: Full access to everything — settings, users, all projects
 - **Project Manager (PM)**: Manage assigned projects, schedules, vendors
-- **Vendor**: Limited access â€" see and respond to their assigned tasks only
+- **Vendor**: Limited access — see and respond to their assigned tasks only
+
+## Purchasing & Budget Management (add-on module)
+- **Parts Catalog** — centralized library of all materials, fixtures, and finishes with part numbers, descriptions, units of measure, and cost/retail pricing
+- **Takeoffs** — per-floorplan quantity takeoffs organized by room/location. Supports BASE (standard for every home) and OPTION (per-option-class) takeoff types. Units: sqft, lf, lnft, each, LUMP, square
+- **Bid Management** — send a floorplan to bid to every vendor with one click. Track vendor responses, compare bids side-by-side, and award — all in one workflow
+- **Budgets** — 3-level budget hierarchy: Scope → Task → Parts. Real-time financial rollups per home showing estimated vs actual costs
+- **Change Orders** — track scope changes with cost impact, approval workflow, and automatic budget adjustments
+- **Purchase Orders** — generate POs from budgets, track vendor deliveries and invoicing
+
+## Design Center & Selections
+- **Spec Levels** — define finish tiers (e.g., Included, Upgrade I, Upgrade II, Premium) with sort ordering to control upgrade pricing logic
+- **Option Classes** — categorize selections by type: Flooring, Cabinets, Countertops, Paint, Hardware, Lighting, Appliances, etc. Each class has a unit of measure that controls pricing math
+- **Room-by-Room Selections** — walkthrough each room of a home and pick finishes for every category. Buyers see options organized by room with clear upgrade pricing
+- **Upgrade Price Tracking** — automatically calculates upgrade costs vs. the community baseline (included) spec level. Only charges the delta — if included flooring is $5/sqft and they pick $12/sqft, the upgrade is $7/sqft x quantity
+- **Selection Sheet PDF Export** — one-click export of a customer's complete selection sheet as a branded PDF. Shows every room, every selection, upgrade costs, and totals. Customer-facing — no internal cost/margin data exposed
+- **Designer Collections / Packages** — pre-curated bundles of selections (e.g., "Modern Farmhouse Package") that buyers can apply as a starting point, then customize individual items
+- **Per-unit pricing that makes sense** — LUMP items (cabinets, countertops priced as whole-house totals) don't multiply by quantity. Per-area items (sqft flooring, lf trim) correctly multiply by takeoff quantity
+
+## Sales & Pricing
+- **Retail Pricing Matrix** — set base prices per floorplan x community x spec level. See all pricing in one grid view with community columns and floorplan rows
+- **Community Filter** — filter the pricing grid by specific community or view all at once
+- **Promotions & Incentives** — create time-limited promotions with types: Closing Cost Credit, Discount, Credit, or Custom. Set date ranges, amounts, and optionally tie to specific communities
+- **Net After Promotions** — pricing page automatically shows net prices after applying active promotions, so sales agents always quote the right number
+- **PDF Price Sheets** — export branded, customer-facing PDF price sheets per community. Shows floorplan details (beds/baths/sqft), base prices, active promotions with expiry dates, and net prices. Professional formatting with builder branding. No internal cost/margin data exposed
+- **CSV Export** — export pricing data as CSV for spreadsheets, lender packages, or MLS uploads
+- **Expiration Badges** — active promotions show urgency: "Expires Today", "Expires in 3 days", or the end date. Expired promotions are clearly marked
 
 ## Pricing
 All plans are monthly subscriptions, no long-term contracts required.
 
 | Plan | Price | Best For |
 |------|-------|----------|
-| **Builder** | $60/month | Up to 1,000 homes, vendors & users. Self-service - perfect for builders who don't need hand-holding. |
-| **Pro** | $120/month | Up to 1,000 homes, vendors & users. Includes dedicated human support & onboarding assistance. |
-| **Enterprise** | $250/month | Up to 1,000 homes, vendors & users. Priority human support, custom onboarding, and account management. |
+| **Builder** | $60/month | Construction scheduling. Up to 1,000 homes, vendors & users. Self-service — perfect for builders who don't need hand-holding. |
+| **Builder + Purchasing** | $99.98/month | Adds Purchasing, Design Center, and Sales modules to the Builder plan. |
+| **Pro** | $120/month | Construction scheduling + dedicated human support & onboarding assistance. Up to 1,000 homes, vendors & users. |
+| **Pro + Purchasing** | $159.98/month | Adds Purchasing, Design Center, and Sales modules to the Pro plan. |
+| **Enterprise** | $250/month | Everything — all modules + priority human support, custom onboarding, and account management. Up to 1,000 homes, vendors & users. |
 
 Visit https://cornerstonepm.ai for full pricing details and feature comparison.
 
@@ -110,38 +136,39 @@ Visit https://cornerstonepm.ai for full pricing details and feature comparison.
 - Most construction software companies make you **schedule a demo** before you can even see the product
 - You sit through a 30-60 minute sales pitch, then they hit you with **$500-$1,000+/month** pricing
 - You're locked into annual contracts before you even know if the software works for your workflow
-- Cornerstone is different: **transparent pricing starting at $60/month**, no long-term contracts, and you can explore a live demo yourself â€" no sales call required. We believe the product should sell itself.
+- Cornerstone is different: **transparent pricing starting at $60/month**, no long-term contracts, and you can explore a live demo yourself — no sales call required. We believe the product should sell itself.
 
 ### vs. Buildertrend
-- Buildertrend is bloated with features most builders don't use (CRM, proposals, selections, financial tools)
-- Cornerstone focuses on **scheduling done right** â€" the #1 thing builders need
-- Much more affordable â€" Buildertrend starts at $499/month and requires a demo/sales presentation before you can even try it
+- Buildertrend charges $499+/month and requires a demo/sales presentation before you can even try it
+- Cornerstone has scheduling, purchasing, selections, design center, and sales pricing — the same feature categories Buildertrend offers — at a fraction of the cost
+- Starting at $60/month for scheduling, or $99.98/month for the full platform with purchasing, design center, and sales
 - Simpler to learn and adopt, less training overhead
 - No annual contract required
+- Transparent pricing — no surprises after a sales pitch
 
 ### vs. CoConstruct
 - CoConstruct is expensive and complex, designed for high-end custom builders
-- Requires a demo call before you see pricing â€" typical setup to justify high monthly fees
+- Requires a demo call before you see pricing — typical setup to justify high monthly fees
 - Cornerstone is simpler, faster to set up, and works for both custom and production builders
 - Better vendor portal experience
-- Transparent pricing â€" no surprises after a sales pitch
+- Transparent pricing — no surprises after a sales pitch
 
 ### vs. Spreadsheets / Excel
 - Spreadsheets don't auto-shift when things change
-- No vendor portal â€" you're still calling and texting
+- No vendor portal — you're still calling and texting
 - No real-time visibility for the team
 - Cornerstone gives you everything a spreadsheet can't: automation, collaboration, and real-time updates
 
 ### vs. Generic PM Tools (Monday.com, Asana, etc.)
 - Those tools don't understand construction workflows
 - No concept of phases, permit gates, or vendor confirmation
-- Cornerstone speaks builder language â€" scopes, subs, punch lists
+- Cornerstone speaks builder language — scopes, subs, punch lists
 
 ## Company Values
 - Built by people who've actually run job sites
-- No corporate buzzwords â€" we talk like builders because we are builders
-- Focused on scheduling because that's what makes or breaks a project
-- Fair pricing â€" we're not trying to be the most expensive tool in the shed
+- No corporate buzzwords — we talk like builders because we are builders
+- Full platform that covers the entire build lifecycle — scheduling, purchasing, selections, and sales — without the enterprise price tag
+- Fair pricing — we're not trying to be the most expensive tool in the shed
 
 ## Getting Started
 - Sign up at https://cornerstonepm.ai
@@ -159,74 +186,74 @@ Visit https://cornerstonepm.ai for full pricing details and feature comparison.
 
 # Detailed Feature Documentation
 
-# Cornerstone Builder Software â€" Feature Highlights & Selling Points
+# Cornerstone Builder Software — Feature Highlights & Selling Points
 
 > *Built by builders, for builders.*
 
-_Last updated: 2026-03-08_
+_Last updated: 2026-04-11_
 
-A summary of key features and differentiators for the Cornerstone Builder Software construction scheduling platform.
+A summary of key features and differentiators for the Cornerstone Builder Software construction management platform.
 
 ---
 
-## ðŸ-ï¸ Construction Scheduling Engine
+## Construction Scheduling Engine
 - **Phase-based scheduling** with 12 construction phases + permitting phase
 - **Task dependencies** with automatic downstream cascading when dates shift
 - **Weekday-only scheduling** respecting US federal holidays + custom overrides
 - **Milestone tracking** with progress percentages per task
-- **Permit gate system** â€" construction phases stay locked until building permit is received. Configurable via Settings toggle (ON by default) â€" disable to allow all tasks to proceed without permit approval.
-- **Smart cascading** â€" auto-sets start/end dates when tasks are marked in-progress or complete
+- **Permit gate system** — construction phases stay locked until building permit is received. Configurable via Settings toggle (ON by default) — disable to allow all tasks to proceed without permit approval.
+- **Smart cascading** — auto-sets start/end dates when tasks are marked in-progress or complete
 
-## ðŸ"‹ Template System
+## Template System
 Four modular template types work together to cover the full construction lifecycle:
-- **Permitting templates** â€" define the permit application and approval workflow. Gate task ("Building Permit Received") unlocks the construction schedule when complete.
-- **Foundation templates** â€" 7 foundation-specific templates covering every major foundation type: Slab on Grade, Basement, Stem Wall (Block/CMU), Stem Wall (Panels), Crawlspace (Pier & Beam), and Coastal Pilings. Each includes proper inspection gates, parallel task paths, and industry-standard sequencing.
-- **Inspection templates** â€" 20 granular inspection scopes (footing, framing, mechanical, final building, etc.) that can be independently assigned to either internal users or external vendors per community. This matters because not all inspections are handled the same way: a **Mechanical Rough-In Inspection** might be performed by a private third-party inspection company (vendor), while a **Foundation Inspection** is scheduled through the local municipality â€" since county inspectors won't create app logins, the PM is assigned as the coordinator. Each community can configure this differently based on local jurisdiction requirements.
-- **Construction templates** â€" define the build sequence from framing through landscaping. Foundation-agnostic (foundation tasks come from Foundation templates). 1-Story (65 tasks) and 2-Story (68 tasks) variants. Smart Garage Slab Skip automatically excludes the garage slab task when the home has a Slab or Basement foundation (already part of the foundation pour).
+- **Permitting templates** — define the permit application and approval workflow. Gate task ("Building Permit Received") unlocks the construction schedule when complete.
+- **Foundation templates** — 7 foundation-specific templates covering every major foundation type: Slab on Grade, Basement, Stem Wall (Block/CMU), Stem Wall (Panels), Crawlspace (Pier & Beam), and Coastal Pilings. Each includes proper inspection gates, parallel task paths, and industry-standard sequencing.
+- **Inspection templates** — 20 granular inspection scopes (footing, framing, mechanical, final building, etc.) that can be independently assigned to either internal users or external vendors per community. This matters because not all inspections are handled the same way: a **Mechanical Rough-In Inspection** might be performed by a private third-party inspection company (vendor), while a **Foundation Inspection** is scheduled through the local municipality — since county inspectors won't create app logins, the PM is assigned as the coordinator. Each community can configure this differently based on local jurisdiction requirements.
+- **Construction templates** — define the build sequence from framing through landscaping. Foundation-agnostic (foundation tasks come from Foundation templates). 1-Story (65 tasks) and 2-Story (68 tasks) variants. Smart Garage Slab Skip automatically excludes the garage slab task when the home has a Slab or Basement foundation (already part of the foundation pour).
 
-## ðŸ"¥ Data Import System â€" Migrate from Anywhere
+## Data Import System — Migrate from Anywhere
 Builders switching from BuilderTrend, CoConstruct, Procore, or spreadsheets can bulk-import their existing data from a single page (`/admin/import`):
 
 ### 8 Importers (recommended order):
-1. **Scopes** â€" import scope names from Excel/CSV. Shows new vs already-existing. Simple one-column format.
-2. **Master Tasks** â€" import task library with phases, durations, dependencies, milestone/PM/PA flags. Full diff preview with field-level changes.
-3. **Vendors** â€" company info, contacts, emails, phones, scopes. Universal Column Mapper for any format.
-4. **Communities** â€" name and state. Matches existing by name (case-insensitive).
-5. **Homes** â€" import every home you currently have under construction, in pre-construction, or even completed/closed builds you want on record. Just provide address, lot, community, status, and optional start date. PM and Permitting Agent are auto-assigned. Additive only (no deletions).
-6. **Users/Team** â€" name, email, role. Creates accounts with temporary passwords. Additive only (no deletions).
-7. **Vendor-Community Assignments** â€" links vendors to communities with scope defaults. Additive only.
-8. **Templates** â€" schedule templates with task matching. Auto-creates missing master tasks (optional).
+1. **Scopes** — import scope names from Excel/CSV. Shows new vs already-existing. Simple one-column format.
+2. **Master Tasks** — import task library with phases, durations, dependencies, milestone/PM/PA flags. Full diff preview with field-level changes.
+3. **Vendors** — company info, contacts, emails, phones, scopes. Universal Column Mapper for any format.
+4. **Communities** — name and state. Matches existing by name (case-insensitive).
+5. **Homes** — import every home you currently have under construction, in pre-construction, or even completed/closed builds you want on record. Just provide address, lot, community, status, and optional start date. PM and Permitting Agent are auto-assigned. Additive only (no deletions).
+6. **Users/Team** — name, email, role. Creates accounts with temporary passwords. Additive only (no deletions).
+7. **Vendor-Community Assignments** — links vendors to communities with scope defaults. Additive only.
+8. **Templates** — schedule templates with task matching. Auto-creates missing master tasks (optional).
 
 ### Key Features:
-- **Universal Column Mapper** â€" upload any Excel/CSV file and map its columns to Cornerstone Builder Software fields via dropdowns. Handles duplicate column names (shows "#1", "#2"). No reformatting needed â€" works with exports from any platform.
-- **Smart Column Recognition** â€" automatically recognizes similar column names. For example, "Job", "Title", or "Position" all auto-map to Role. "Mobile" or "Cell" maps to Cell Phone. The system lowercases headers and checks against alias lists, so builders don't need to rename their columns to match our format.
-- **Diff Preview** before applying â€" see exactly what will be added or modified with field-level change tracking
-- **Validation warnings** â€" catches duplicates, missing scope references, invalid data before import
-- **Download templates** â€" pre-formatted Excel templates with example data for each import type
-- **100% additive** â€" no importer deletes existing records. Add new data and update existing, but never remove. Manual deletion available from individual admin pages.
+- **Universal Column Mapper** — upload any Excel/CSV file and map its columns to Cornerstone Builder Software fields via dropdowns. Handles duplicate column names (shows "#1", "#2"). No reformatting needed — works with exports from any platform.
+- **Smart Column Recognition** — automatically recognizes similar column names. For example, "Job", "Title", or "Position" all auto-map to Role. "Mobile" or "Cell" maps to Cell Phone. The system lowercases headers and checks against alias lists, so builders don't need to rename their columns to match our format.
+- **Diff Preview** before applying — see exactly what will be added or modified with field-level change tracking
+- **Validation warnings** — catches duplicates, missing scope references, invalid data before import
+- **Download templates** — pre-formatted Excel templates with example data for each import type
+- **100% additive** — no importer deletes existing records. Add new data and update existing, but never remove. Manual deletion available from individual admin pages.
 - **Accepts .xlsx and .csv** formats
 
-All four are **independent and composable** â€" mix and match any permitting template with any foundation template, any inspection template, and any construction template without creating duplicates for every combination.
-- **Why this matters:** A builder with 5 communities and 3 foundation types doesn't need 15+ templates. One permitting + one foundation + one inspection + one construction template covers everything. Templates run in sync once applied â€" permitting, foundation, inspection, and construction tasks auto-cascade alongside each other on the same timeline.
-- **Template copy/clone** â€" duplicate any template with all tasks and dependencies in one click. Great for creating variations per community.
-- **Template task reordering** â€" drag-and-drop task ordering within templates, plus searchable MasterTask dropdown for adding tasks
-- **Master task library** with canonical definitions shared across all templates â€" change a task once, it updates everywhere
+All four are **independent and composable** — mix and match any permitting template with any foundation template, any inspection template, and any construction template without creating duplicates for every combination.
+- **Why this matters:** A builder with 5 communities and 3 foundation types doesn't need 15+ templates. One permitting + one foundation + one inspection + one construction template covers everything. Templates run in sync once applied — permitting, foundation, inspection, and construction tasks auto-cascade alongside each other on the same timeline.
+- **Template copy/clone** — duplicate any template with all tasks and dependencies in one click. Great for creating variations per community.
+- **Template task reordering** — drag-and-drop task ordering within templates, plus searchable MasterTask dropdown for adding tasks
+- **Master task library** with canonical definitions shared across all templates — change a task once, it updates everywhere
 - **One-click template application** with configurable start date
 
-## ðŸ"" Insurance, Compliance & Document Management
+## Insurance, Compliance & Document Management
 
 ### Vendor Document Uploads
 Each vendor can upload and manage the following documents:
-- **General Liability Certificate (GL COI)** â€" with expiration date tracking
-- **Workers Compensation Policy (WC)** â€" with expiration date tracking
-- **W-9 / 1099** â€" tax documentation
-- **Scope of Work (SOW)** â€" requires admin/permitting agent verification (verify/unverify toggle)
+- **General Liability Certificate (GL COI)** — with expiration date tracking
+- **Workers Compensation Policy (WC)** — with expiration date tracking
+- **W-9 / 1099** — tax documentation
+- **Scope of Work (SOW)** — requires admin/permitting agent verification (verify/unverify toggle)
 
-All documents maintain a full upload history with timestamps â€" previous versions are preserved, not overwritten.
+All documents maintain a full upload history with timestamps — previous versions are preserved, not overwritten.
 
 ### Expiration Monitoring & Notifications
-- **Dashboard warnings** â€" admin dashboard shows vendors with expiring or expired insurance
-- **Vendor dashboard alerts** â€" vendors see banner warnings when their own docs are expiring/expired
+- **Dashboard warnings** — admin dashboard shows vendors with expiring or expired insurance
+- **Vendor dashboard alerts** — vendors see banner warnings when their own docs are expiring/expired
 - **Automated email notifications:**
   - Sent **30 days before expiration** for GL and WC policies
   - **Reminder emails every 7 days** thereafter until a new certificate with updated expiry is uploaded
@@ -239,44 +266,44 @@ All documents maintain a full upload history with timestamps â€" previous ver
 - Verified status shown with timestamp and verifier name
 - Can be unverified if SOW needs updating
 
-## ðŸŽ¨ Branding & Customization
-- **Company branding** â€" custom logo uploads (icon, dark, light variants)
+## Branding & Customization
+- **Company branding** — custom logo uploads (icon, dark, light variants)
 - **Dark/Light mode** toggle
-- **White-label ready** â€" company name configurable in settings, "Powered by Cornerstone Builder Software" badge
+- **White-label ready** — company name configurable in settings, "Powered by Cornerstone Builder Software" badge
 
-## ðŸ'· Vendor Portal â€" Built for Builders AND Subs
+## Vendor Portal — Built for Builders AND Subs
 
 ### Secure, Scoped Access
-Vendors (subcontractors) get their own login with a purpose-built dashboard that shows only what they need â€" nothing more.
+Vendors (subcontractors) get their own login with a purpose-built dashboard that shows only what they need — nothing more.
 
 ### Vendor Task Visibility
 - **Active tasks:** Vendors see ONLY their own assigned tasks across all homes
 - **Completed tasks:** Vendors see ALL completed tasks for project timeline visibility, but **vendor/assignee names are hidden** on tasks not assigned to them
-- **Why this matters:** Builders protect their proprietary vendor lists â€" subs can't export or share which companies are assigned to other scopes. This is a real concern in residential construction where vendor relationships are competitive advantages.
+- **Why this matters:** Builders protect their proprietary vendor lists — subs can't export or share which companies are assigned to other scopes. This is a real concern in residential construction where vendor relationships are competitive advantages.
 
 ### Vendor Dashboard
 - **My Homes** view grouped by community with next-task, estimated date, and progress
-- **Task filter dropdown** â€" filter homes by specific task type (e.g., show only homes needing "Hardwood / LVP Flooring Install")
+- **Task filter dropdown** — filter homes by specific task type (e.g., show only homes needing "Hardwood / LVP Flooring Install")
 - **Active vs. Completed toggle** with counts
 - **Upcoming & Overdue Tasks** panel with confirm/decline actions
 
 ### Vendor Calendar & Export
-- **ðŸ"… Printable calendar view** (`/vendor-calendar`) â€" month grid showing all scheduled tasks across homes
+- **Printable calendar view** (`/vendor-calendar`) — month grid showing all scheduled tasks across homes
 - **Color-coded entries:** cyan (in progress), green (confirmed), red (declined), gray (pending)
-- **Task filter** â€" filter calendar to specific task types (e.g., just carpet jobs)
-- **Month navigation** â€" browse forward/backward through schedule
-- **ðŸ-¨ Print-optimized** â€" landscape layout, navbar hidden, print-friendly colors, plus a clean **task list table** on page 2 for easy reading
-- **ðŸ"Š Excel/CSV export** â€" one-click download with date, task, address, lot, community, duration, status. Respects active filter. File auto-named (e.g., `schedule-march-2026-carpet-install.csv`)
+- **Task filter** — filter calendar to specific task types (e.g., just carpet jobs)
+- **Month navigation** — browse forward/backward through schedule
+- **Print-optimized** — landscape layout, navbar hidden, print-friendly colors, plus a clean **task list table** on page 2 for easy reading
+- **Excel/CSV export** — one-click download with date, task, address, lot, community, duration, status. Respects active filter. File auto-named (e.g., `schedule-march-2026-carpet-install.csv`)
 - **Why this matters:** Subs can print their monthly schedule, stick it on the wall at the shop, hand it to crews, or import into their own systems. No more calling the builder's office to ask "when am I at Lot 7?"
 
 ### Three-State Task Confirmation
-- âœ… **Confirmed** â€" vendor accepts the scheduled task
-- âŒ **Declined** â€" vendor can't make it (triggers notifications to PM + Permitting Agent)
-- â˜ **Pending** â€" awaiting vendor response
+- **Confirmed** — vendor accepts the scheduled task
+- **Declined** — vendor can't make it (triggers notifications to PM + Permitting Agent)
+- **Pending** — awaiting vendor response
 - Confirming and declining are mutually exclusive (one clears the other)
 
 ### Vendor Notifications
-- ðŸ"" **In-app notification bell** + dedicated **/notifications page**
+- **In-app notification bell** + dedicated **/notifications page**
 - Vendors receive notifications when tasks are confirmed or declined on their behalf
 - PMs and Permitting Agents receive notifications when vendors confirm or decline
 - Click-to-navigate from notification to the relevant home
@@ -285,7 +312,7 @@ Vendors (subcontractors) get their own login with a purpose-built dashboard that
 - Vendors can access their portal via secure magic link (no password required)
 - Token-based authentication tied to vendor record
 
-## 🔔 Notification System
+## Notification System
 
 ### In-App Notifications
 - Vendor confirm/decline notifications to PM + Permitting Agent + Vendor
@@ -297,61 +324,61 @@ When a PM changes a task date, marks a task complete, or adjusts duration, the s
 
 | Tier | When | Purpose |
 |------|------|---------|
-| 🔴 **Schedule Confirmation** | Task starts within reminder window (default 5 days) | Urgent — vendor should confirm availability |
-| 🔵 **Advance Notice** | Task starts within advance window (default 30 days) | Heads up — no action needed yet |
-| 🟡 **Date Moved Up** | Task moved earlier than what vendor was told | **Critical safety alert — bypasses lead time** |
-| 🟣 **Date Postponed** | Task moved later than what vendor was told | **Delay alert — bypasses lead time** |
+| **Schedule Confirmation** | Task starts within reminder window (default 5 days) | Urgent — vendor should confirm availability |
+| **Advance Notice** | Task starts within advance window (default 30 days) | Heads up — no action needed yet |
+| **Date Moved Up** | Task moved earlier than what vendor was told | Critical safety alert — bypasses lead time |
+| **Date Postponed** | Task moved later than what vendor was told | Delay alert — bypasses lead time |
 
 - Emails are **grouped by vendor** — one email per vendor listing all their shifted tasks, not one per task.
-- Emails show **old dates (strikethrough) → new dates (bold)** so vendors instantly see what changed.
-- Each email has two buttons: **✅ Confirm in App** and **💬 Reply to Builder** (opens messaging).
+- Emails show **old dates (strikethrough) -> new dates (bold)** so vendors instantly see what changed.
+- Each email has two buttons: **Confirm in App** and **Reply to Builder** (opens messaging).
 - **Notification tracking**: The system records when each vendor was last emailed about each task and what date they were told. If a date later moves earlier or is postponed, the vendor is automatically re-notified.
 - **Confirmation dialog**: Before cascading, PMs see a warning showing how many tasks and vendors would be affected — prevents accidental email blasts.
 
 ### Custom Lead Time Settings
 - **Per-vendor lead times** — each vendor sets their preferred reminder and advance notice windows from their profile.
 - **Admin defaults** — configurable reminder (5 days) and advance notice (30 days) in Admin Settings.
-- **Admin controls** (Admin Settings → Vendor Notifications):
+- **Admin controls** (Admin Settings -> Vendor Notifications):
   - **Auto-Notify on Schedule Changes** — master toggle (ON by default). Enables/disables all automatic vendor notifications.
   - **Advance Notice window** — configurable in workdays (default 30). First heads-up email when a task enters this window.
   - **Reminder / Confirmation window** — configurable in workdays (default 5). Final confirmation email with exact dates.
-  - **⚠️ Date Moved Up Alerts** — amber toggle (ON by default). Sends alert when a task is rescheduled earlier than what the vendor was told. Bypasses lead time — safety feature so vendors don't show up late.
-  - **📅 Date Postponed Alerts** — purple toggle (ON by default). Sends alert when a task is pushed later than what the vendor was told. Bypasses lead time — prevents vendors from showing up when work isn't ready.
+  - **Date Moved Up Alerts** — amber toggle (ON by default). Sends alert when a task is rescheduled earlier than what the vendor was told. Bypasses lead time — safety feature so vendors don't show up late.
+  - **Date Postponed Alerts** — purple toggle (ON by default). Sends alert when a task is pushed later than what the vendor was told. Bypasses lead time — prevents vendors from showing up when work isn't ready.
 - **Safe un-complete** — accidentally marked a task complete? Uncheck it to restore original dates. No cascade, no vendor emails — PM stays in control.
 - **Why this matters:** Builders don't spam vendors with irrelevant schedule updates for tasks months away. Vendors get notified at the right time — and critically, they're ALWAYS notified if their task gets moved up or pushed back. It's proactive communication for every scenario.
 
-## ðŸ"¬ Messaging System
+## Messaging System
 - **In-app messaging** between builders and vendors per task
 - **Threaded conversations** tied to specific tasks and homes
-- **File attachments** via Vercel Blob (drag & drop, up to 5 files / 10MB each) â€" _TODO: increase to 30MB per file when on production database_
-- **Smart recipient routing:** vendor user â†' vendor email â†' task assignee â†' PM/PA â†' warning
+- **File attachments** via Vercel Blob (drag & drop, up to 5 files / 10MB each)
+- **Smart recipient routing:** vendor user -> vendor email -> task assignee -> PM/PA -> warning
 - **Floating chat bubble** with unread count badge and red ping animation
 
-## ðŸ˜ï¸ Community & Home Management
+## Community & Home Management
 - Multi-community support with per-community vendor assignments
 - **Auto-assign vendors** to tasks based on community scope defaults
 - Home detail page with sticky header (address, community, PM, lot always visible)
 - Construction progress bar with phase-by-phase breakdown
 - **Task urgency color coding:**
-  - ðŸ"´ **Red dates** â€" task end date is past due (overdue)
-  - ðŸŸ¡ **Yellow dates** â€" task end date is within 3 days (due soon)
-  - âšª **Normal dates** â€" task end date is more than 3 days out
+  - **Red dates** — task end date is past due (overdue)
+  - **Yellow dates** — task end date is within 3 days (due soon)
+  - **Normal dates** — task end date is more than 3 days out
   - Row highlighting matches: red left border for overdue, yellow left border for due soon
   - Completed and locked tasks are excluded from urgency highlighting
 - **Bulk Mark as Complete:** Checkbox column on task tables allows selecting multiple tasks and marking them all complete at once via a floating action bar. Useful for onboarding homes already under construction.
 
-## ðŸ ï¸ Customer Portal â€" Milestone Carousel & Photo Gallery
+## Customer Portal — Milestone Carousel & Photo Gallery
 
 ### Milestone Carousel (Schell Brothers-style)
 - **Horizontal scrollable cards** showing 20 construction milestones from Pre-Construction Meeting through Certificate of Occupancy
-- Each card displays a **real construction photo**, milestone description, and **status badge** (Done âœ… / Learn More ðŸ" / Locked ðŸ"')
+- Each card displays a **real construction photo**, milestone description, and **status badge** (Done / Learn More / Locked)
 - **Phase-colored borders** match the construction phase (e.g., Foundation = amber, Framing = orange, Finishes = emerald)
 - **Scroll arrows** inside the carousel for easy navigation
 - Clicking "Learn More" expands milestone details
 
 ### Milestone Photos
 - 20 real construction photos mapped to each milestone (site clearing, foundation pour, framing, roofing, mechanicals, drywall, finishes, landscaping, etc.)
-- **PM/PA photo upload** â€" Project Managers and Permitting Agents can upload up to 5 photos per milestone via a ðŸ"· button on task rows
+- **PM/PA photo upload** — Project Managers and Permitting Agents can upload up to 5 photos per milestone via a camera button on task rows
 - Photos are stored and displayed in the customer portal
 
 ### Job Site Photos Gallery
@@ -359,86 +386,83 @@ When a PM changes a task date, marks a task complete, or adjusts duration, the s
 - Customers can browse actual job site progress photos organized by milestone
 - Gives homeowners a visual timeline of their home being built
 
-### Dark Mode Fix
-- Fixed white screen bug on the customer portal homes list page â€" now properly renders in dark mode
-
-## ðŸ"„ Company Documents
+## Company Documents
 - **Admin-uploaded company documents** visible to all users
 - Organized by categories: Insurance, Licenses, Permits, Safety, Contracts, etc.
 - Admins upload and manage; all team members and vendors can view/download
 - Centralized document repository for company-wide files
 
-## ðŸ"Š Dashboard
+## Dashboard
 - Role-specific views (Admin, PM, Permitting, Vendor, Customer)
 - KPI cards: completed homes, in-progress, overdue tasks, expiring insurance
 - Overdue task alerts with vendor decline warnings (last 24h)
 - Recent activity feed
 
-## ðŸ"š Master Task Library
+## Master Task Library
 
 The Master Task Library is the single source of truth for all task definitions. Changes here propagate to templates.
 
 ### Task Dependencies
 - Dependencies define which tasks must complete before another can start (e.g., "Drywall" can't start until "Framing" and "Electrical Rough-In" are done)
-- In the UI, click **"+ Add"** or the **âœŽ** icon in the Task Dependencies column to open a search/select picker
-- Dependencies are shown as removable pills â€" click âœ• to remove one
+- In the UI, click **"+ Add"** or the **edit icon** in the Task Dependencies column to open a search/select picker
+- Dependencies are shown as removable pills — click X to remove one
 - The scheduling engine uses dependencies to auto-cascade dates: when a task's dates shift, all downstream dependent tasks shift too
 
 ### UX Improvements (March 2026)
-- **Delete with warning** â€" deleting a master task shows how many templates and active homes use it before confirming, instead of greying out the button
-- **Scope dropdown selector** â€" choose scope from existing Scopes list via dropdown instead of free-text input
-- **Sticky column headers** â€" headers stay visible while scrolling through long task lists
-- **Active home count** â€" each task shows how many active homes currently use it
+- **Delete with warning** — deleting a master task shows how many templates and active homes use it before confirming, instead of greying out the button
+- **Scope dropdown selector** — choose scope from existing Scopes list via dropdown instead of free-text input
+- **Sticky column headers** — headers stay visible while scrolling through long task lists
+- **Active home count** — each task shows how many active homes currently use it
 
 ### Sort Order vs Dependencies
-- **Sort Order** is for **display only** â€" it controls the visual position of tasks in lists and schedules
-- **Task Dependencies** control the **scheduling engine** â€" a task won't start until all its dependencies are complete
+- **Sort Order** is for **display only** — it controls the visual position of tasks in lists and schedules
+- **Task Dependencies** control the **scheduling engine** — a task won't start until all its dependencies are complete
 - These are completely independent systems. Changing sort order never affects dates or scheduling logic.
 
 ### Excel Import/Export
 - **Export** downloads the full library as a branded `.xlsx` with phase grouping, color coding, and an info note explaining sort order vs dependencies
-- **Import** reads an `.xlsx` file and shows a diff preview before applying (also available on `/admin/import` â†' Master Tasks tab):
-  - New tasks and modified tasks shown separately (additive only â€" no deletions)
+- **Import** reads an `.xlsx` file and shows a diff preview before applying (also available on `/admin/import` -> Master Tasks tab):
+  - New tasks and modified tasks shown separately (additive only — no deletions)
   - **Task Dependencies column** uses comma-separated task names (e.g., `Framing, Electrical Rough-In`)
-  - The parser matches dependency names against existing tasks â€" typos are caught with warnings like *"Drywall" depends on "Framng" which doesn't exist*
-  - Sort Order column accepts numbers (0, 1, 2â€¦) for display ordering
+  - The parser matches dependency names against existing tasks — typos are caught with warnings like *"Drywall" depends on "Framng" which doesn't exist*
+  - Sort Order column accepts numbers (0, 1, 2...) for display ordering
   - Accepts both "Task Dependencies" and "Depends On" as column headers for backward compatibility
-  - **Inspection scope protection:** PM Auto-Assign values for any task with an Inspection scope are ignored on import â€" inspection assignments are configured per community (some go to PM for municipality inspections, others to private vendors)
+  - **Inspection scope protection:** PM Auto-Assign values for any task with an Inspection scope are ignored on import — inspection assignments are configured per community (some go to PM for municipality inspections, others to private vendors)
 
 ---
 
-## ðŸ"Š Excel Exports
+## Excel Exports
 All exports feature a consistent branded header with builder logo, company name, and professional formatting.
 
 ### Home Schedule Export
-- **From:** Home detail page â†' "Export Excel" button
+- **From:** Home detail page -> "Export Excel" button
 - **Contents:** Full construction schedule grouped by phase, with task name, scope, duration, start/end dates, assigned vendor, PM Ready, Vendor Ready, status, % complete
-- **Vendor-aware:** When a vendor exports, they see ONLY their own tasks â€" builder's full vendor list is never exposed
+- **Vendor-aware:** When a vendor exports, they see ONLY their own tasks — builder's full vendor list is never exposed
 - **Formatting:** Phase-colored group headers, alternating row colors, thick borders between phases, status color coding
 
 ### Vendor Calendar Export
-- **From:** Vendor Calendar page â†' "Export" button
+- **From:** Vendor Calendar page -> "Export" button
 - **Contents:** All scheduled tasks for the visible month: date, end date, task, address, lot, community, duration, status (confirmed/declined/pending)
 - **Respects filters:** If filtered to a specific task type or home, export matches what's on screen
 - **Auto-named:** e.g., `schedule-march-2026-carpet-install.xlsx`
 
 ### Upcoming & Overdue Tasks Export
-- **From:** Dashboard â†' Upcoming & Overdue Tasks section â†' "Export Excel" button
+- **From:** Dashboard -> Upcoming & Overdue Tasks section -> "Export Excel" button
 - **Contents:** Tasks due in next 7 days + overdue: task name, community, address, lot, status, PM ready, vendor ready, date
 - **Role-aware columns:** Vendors see "Builder Ready / Confirm", builders see "PM Ready / Vendor Ready"
 - **Overdue highlight:** Overdue rows get a light red tint for quick visual identification
 
 ### My Tasks Export
-- **From:** Dashboard â†' My Tasks section â†' "Export" button
+- **From:** Dashboard -> My Tasks section -> "Export" button
 - **Contents:** All vendor-assigned tasks grouped by community: address, lot, PM, next task, estimated date, completed/total tasks, progress %
 - **Tab-aware:** Exports either "In Progress" or "Completed" tasks based on active tab
 
-## ðŸ" Role-Based Access Control
+## Role-Based Access Control
 
 ### Builder-Side Roles
 
 **Admin**
-- Full access to everything â€" homes, vendors, templates, settings, user management
+- Full access to everything — homes, vendors, templates, settings, user management
 - Can create/edit communities, assign vendors, manage master task library
 - Access to all reports, exports, and configuration
 - Can impersonate other roles for testing
@@ -469,7 +493,7 @@ All exports feature a consistent branded header with builder logo, company name,
 - Messaging with builder team per home
 - My Company page for company profile, insurance docs, W-9 uploads
 - Builder Contacts directory
-- Excel exports (filtered to own data only â€" never sees other vendors)
+- Excel exports (filtered to own data only — never sees other vendors)
 - **Vendor Admin** sub-role: can edit company info, manage team members, invite users
 - **Vendor Member** sub-role: same access as above minus company management
 - Magic link login (no password required)
@@ -479,8 +503,8 @@ All exports feature a consistent branded header with builder logo, company name,
 - See task completion %, milestone status, estimated timeline
 - No access to vendor details, costs, or internal notes
 
-## ðŸ-ï¸ Architecture
-- **Multi-tenant ready** â€" architected with future SaaS in mind
+## Architecture
+- **Multi-tenant ready** — architected with future SaaS in mind
 - **Next.js 16** App Router with server/client components
 - **Prisma ORM** with PostgreSQL (Neon for production)
 - **Vercel deployment** with auto-deploy from GitHub
@@ -489,6 +513,3 @@ All exports feature a consistent branded header with builder logo, company name,
 ---
 
 _For technical details, see [ARCHITECTURE.md](./ARCHITECTURE.md). For messaging specs, see [MESSAGING_SPEC.md](./MESSAGING_SPEC.md)._
-
-
----
