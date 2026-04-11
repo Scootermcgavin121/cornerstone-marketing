@@ -29,7 +29,7 @@ const features: Feature[] = [
       </svg>
     ),
     title: "Vendor Portal",
-    desc: "Magic links — no accounts needed. Vendors confirm or decline in one click. Dead simple.",
+    desc: "Magic links - no accounts needed. Vendors confirm or decline in one click. Dead simple.",
     accent: "amber",
   },
   // 📦 Purchasing
@@ -40,7 +40,7 @@ const features: Feature[] = [
       </svg>
     ),
     title: "Bid Management",
-    desc: "Send a floorplan to bid to every vendor with one click. Track responses, compare side-by-side, and award — all in one workflow.",
+    desc: "Send a floorplan to bid to every vendor with one click. Track responses, compare side-by-side, and award - all in one workflow.",
     accent: "cyan",
   },
   {
@@ -71,7 +71,7 @@ const features: Feature[] = [
       </svg>
     ),
     title: "AI Support",
-    desc: "Your AI assistant learns your business. The more you use it, the smarter it gets — with a dedicated memory for every account.",
+    desc: "24/7 AI assistant built into every account. Ask about scheduling, vendors, budgets, selections — get instant, tailored answers.",
     accent: "purple",
   },
   // 💰 Sales
@@ -138,7 +138,7 @@ export default function Features() {
           })}
         </div>
 
-        {/* Feature page links — three pillars */}
+        {/* Feature page links - three pillars */}
         <AnimateOnScroll className="mt-12">
           <div className="grid sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
             <a
