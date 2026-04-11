@@ -110,7 +110,7 @@ const features = [
       </svg>
     ),
     title: "Bid Management",
-    desc: "Send bid requests to vendors, track responses in real-time, and manage the full RFP lifecycle. Vendors submit through a branded portal with token-based secure access. Excel import/export for line items, document attachments, and automated reminder emails.",
+    desc: "Send a floorplan to bid to every vendor with one click. Track responses in real-time and manage the full RFP lifecycle. Vendors submit through a branded portal with token-based secure access. Excel import/export for line items, document attachments, and automated reminder emails.",
     badge: "Full Lifecycle",
   },
   {
