@@ -10,7 +10,16 @@ const pains = [
       </svg>
     ),
     title: "Missed Deadlines, Zero Visibility",
-    desc: "Schedules buried in spreadsheets. No one knows what's next until it's too late.",
+    desc: "Schedules in one app, budgets in another, selections on paper. No one has the full picture until something falls through the cracks.",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+      </svg>
+    ),
+    title: '"What Does This Upgrade Cost?"',
+    desc: "Buyers asking about selections at the model home and nobody can give a straight answer. Price sheets are outdated before the ink dries.",
   },
   {
     icon: (
@@ -18,17 +27,8 @@ const pains = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
       </svg>
     ),
-    title: '"When Am I On Site?"',
-    desc: "Vendors calling daily. Subs texting you at 6 AM. Everyone asking the same question.",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-      </svg>
-    ),
-    title: "Juggling Emails, Texts & Calls",
-    desc: "Important updates lost across 5 different apps. Nothing is in one place.",
+    title: "Vendor Chaos",
+    desc: "Calling subs for bids, chasing schedules, tracking POs \u2014 all in different places. One system for bids, another for scheduling, a third for payments.",
   },
   {
     icon: (
@@ -37,7 +37,7 @@ const pains = [
       </svg>
     ),
     title: "Paying $500+/mo for Bloated Software",
-    desc: "Enterprise-grade scheduling without the enterprise price tag. Building 10–20 homes a year? You shouldn't need a $500/mo app for that.",
+    desc: "Enterprise tools built for 500-home builders. You\u2019re building 10\u201320 homes a year and paying for features you\u2019ll never touch.",
   },
 ];
 
@@ -51,7 +51,7 @@ export default function PainPoints() {
             <span className="gradient-text">spreadsheets?</span>
           </h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-            You&apos;re not alone. Most builders are drowning in the same problems — from scheduling to sales.
+            You&apos;re not alone. Most builders are drowning in the same problems &mdash; from scheduling to sales.
           </p>
         </AnimateOnScroll>
 
