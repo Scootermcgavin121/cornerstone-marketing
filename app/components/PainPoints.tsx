@@ -47,11 +47,11 @@ export default function PainPoints() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateOnScroll className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4">
-            Still managing schedules in{" "}
+            Still running your business in{" "}
             <span className="gradient-text">spreadsheets?</span>
           </h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-            You&apos;re not alone. Most builders are drowning in the same problems.
+            You&apos;re not alone. Most builders are drowning in the same problems — from scheduling to sales.
           </p>
         </AnimateOnScroll>
 

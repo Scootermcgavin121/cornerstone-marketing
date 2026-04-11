@@ -521,7 +521,13 @@ export default function ConstructionFeatures() {
               href="/features/purchasing"
               className="inline-flex items-center px-8 py-4 text-lg font-semibold rounded-2xl border border-slate-700 text-slate-300 hover:border-cyan-500/50 hover:text-white transition-all"
             >
-              See Purchasing Features →
+              Purchasing Features →
+            </a>
+            <a
+              href="/features/sales"
+              className="inline-flex items-center px-8 py-4 text-lg font-semibold rounded-2xl border border-slate-700 text-slate-300 hover:border-emerald-500/50 hover:text-white transition-all"
+            >
+              Sales Features →
             </a>
           </div>
         </AnimateOnScroll>

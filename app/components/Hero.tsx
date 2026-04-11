@@ -43,9 +43,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6"
         >
-          Construction Scheduling,
+          Build Smarter. Price Confidently.
           <br />
-          <span className="gradient-text">Simplified.</span>
+          <span className="gradient-text">Sell Faster.</span>
         </motion.h1>
 
         <motion.p
@@ -54,7 +54,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-4"
         >
-          Built by builders, for builders.
+          The all-in-one platform for home builders — scheduling, purchasing, design center, and sales tools.
         </motion.p>
 
         <motion.p
@@ -63,7 +63,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-2xl sm:text-3xl font-bold gradient-text mb-10"
         >
-          Starting at $60/month
+          Starting at $59.99/month
         </motion.p>
 
         <motion.div
