@@ -4,6 +4,7 @@ import AnimateOnScroll from "./AnimateOnScroll";
 import Image from "next/image";
 
 const features = [
+  // Construction
   {
     icon: "/assets/icons/scheduling.png",
     title: "Smart Scheduling",
@@ -14,35 +15,38 @@ const features = [
     title: "Vendor Portal",
     desc: "Magic links — no accounts needed. Vendors confirm or decline in one click. Dead simple.",
   },
+  // Purchasing
   {
-    icon: "/assets/icons/messaging.png",
-    title: "Built-in Messaging",
-    desc: "Email notifications with full task context. No more phone tag or missed updates.",
+    icon: "/assets/icons/documents.png",
+    title: "Bid Management",
+    desc: "Send a floorplan to bid to every vendor with one click. Track responses, compare side-by-side, and award — all in one workflow.",
   },
   {
+    icon: "/assets/icons/dashboards.png",
+    title: "Budget & Cost Tracking",
+    desc: "3-level budget hierarchy: Scope → Task → Parts. See exactly where every dollar goes with real-time financial rollups per home.",
+  },
+  // Design Center
+  {
     icon: "/assets/icons/crm.png",
-    title: "CRM Portal",
-    desc: "Homeowners see their build progress with a milestone carousel, real construction photos, and job site gallery.",
+    title: "Design Center",
+    desc: "Room-by-room selection walkthrough for flooring, cabinets, countertops, and more. Buyers pick finishes, you track the cost.",
   },
   {
     icon: "/assets/icons/ai-support.png",
     title: "AI Support",
     desc: "Your AI assistant learns your business. The more you use it, the smarter it gets about your operation — with a dedicated memory for every account.",
   },
+  // Sales
   {
     icon: "/assets/icons/mobile.png",
-    title: "Mobile Ready",
-    desc: "Responsive design that works on any device. Check schedules from the job site.",
+    title: "Sales Pricing & PDFs",
+    desc: "Retail pricing matrix per floorplan × community. Export branded PDF price sheets and customer selection reports in one click.",
   },
   {
-    icon: "/assets/icons/documents.png",
-    title: "Document Management",
-    desc: "Drag & drop file attachments per task. Keep plans, permits, and photos organized.",
-  },
-  {
-    icon: "/assets/icons/dashboards.png",
-    title: "Real-time Dashboards",
-    desc: "KPIs, progress bars, overdue alerts — everything at a glance. Know exactly where every project stands.",
+    icon: "/assets/icons/messaging.png",
+    title: "Promotions & Incentives",
+    desc: "Create closing cost credits, discounts, and custom incentives with date ranges. Net-after-promotion pricing flows automatically to your sales team.",
   },
 ];
 
