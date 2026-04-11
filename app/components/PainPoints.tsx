@@ -58,7 +58,7 @@ export default function PainPoints() {
         <div className="grid sm:grid-cols-2 gap-6">
           {pains.map((p, i) => (
             <AnimateOnScroll key={i} delay={i * 0.1}>
-              <div className="group relative p-6 sm:p-8 rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-red-500/30 transition-all duration-300 hover:bg-slate-900/80">
+              <div className="group relative p-6 sm:p-8 rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-red-500/30 transition-all duration-300 hover:bg-slate-900/80 h-full">
                 <div className="text-red-400/80 mb-4">{p.icon}</div>
                 <h3 className="text-xl font-bold text-white mb-2">{p.title}</h3>
                 <p className="text-slate-400 leading-relaxed">{p.desc}</p>
