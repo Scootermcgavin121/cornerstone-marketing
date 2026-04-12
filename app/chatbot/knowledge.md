@@ -105,6 +105,20 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **CSV Export** - export pricing data as CSV for spreadsheets, lender packages, or MLS uploads
 - **Expiration Badges** - active promotions show urgency: "Expires Today", "Expires in 3 days", or the end date. Expired promotions are clearly marked
 
+## Sales Pipeline & New Home Sales
+- **New Home Sale Wizard** - guided 4-step form: Buyers (with co-buyer support) → Location (community, floorplan, elevation, lot) → Structural Options → Review & Submit. Base price auto-populates from the pricing matrix. Elevation upgrades show as line items.
+- **Buyer Management** - full buyer directory with search, sort, and CSV export. Primary + secondary buyers tracked per home.
+- **Sales Pipeline Tasks** - every new sale automatically generates a task checklist from editable templates. Built-in templates for Buyer homes (9 tasks) and Spec homes (6 tasks) with dependencies, milestones, and auto-assignment to the right team members.
+- **Editable Sales Templates** - sales pipeline templates live alongside construction templates in the Templates page. Full editing UI: add/remove/reorder tasks, set durations, edit dependency chains, clone and customize.
+- **Task Dates** - each pipeline task has start date, due date, and duration. Dates auto-compute from the contract date based on task durations.
+- **Automatic Email Notifications** - key milestones trigger branded emails:
+  - Contract Signed → emails Sales Manager + Purchasing Manager ("Approval Needed")
+  - Both Approvals Complete → emails Permitting Agent(s) ("Sale Approved, Ready for Setup")
+  - Smart fallback: if no manager exists for a role, emails Admin(s) instead
+- **Configurable Notification Settings** - admin page to control which roles get notified for each event type, plus add external email addresses for consultants or outside agents
+- **Permitting Dashboard** - "Homes Pending Setup" queue shows approved sales waiting for template assignment. Urgency badges highlight homes waiting 3+ days. One-click link to assign foundation/construction templates.
+- **Sales-to-Construction Handoff** - complete workflow from sale creation through approvals to permitting setup to construction start. No manual handoffs, no dropped balls.
+
 ## Pricing
 All plans are monthly subscriptions, no long-term contracts required.
 
