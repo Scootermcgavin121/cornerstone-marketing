@@ -139,61 +139,55 @@ export default function Features() {
         </div>
 
         {/* Feature page links - three pillars */}
-        <AnimateOnScroll className="mt-12">
-          <div className="grid sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
+        <AnimateOnScroll className="mt-16">
+          <div className="grid sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <a
               href="/features/sales"
-              className="group flex items-center gap-4 p-5 rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-emerald-500/30 transition-all duration-300"
+              className="group relative p-8 rounded-3xl bg-slate-900/60 border border-slate-800/50 hover:border-emerald-500/40 hover:bg-slate-900/80 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-500/5"
             >
-              <div className="shrink-0 w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 group-hover:bg-emerald-500/20 transition-colors">
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-16 h-16 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 group-hover:bg-emerald-500/20 transition-colors mb-6">
+                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <div>
-                <div className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">
-                  💰 Sales & Pricing →
-                </div>
-                <div className="text-xs text-slate-500">
-                  Pricing matrix, PDFs, promotions, incentives
-                </div>
-              </div>
+              <h3 className="text-lg font-bold text-white group-hover:text-emerald-400 transition-colors mb-2">
+                Sales & Pricing →
+              </h3>
+              <p className="text-sm text-slate-400 leading-relaxed">
+                Pricing matrix, PDF proposals, buyer pipeline, sales incentives, community pricing, and contract management.
+              </p>
             </a>
             <a
               href="/features/purchasing"
-              className="group flex items-center gap-4 p-5 rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-cyan-500/30 transition-all duration-300"
+              className="group relative p-8 rounded-3xl bg-slate-900/60 border border-slate-800/50 hover:border-cyan-500/40 hover:bg-slate-900/80 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-cyan-500/5"
             >
-              <div className="shrink-0 w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500/20 transition-colors">
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500/20 transition-colors mb-6">
+                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                 </svg>
               </div>
-              <div>
-                <div className="text-sm font-bold text-white group-hover:text-cyan-400 transition-colors">
-                  📦 Purchasing & Design Center →
-                </div>
-                <div className="text-xs text-slate-500">
-                  Bids, budgets, POs, selections, takeoffs, spec levels
-                </div>
-              </div>
+              <h3 className="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors mb-2">
+                Purchasing & Design Center →
+              </h3>
+              <p className="text-sm text-slate-400 leading-relaxed">
+                Vendor bids, budgets, purchase orders, buyer selections, takeoffs, spec levels, and design center management.
+              </p>
             </a>
             <a
               href="/features/construction"
-              className="group flex items-center gap-4 p-5 rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-amber-500/30 transition-all duration-300"
+              className="group relative p-8 rounded-3xl bg-slate-900/60 border border-slate-800/50 hover:border-amber-500/40 hover:bg-slate-900/80 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-amber-500/5"
             >
-              <div className="shrink-0 w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-400 group-hover:bg-amber-500/20 transition-colors">
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-16 h-16 rounded-2xl bg-amber-500/10 flex items-center justify-center text-amber-400 group-hover:bg-amber-500/20 transition-colors mb-6">
+                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <div>
-                <div className="text-sm font-bold text-white group-hover:text-amber-400 transition-colors">
-                  🏗️ Construction →
-                </div>
-                <div className="text-xs text-slate-500">
-                  Scheduling, Gantt charts, vendors, notifications
-                </div>
-              </div>
+              <h3 className="text-lg font-bold text-white group-hover:text-amber-400 transition-colors mb-2">
+                Construction →
+              </h3>
+              <p className="text-sm text-slate-400 leading-relaxed">
+                Smart scheduling, Gantt charts, vendor notifications, task dependencies, calendar sync, and progress tracking.
+              </p>
             </a>
           </div>
         </AnimateOnScroll>
