@@ -367,7 +367,7 @@ export default function FeaturesDetail() {
           </h1>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
             No feature gates, no per-home pricing, no surprises. Here's everything
-            you get starting at $60/month.
+            you get starting at $79.99/month.
           </p>
         </AnimateOnScroll>
 
@@ -413,13 +413,14 @@ export default function FeaturesDetail() {
             <span className="gradient-text">ditch the chaos?</span>
           </h2>
           <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto">
-            All of this — starting at $60/month. No demo required. No sales calls. Just sign up and go.
+            All of this — starting at $79.99/month. No demo required. No sales calls. Just sign up and go.
           </p>
-          <span
-            className="inline-block px-10 py-4 text-lg font-bold rounded-2xl bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 cursor-default"
+          <a
+            href="/beta"
+            className="inline-block px-10 py-4 text-lg font-bold rounded-2xl bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 hover:opacity-90 transition-opacity"
           >
-            Coming Soon!
-          </span>
+            Request Beta Access
+          </a>
         </AnimateOnScroll>
       </div>
     </section>

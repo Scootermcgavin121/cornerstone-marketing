@@ -3,7 +3,7 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 
 const competitors = [
-  { name: "Buildertrend", price: "$499+/mo", con: "Bloated & complex" },
+  { name: "Buildertrend", price: "Starting at $499/mo", con: "Bloated & complex" },
   { name: "CoConstruct", price: "$99+/mo", con: "Every add-on costs extra" },
   { name: "Procore", price: "$375+/mo", con: "Enterprise overkill" },
   { name: "BuildBook", price: "$199+/mo", con: "Heavy manual entry" },
@@ -12,7 +12,7 @@ const competitors = [
 
 const cornerstone = {
   name: "Cornerstone",
-  price: "$60/mo",
+  price: "$79.99/mo",
   pro: "Modern, fast, AI-powered",
 };
 

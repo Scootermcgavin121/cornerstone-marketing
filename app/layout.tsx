@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   title: "Cornerstone Builder Software — Construction Scheduling, Simplified.",
   description:
-    "Built by builders, for builders. Smart scheduling, vendor portals, AI support, and more — starting at $60/month.",
+    "Built by builders, for builders. Smart scheduling, vendor portals, AI support, and more — starting at $79.99/month.",
   keywords: [
     "construction scheduling",
     "builder software",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Cornerstone Builder Software",
-    description: "Construction Scheduling, Simplified. Starting at $60/month.",
+    description: "Construction Scheduling, Simplified. Starting at $79.99/month.",
     url: "https://cornerstonepm.ai",
     siteName: "Cornerstone Builder Software",
     type: "website",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Cornerstone Builder Software",
-    description: "Construction Scheduling, Simplified. Starting at $60/month.",
+    description: "Construction Scheduling, Simplified. Starting at $79.99/month.",
     images: ["https://www.cornerstonepm.ai/og-image.png"],
   },
 };

@@ -172,11 +172,12 @@ export default function Navbar() {
             >
               Sign In
             </span>
-            <span
-              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500 cursor-default"
+            <a
+              href="/beta"
+              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500 hover:opacity-90 transition-opacity"
             >
-              Coming Soon!
-            </span>
+              Request Beta Access
+            </a>
 
             {/* Mobile hamburger */}
             <button
@@ -267,11 +268,13 @@ export default function Navbar() {
                   {l.label}
                 </a>
               ))}
-              <span
-                className="block text-slate-500 py-2 cursor-default"
+              <a
+                href="/beta"
+                onClick={() => setMobileOpen(false)}
+                className="block text-cyan-400 hover:text-cyan-300 py-2 font-semibold"
               >
-                Sign In (Coming Soon)
-              </span>
+                Request Beta Access
+              </a>
             </div>
           </motion.div>
         )}

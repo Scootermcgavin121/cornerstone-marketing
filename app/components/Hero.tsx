@@ -63,7 +63,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-2xl sm:text-3xl font-bold gradient-text mb-10"
         >
-          Starting at $59.99/month
+          Starting at $79.99/month
         </motion.p>
 
         <motion.div
@@ -72,20 +72,18 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <span
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-lg font-semibold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500 cursor-default"
+          <a
+            href="/beta"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-lg font-semibold text-slate-950 bg-gradient-to-r from-cyan-500 to-emerald-500 hover:opacity-90 transition-opacity"
           >
-            Coming Soon!
-          </span>
-          <span
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-lg font-semibold text-slate-500 border border-slate-700 cursor-default"
+            Request Beta Access
+          </a>
+          <a
+            href="#cta"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-lg font-semibold text-slate-300 border border-slate-700 hover:border-cyan-500/50 hover:text-white transition-colors"
           >
-            <svg className="mr-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-            </svg>
-            Demo Coming Soon
-          </span>
+            Get in Touch
+          </a>
         </motion.div>
 
         {/* Scroll indicator */}

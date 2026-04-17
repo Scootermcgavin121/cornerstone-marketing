@@ -206,10 +206,10 @@ export default function PurchasingFeatures() {
         {/* Pricing callout */}
         <AnimateOnScroll className="text-center mb-20">
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-slate-900/80 border border-slate-800/50">
-            <span className="text-3xl font-extrabold text-white">$39.99</span>
+            <span className="text-3xl font-extrabold text-white">$99.99</span>
             <span className="text-slate-400">/month add-on</span>
             <span className="text-slate-600">·</span>
-            <span className="text-sm text-slate-400">$99.98/mo total with scheduling</span>
+            <span className="text-sm text-slate-400">$179.98/mo total with scheduling</span>
           </div>
         </AnimateOnScroll>
 
@@ -245,7 +245,7 @@ export default function PurchasingFeatures() {
               <span className="gradient-text">less</span>
             </h2>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-              Buildertrend charges $800/month and doesn&apos;t even include purchasing. We include everything.
+              BuilderTrend starts at $499/month and doesn&apos;t even include purchasing. We include everything.
             </p>
           </div>
 
@@ -260,10 +260,10 @@ export default function PurchasingFeatures() {
 
               <div className="space-y-4">
                 <div className="flex items-baseline gap-2">
-                  <span className="text-4xl font-extrabold text-red-400">~$800</span>
+                  <span className="text-4xl font-extrabold text-red-400">$499+</span>
                   <span className="text-slate-400">/month</span>
                 </div>
-                <p className="text-sm text-slate-400">~$9,600/year</p>
+                <p className="text-sm text-slate-400">~$5,988+/year just to start</p>
                 <ul className="space-y-2 text-sm text-slate-400">
                   <li className="flex items-center gap-2">
                     <svg className="w-4 h-4 text-red-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -297,10 +297,10 @@ export default function PurchasingFeatures() {
 
               <div className="space-y-4">
                 <div className="flex items-baseline gap-2">
-                  <span className="text-4xl font-extrabold text-cyan-400">$99.98</span>
+                  <span className="text-4xl font-extrabold text-cyan-400">$179.98</span>
                   <span className="text-slate-400">/month</span>
                 </div>
-                <p className="text-sm text-slate-400">~$1,200/year · Scheduling + Purchasing</p>
+                <p className="text-sm text-slate-400">~$2,160/year · Scheduling + Purchasing + Sales</p>
                 <ul className="space-y-2 text-sm text-slate-400">
                   <li className="flex items-center gap-2">
                     <svg className="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -329,8 +329,8 @@ export default function PurchasingFeatures() {
           <div className="text-center mt-8">
             <p className="text-lg text-slate-400">
               That&apos;s{" "}
-              <span className="text-2xl font-extrabold text-emerald-400">$8,400</span>{" "}
-              saved per year. Every year.
+              <span className="text-2xl font-extrabold text-emerald-400">$3,800+</span>{" "}
+              saved per year compared to BuilderTrend. Every year.
             </p>
           </div>
         </AnimateOnScroll>

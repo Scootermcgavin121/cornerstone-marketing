@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: "Construction Scheduling Features — Cornerstone Builder Software",
     description:
-      "Smart scheduling with Gantt charts, vendor management, cascade notifications, and customer portals. Starting at $59.99/month.",
+      "Smart scheduling with Gantt charts, vendor management, cascade notifications, and customer portals. Starting at $79.99/month.",
     url: "https://cornerstonepm.ai/features/construction",
     siteName: "Cornerstone Builder Software",
     type: "website",

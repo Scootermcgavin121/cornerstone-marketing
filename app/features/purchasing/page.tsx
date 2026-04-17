@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: "Purchasing & Design Center Features — Cornerstone Builder Software",
     description:
-      "Complete purchasing, bid management, and design center for home builders. Budget hierarchy, bid comparison, spec levels, change orders, and more. Starting at $39.99/month.",
+      "Complete purchasing, bid management, and design center for home builders. Budget hierarchy, bid comparison, spec levels, change orders, and more. Add-on bundle at $99.99/month.",
     url: "https://cornerstonepm.ai/features/purchasing",
     siteName: "Cornerstone Builder Software",
     type: "website",

@@ -8,9 +8,9 @@ const footerLinks = {
     { label: "Compare", href: "#compare" },
   ],
   Company: [
-    { label: "About", href: "#" },
+    { label: "About", href: "/about" },
     { label: "Contact", href: "#cta" },
-    { label: "Blog", href: "#" },
+    { label: "Blog", href: "/blog" },
   ],
   Legal: [
     { label: "Privacy Policy", href: "/privacy" },

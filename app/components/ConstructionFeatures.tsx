@@ -449,7 +449,7 @@ export default function ConstructionFeatures() {
         {/* Pricing callout */}
         <AnimateOnScroll className="text-center mb-20">
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-slate-900/80 border border-slate-800/50">
-            <span className="text-3xl font-extrabold text-white">$59.99</span>
+            <span className="text-3xl font-extrabold text-white">$79.99</span>
             <span className="text-slate-400">/month</span>
             <span className="text-slate-600">·</span>
             <span className="text-sm text-slate-400">Unlimited homes &amp; users</span>
