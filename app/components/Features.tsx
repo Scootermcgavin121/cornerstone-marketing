@@ -92,7 +92,7 @@ const features: Feature[] = [
       </svg>
     ),
     title: "Automated Pipeline",
-    desc: "Sale → Budget → Purchasing → Permitting → Construction. Each role sees exactly what they need. Budgets auto-generate from takeoffs.",
+    desc: "Sale → Budget → Purchasing → Design Center → Permitting → Construction. Each role sees exactly what they need. Budgets auto-generate from takeoffs.",
     accent: "emerald",
   },
 ];
