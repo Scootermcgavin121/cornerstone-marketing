@@ -6,6 +6,56 @@ const features = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+      </svg>
+    ),
+    title: "New Home Sale in Under 60 Seconds",
+    desc: "One form: select community, floorplan, elevation. Enter buyer info, pick structural options, apply incentives, see real-time pricing — and click submit. Full sales pipeline auto-created.",
+    badge: "Lightning Fast",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+      </svg>
+    ),
+    title: "9-Step Sales Pipeline",
+    desc: "Every new sale auto-generates a 9-step checklist: Contract → Deposit → Financing → Manager Approval → Lot Reservation → Structural Options → Budget Generated → Purchasing Approval. Gate tasks control the flow.",
+    badge: "Automated",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+      </svg>
+    ),
+    title: "Auto-Budget Generation",
+    desc: "When structural options are locked, the system auto-generates a full home budget from floorplan takeoffs — including elevation adders and option pricing. ~97 budget lines created instantly. No spreadsheets.",
+    badge: "Zero Manual",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+      </svg>
+    ),
+    title: "12+ Structural Options",
+    desc: "Buyers choose from Bonus Room Over Garage, Finished Basement, 8' Interior Doors, Irrigation Well, Garage Extension, Kitchen Expansion, and more — all with real-time cost + retail pricing.",
+    badge: "Per Floorplan",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+      </svg>
+    ),
+    title: "Permitting Pipeline",
+    desc: "When all sales tasks complete, the home auto-transitions to construction. Permitting Agents see it on their dashboard with buyer info, structural options, and floorplan details. One-click template setup.",
+    badge: "Auto-Handoff",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
       </svg>
     ),
@@ -114,14 +164,13 @@ export default function SalesFeatures() {
             Sales &amp; Pricing
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6">
-            Price confidently,{" "}
+            Sale to slab in{" "}
             <span className="bg-gradient-to-r from-emerald-400 to-cyan-500 bg-clip-text text-transparent">
-              sell faster
+              under 60 seconds
             </span>
           </h1>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            Real-time pricing matrices, branded PDF price sheets, smart promotions, and a
-            full design center — everything your sales team needs to close deals at the model home.
+            Create a new home sale, auto-generate budgets, hand off to permitting, and kick off construction — everything your sales team needs to close deals at the model home.
           </p>
         </AnimateOnScroll>
 

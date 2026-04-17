@@ -81,8 +81,8 @@ const features: Feature[] = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
       </svg>
     ),
-    title: "Sales Pricing & PDFs",
-    desc: "Retail pricing matrix per floorplan × community. Export branded PDF price sheets and customer selection reports in one click.",
+    title: "60-Second Home Sales",
+    desc: "Create a new home sale in under a minute. One form — buyer info, structural options, pricing — and the full pipeline auto-generates.",
     accent: "emerald",
   },
   {
@@ -91,8 +91,8 @@ const features: Feature[] = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: "Promotions & Incentives",
-    desc: "Create closing cost credits, discounts, and custom incentives with date ranges. Net-after-promotion pricing flows automatically to your sales team.",
+    title: "Automated Pipeline",
+    desc: "Sale → Budget → Purchasing → Permitting → Construction. Each role sees exactly what they need. Budgets auto-generate from takeoffs.",
     accent: "emerald",
   },
 ];
@@ -154,7 +154,7 @@ export default function Features() {
                 Sales & Pricing →
               </h3>
               <p className="text-sm text-slate-400 leading-relaxed">
-                Pricing matrix, PDF proposals, buyer pipeline, sales incentives, community pricing, and contract management.
+                60-second home sales, automated pipelines, pricing matrix, PDF proposals, sales incentives, and permitting handoff.
               </p>
             </a>
             <a

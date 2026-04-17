@@ -83,7 +83,9 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **Parts Catalog** - centralized library of all materials, fixtures, and finishes with part numbers, descriptions, units of measure, and cost/retail pricing
 - **Takeoffs** - per-floorplan quantity takeoffs organized by room/location. Supports BASE (standard for every home) and OPTION (per-option-class) takeoff types. Units: sqft, lf, lnft, each, LUMP, square
 - **Bid Management** - send a floorplan to bid to every vendor with one click. Track vendor responses, compare bids side-by-side, and award - all in one workflow
-- **Budgets** - 3-level budget hierarchy: Scope → Task → Parts. Real-time financial rollups per home showing estimated vs actual costs
+- **Budgets** - 3-level budget hierarchy: Scope → Task → Parts. Real-time financial rollups per home showing estimated vs actual costs. Organized by trade (Lumber, Electrical, Plumbing, HVAC, etc.) with collapsible sections. Scopes with takeoff parts show detailed parts lists with quantities.
+- **Auto-Budget Generation** - when structural options are locked in the sales pipeline, the system automatically generates a full home budget from the floorplan's base budget (~97 budget lines per home). Includes structural option selections with cost + retail pricing and elevation cost adders. No manual budget creation needed. Budget can be reset and regenerated if a deal changes.
+- **Active Homes Table** - sortable columns showing budget status, created date, variance tracking across all homes
 - **Change Orders** - track scope changes with cost impact, approval workflow, and automatic budget adjustments
 - **Purchase Orders** - generate POs from budgets, track vendor deliveries and invoicing
 
@@ -99,16 +101,34 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 ## Sales & Pricing
 - **Retail Pricing Matrix** - set base prices per floorplan x community x spec level. See all pricing in one grid view with community columns and floorplan rows
 - **Community Filter** - filter the pricing grid by specific community or view all at once
-- **Promotions & Incentives** - create time-limited promotions with types: Closing Cost Credit, Discount, Credit, or Custom. Set date ranges, amounts, and optionally tie to specific communities
+- **Structural Options Pricing** - 12+ structural options per floorplan with cost and retail pricing tracked separately. Examples: Bonus Room Over Garage (~$42K), Finished Basement (~$112.5K), 8' Interior Doors (~$7.2K), Irrigation Well (~$9.75K), Dual Vanity, Kitchen Expansion, Garage Extension, etc.
+- **Promotions & Incentives** - create time-limited promotions with types: Closing Cost Credit, Discount, Credit, or Custom. Set date ranges, amounts, and optionally tie to specific communities. Show on the Active Promotions section of the Sales Pricing page. Automatically applied during new home creation.
 - **Net After Promotions** - pricing page automatically shows net prices after applying active promotions, so sales agents always quote the right number
 - **PDF Price Sheets** - export branded, customer-facing PDF price sheets per community. Shows floorplan details (beds/baths/sqft), base prices, active promotions with expiry dates, and net prices. Professional formatting with builder branding. No internal cost/margin data exposed
 - **CSV Export** - export pricing data as CSV for spreadsheets, lender packages, or MLS uploads
 - **Expiration Badges** - active promotions show urgency: "Expires Today", "Expires in 3 days", or the end date. Expired promotions are clearly marked
 
 ## Sales Pipeline & New Home Sales
-- **New Home Sale Wizard** - guided 4-step form: Buyers (with co-buyer support) → Location (community, floorplan, elevation, lot) → Structural Options → Review & Submit. Base price auto-populates from the pricing matrix. Elevation upgrades show as line items.
+- **New Home Sale in Under 60 Seconds** - one-page form to create a complete home sale:
+  - Select community, floorplan, elevation
+  - Enter buyer info (name, email, phone, contract date) with dual buyer support (primary + secondary)
+  - Pick from 12+ structural options (Bonus Room Over Garage ~$42K, Finished Basement ~$112.5K, 8' Interior Doors ~$7.2K, Irrigation Well ~$9.75K, Garage Extension, Kitchen Expansion, Dual Vanity, and more)
+  - Apply sales incentives (closing cost credits, discounts, promotions)
+  - See real-time price summary: base price + structural options + incentives
+  - One click → home created with full sales pipeline
 - **Buyer Management** - full buyer directory with search, sort, and CSV export. Primary + secondary buyers tracked per home.
-- **Sales Pipeline Tasks** - every new sale automatically generates a task checklist from editable templates. Built-in templates for Buyer homes (9 tasks) and Spec homes (6 tasks) with dependencies, milestones, and auto-assignment to the right team members.
+- **9-Step Sales Pipeline** - every new sale automatically generates a 9-step checklist: Contract Signed → Deposit → Financing → Sales Manager Approval → Lot Reservation → Structural Options Selected → Structural Options Locked → Budget Auto-Generated → Purchasing Manager Approval. Gate tasks require completion before downstream tasks unlock. Auto-assigned to the right role (Sales, Sales Manager, Purchasing, System).
+- **Auto-Budget Generation** - when "Structural Options Locked" is completed, the system automatically:
+  - Generates a full home budget from the floorplan's base budget (~97 budget lines per home)
+  - Includes structural option selections with cost + retail pricing
+  - Includes elevation cost adders
+  - Marks "Budget Generated" task as COMPLETE instantly
+  - No manual budget creation needed!
+- **Purchasing Approval Flow** - auto-generated budget flows to the Purchasing Manager:
+  - Notification appears on the Purchasing Dashboard
+  - Click through to see full budget breakdown by scope (Lumber, Electrical, Plumbing, HVAC, etc.)
+  - Approve or send back with notes
+  - Links directly to the home budget page
 - **Editable Sales Templates** - sales pipeline templates live alongside construction templates in the Templates page. Full editing UI: add/remove/reorder tasks, set durations, edit dependency chains, clone and customize.
 - **Task Dates** - each pipeline task has start date, due date, and duration. Dates auto-compute from the contract date based on task durations.
 - **Automatic Email Notifications** - key milestones trigger branded emails:
@@ -116,8 +136,17 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
   - Both Approvals Complete → emails Permitting Agent(s) ("Sale Approved, Ready for Setup")
   - Smart fallback: if no manager exists for a role, emails Admin(s) instead
 - **Configurable Notification Settings** - admin page to control which roles get notified for each event type, plus add external email addresses for consultants or outside agents
-- **Permitting Dashboard** - "Homes Pending Setup" queue shows approved sales waiting for template assignment. Urgency badges highlight homes waiting 3+ days. One-click link to assign foundation/construction templates.
+
+## Permitting Pipeline (NEW)
+- **Automatic Sales-to-Construction Transition** - when all sales pipeline tasks complete, the home status auto-transitions to IN_PROGRESS
+- **Permitting Pipeline Dashboard** - dedicated page for Permitting Agents (PAs) showing homes ready for template setup:
+  - Cards for each home needing template assignment
+  - Shows buyer info, structural options selected, floorplan/elevation details
+  - Urgency badges highlight homes waiting 3+ days
+- **Template Application Page** - PA applies construction templates (Permitting, Foundation, Site Development, Construction) via dropdown selectors on a one-click template setup page
+- **Status Tracking**: Awaiting Templates → Templates Applied → Permit Submitted → Approved
 - **Sales-to-Construction Handoff** - complete workflow from sale creation through approvals to permitting setup to construction start. No manual handoffs, no dropped balls.
+- **Construction Kickoff** - once templates are applied, the Gantt chart is generated, vendor notifications go out, and the build begins
 
 ## Pricing
 All plans are monthly subscriptions, no long-term contracts required.

@@ -43,9 +43,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6"
         >
-          Build Smarter. Price Confidently.
+          From Sale to Slab in
           <br />
-          <span className="gradient-text">Sell Faster.</span>
+          <span className="gradient-text">Under 60 Seconds.</span>
         </motion.h1>
 
         <motion.p
@@ -54,7 +54,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-4"
         >
-          The all-in-one platform for home builders — scheduling, purchasing, design center, and sales tools.
+          The all-in-one platform for home builders — sales pipeline, automated budgets, purchasing, scheduling, and construction management.
         </motion.p>
 
         <motion.p
