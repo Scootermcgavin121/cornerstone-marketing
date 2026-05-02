@@ -79,6 +79,39 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **Project Manager (PM)**: Manage assigned projects, schedules, vendors
 - **Vendor**: Limited access - see and respond to their assigned tasks only
 
+## Vendor Bidding & Bid Templates (new as of 2026-05-02)
+
+### Automated Vendor Bidding
+- Send bid requests to multiple vendors with one click from **Purchasing → Bid Requests → New Request**
+- Select floorplans, vendors, scopes/trades, deadline, and message — the system handles the rest
+- Each invited vendor gets a branded email with a "View & Submit Bid" button and a direct download link for the bid template
+
+### Smart Bid Templates
+- The system auto-generates a **scope-filtered Excel bid template** for each bid request — no manual template prep
+- Template has **3 tabs**: Base pricing (options by scope), Structural (takeoffs), Designer (option classes by scope)
+- Only shows vendors what's relevant to their trade — a plumber sees plumbing quantities, not the whole spec
+- Template is automatically uploaded to cloud storage and linked in the email — also downloadable from the bid request detail page
+
+### Vendor Portal (No Login Required)
+- Vendors click the link from their email — **no Cornerstone account or login needed**
+- Portal displays floorplan details, scope info, and documents
+- Vendors download the Excel template, upload their quote (PDF, Excel, or CSV — up to 10 files, 10MB each), add notes, and submit
+- Once submitted, bids are locked — prevents last-minute edits after builder review begins
+- Vendors can also Decline with a reason if they can't bid
+
+### Bid Tracking & Comparison
+- Track each vendor's progress: Invited → Viewed → Submitted → Declined
+- When 2+ vendors submit, compare bids **side-by-side** to make informed decisions
+- Awarded bids flow into the base budget and purchase orders automatically
+
+### Database Backup & Export
+- **Settings → Backups** (Admin only): download your full database in **CSV** (Excel-friendly) or **JSON** format
+- Nightly auto-backups retained for 7 days
+- Create manual backups on demand with a record count preview
+- Your data is always yours — download everything, anytime. No vendor lock-in.
+
+---
+
 ## Purchasing & Budget Management (add-on module)
 - **Parts Catalog** - centralized library of all materials, fixtures, and finishes with part numbers, descriptions, units of measure, and cost/retail pricing
 - **Takeoffs** - per-floorplan quantity takeoffs organized by room/location. Supports BASE (standard for every home) and OPTION (per-option-class) takeoff types. Units: sqft, lf, lnft, each, LUMP, square
