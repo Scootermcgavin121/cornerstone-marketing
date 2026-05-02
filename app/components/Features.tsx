@@ -191,6 +191,35 @@ export default function Features() {
             </a>
           </div>
         </AnimateOnScroll>
+
+        {/* Solutions / pillar links */}
+        <AnimateOnScroll className="mt-12">
+          <div className="max-w-5xl mx-auto">
+            <h3 className="text-center text-sm font-semibold uppercase tracking-wider text-slate-500 mb-6">
+              Explore by topic
+            </h3>
+            <div className="flex flex-wrap justify-center gap-2 sm:gap-3">
+              {[
+                { label: "Home Builder Software", href: "/home-builder-software" },
+                { label: "Project Management", href: "/home-builder-project-management" },
+                { label: "Construction Scheduling", href: "/construction-scheduling-software" },
+                { label: "AI Agents", href: "/ai-agents" },
+                { label: "AI Material Takeoff", href: "/ai-takeoff" },
+                { label: "AI Construction Scheduling", href: "/ai-scheduling" },
+                { label: "Design Center", href: "/design" },
+                { label: "Permitting", href: "/permitting" },
+              ].map((p) => (
+                <a
+                  key={p.href}
+                  href={p.href}
+                  className="inline-flex items-center px-4 py-2 rounded-full bg-slate-900/60 border border-slate-800/60 text-sm text-slate-300 hover:border-cyan-500/40 hover:text-cyan-400 hover:bg-slate-900 transition-colors"
+                >
+                  {p.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        </AnimateOnScroll>
       </div>
     </section>
   );

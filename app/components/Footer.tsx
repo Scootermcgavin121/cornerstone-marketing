@@ -1,16 +1,26 @@
 const footerLinks = {
   Product: [
-    { label: "Features", href: "/features" },
+    { label: "All Features", href: "/features" },
     { label: "Construction", href: "/features/construction" },
     { label: "Purchasing & Design", href: "/features/purchasing" },
     { label: "Sales & Pricing", href: "/features/sales" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "Compare", href: "#compare" },
+    { label: "Design Center", href: "/design" },
+    { label: "Permitting", href: "/permitting" },
+    { label: "Pricing", href: "/#pricing" },
+  ],
+  Solutions: [
+    { label: "Home Builder Software", href: "/home-builder-software" },
+    { label: "Project Management", href: "/home-builder-project-management" },
+    { label: "Construction Scheduling", href: "/construction-scheduling-software" },
+    { label: "AI Agents for Builders", href: "/ai-agents" },
+    { label: "AI Material Takeoff", href: "/ai-takeoff" },
+    { label: "AI Construction Scheduling", href: "/ai-scheduling" },
   ],
   Company: [
     { label: "About", href: "/about" },
-    { label: "Contact", href: "#cta" },
     { label: "Blog", href: "/blog" },
+    { label: "Contact", href: "/#cta" },
+    { label: "Beta Access", href: "/beta" },
   ],
   Legal: [
     { label: "Privacy Policy", href: "/privacy" },
@@ -62,7 +72,7 @@ export default function Footer() {
   return (
     <footer className="relative border-t border-slate-800/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-5 gap-12">
+        <div className="grid md:grid-cols-6 gap-10">
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
