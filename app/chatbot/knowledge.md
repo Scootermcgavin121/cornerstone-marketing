@@ -104,6 +104,17 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - When 2+ vendors submit, compare bids **side-by-side** to make informed decisions
 - Awarded bids flow into the base budget and purchase orders automatically
 
+### Bid Import AI (NEW)
+- Upload vendor bids in **any format** — Excel, PDF, scanned documents, even photos of handwritten quotes
+- AI (GPT-4o-mini) reads the document, extracts line items with quantities, prices, part numbers, and trade/scope assignments
+- **Automatic fuzzy matching** — items are matched to your existing parts catalog and scope items with confidence scores
+- Interactive review table with color-coded confidence: green (high match), amber (needs review), red (manual mapping)
+- Edit any field, re-map items to different catalog entries, or create new parts/scope items on the fly
+- **Three import modes**: Import as a Bid (creates bid record), Import as Vendor Pricing (creates pricing by scope), or Import as Takeoffs (creates floorplan takeoff records)
+- Import the same parsed data multiple ways without re-uploading — e.g. import as takeoffs first, then go back and import as a bid
+- If a vendor fills out YOUR bid template, the AI detects the format and maps with 90%+ confidence automatically
+- Costs pennies per import vs. hours of manual data entry — no more squinting at vendor spreadsheets
+
 ### Database Backup & Export
 - **Settings → Backups** (Admin only): download your full database in **CSV** (Excel-friendly) or **JSON** format
 - Nightly auto-backups retained for 7 days
