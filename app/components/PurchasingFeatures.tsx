@@ -130,38 +130,8 @@ const features = [
       </svg>
     ),
     title: "Bid Management",
-    desc: "Send a floorplan to bid to every vendor with one click. Track responses in real-time (Invited → Viewed → Submitted → Declined) and manage the full RFP lifecycle. Vendors submit through a branded, no-login portal with token-based secure access.",
+    desc: "Send a floorplan to bid to every vendor with one click. Track responses in real-time and manage the full RFP lifecycle. Vendors submit through a branded portal with token-based secure access. Excel import/export for line items, document attachments, and automated reminder emails.",
     badge: "Full Lifecycle",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2a4 4 0 014-4h6m0 0l-3-3m3 3l-3 3M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-      </svg>
-    ),
-    title: "Bid Templates That Write Themselves",
-    desc: "The moment you create a bid request, Cornerstone auto-generates a 3-tab Excel template — Base pricing, Structural options, and Designer selections — pre-filled from your floorplan takeoffs. Your electrician doesn't see plumbing rows. The template is scope-filtered, attached to the vendor email, and downloadable from the portal.",
-    badge: "Auto-Generated",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-      </svg>
-    ),
-    title: "Vendor File Upload Portal",
-    desc: "No login. No training. Vendors click a link and upload their bid sheet — PDF, Excel, or CSV, up to 10 files. Token-protected, two clicks to submit. Perfect for subs who already have their own bidding spreadsheets and refuse to retype line items.",
-    badge: "No Login",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-      </svg>
-    ),
-    title: "Data Backup & Export",
-    desc: "Your data is always yours. Download everything as CSV or JSON anytime — 91 tables, full record sets, sensitive fields excluded. Plus nightly auto-backups with 7-day retention. No vendor lock-in, no exit fees, no surprises.",
-    badge: "Always Yours",
   },
   {
     icon: (

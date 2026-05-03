@@ -7,12 +7,12 @@ import RelatedPages from "../../components/RelatedPages";
 export const metadata = {
   title: "Vendor Bids, Purchasing & Design Center for Home Builders — Cornerstone PM",
   description:
-    "Auto-generated, scope-filtered bid templates. No-login vendor file-upload portal. Side-by-side bid comparison, lock-after-acceptance, 64 Designer Packages, POs, and full data export.",
+    "Vendor bid management with side-by-side comparison, lock-after-acceptance protection, token-protected vendor portal, design center with 64 Designer Packages, and POs.",
   alternates: { canonical: "https://cornerstonepm.ai/features/purchasing" },
   openGraph: {
     title: "Vendor Bids, Purchasing & Design Center for Home Builders — Cornerstone PM",
     description:
-      "Bid templates that write themselves. No-login vendor portal. One-click bid-to-all-vendors. Lock-after-acceptance. Built for residential home builders.",
+      "One-click bid-to-all-vendors. Lock-after-acceptance. 64 Designer Packages. Built for residential home builders.",
     url: "https://cornerstonepm.ai/features/purchasing",
     siteName: "Cornerstone Builder Software",
     type: "website",
@@ -34,19 +34,7 @@ const faqs = [
   },
   {
     q: "How do vendors submit bids? Do they need a login?",
-    a: "No login, no training. Vendors get a token-protected URL when invited. They download an auto-generated, scope-filtered Excel template (Base / Structural / Designer tabs), fill in their numbers in their own workflow, then upload PDF/Excel/CSV files back to the portal. Two clicks to submit. Builders don't end up doing data entry on behalf of subs who hate logins.",
-  },
-  {
-    q: "What's in the auto-generated bid template?",
-    a: "Three tabs: (1) Base — floorplan-location-scope rows for the vendor's trade with option pricing; (2) Structural — takeoff-driven structural options for that scope; (3) Designer — design center option classes the vendor is responsible for. Everything is scope-filtered — your electrician doesn't see plumbing rows. The template is attached to the vendor invite email and also downloadable from the portal.",
-  },
-  {
-    q: "How is bid status tracked?",
-    a: "Every bid request flows through Invited → Viewed → Submitted → Declined, with timestamps. You can see at a glance who opened the link, who's working on it, and who never showed up — so you know who to chase before the bid window closes.",
-  },
-  {
-    q: "Can I get my data out if I leave?",
-    a: "Yes. Settings > Backups lets you download a full org export (91 tables) as CSV or JSON anytime, with sensitive fields automatically excluded. Nightly auto-backups run with 7-day retention. Your data is always yours — no vendor lock-in, no exit fees.",
+    a: "Vendors get a token-protected URL when invited to bid. They can view scope items, edit their pending bid, attach line-item notes, and submit — all without creating an account. Builders don't end up doing data entry on behalf of subs who hate logins.",
   },
   {
     q: "What about design center?",
