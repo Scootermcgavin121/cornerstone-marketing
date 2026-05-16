@@ -61,9 +61,20 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - Automatic vendor notifications when schedule cascades - grouped by vendor, showing old→new dates
 - Keep everyone in the loop automatically
 
-### AI Assistant
-- 24/7 intelligent chatbot built into every account
-- Ask questions about scheduling, vendors, purchasing, selections, or anything else - get instant answers
+### AI Assistant (Foreman AI)
+- 24/7 intelligent chatbot built into every account with **100+ tools across 15 skill categories**
+- Ask questions about scheduling, vendors, purchasing, selections, or anything else — get instant answers
+- **Full undo support** — every write operation can be undone, with complete undo history so you never lose work
+- **File upload in chat** — drag and drop PDFs, Excel files, and images directly into the chat. Foreman reads and processes them — import parts from spreadsheets, analyze blueprints, extract data from vendor quotes
+- **Safety guardrails** — dry-run previews before destructive operations, mandatory confirmation gates, and bulk operation safety caps so nothing happens without your say-so
+- **Estimating formulas** — built-in construction quantity calculators for drywall, roofing, concrete, lumber, paint, and more. Get instant material estimates without leaving the app
+- **Room-by-room setup** — one-shot lighting and plumbing package skills that configure an entire room's fixtures from a single command
+- **Builder preference learning** — Foreman learns your material standards from existing rooms and replicates them across new floorplans automatically
+- **Context quality meter** — visual indicator showing conversation health. Foreman manages memory automatically during long work sessions
+- **Structural options management** — full create, update, delete, and takeoff management for structural options right from the chat
+- **Area cost management** — create, update, and delete community-specific area costs and options conversationally
+- **Location/room management** — create rooms, manage room-level scope definitions, and bulk-update location scopes
+- Available to **Admin** and **Purchasing** roles
 
 ### Import & Export
 - **Import from Excel**: Upload your existing schedules and templates from Excel/CSV - no need to start from scratch
@@ -102,6 +113,7 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 ### Bid Tracking & Comparison
 - Track each vendor's progress: Invited → Viewed → Submitted → Declined
 - When 2+ vendors submit, compare bids **side-by-side** to make informed decisions
+- Bid requests can now be linked to specific design and structural options, so vendors see exactly which options they're pricing
 - Awarded bids flow into the base budget and purchase orders automatically
 
 ### Bid Import AI (NEW)
@@ -250,12 +262,17 @@ Visit https://cornerstonepm.ai for full pricing details and feature comparison.
 - Those tools don't understand construction workflows
 - No concept of phases, permit gates, or vendor confirmation
 - Cornerstone speaks builder language - scopes, subs, punch lists
+- Punch list items support **photo attachments** — snap a picture on your phone and attach it directly to the punch item for clear visual documentation
 
 ## Company Values
 - Built by people who've actually run job sites
 - No corporate buzzwords - we talk like builders because we are builders
 - Full platform that covers the entire build lifecycle - scheduling, purchasing, selections, and sales - without the enterprise price tag
 - Fair pricing - we're not trying to be the most expensive tool in the shed
+
+## Product Reliability & Analytics
+- Built-in product analytics (Vercel Analytics, PostHog) and real-time error monitoring (Sentry) ensure a reliable, continuously improving experience
+- Issues are detected and resolved proactively — often before users notice
 
 ## Getting Started
 - Sign up at https://cornerstonepm.ai
