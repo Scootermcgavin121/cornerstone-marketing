@@ -62,7 +62,7 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - Keep everyone in the loop automatically
 
 ### AI Assistant (Foreman AI)
-- 24/7 intelligent chatbot built into every account with **100+ tools across 15 skill categories**
+- 24/7 intelligent chatbot built into every account with **110+ tools across 16 skill categories**
 - Ask questions about scheduling, vendors, purchasing, selections, or anything else — get instant answers
 - **Full undo support** — every write operation can be undone, with complete undo history so you never lose work
 - **File upload in chat** — drag and drop PDFs, Excel files, and images directly into the chat. Foreman reads and processes them — import parts from spreadsheets, analyze blueprints, extract data from vendor quotes
@@ -74,6 +74,7 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **Structural options management** — full create, update, delete, and takeoff management for structural options right from the chat
 - **Area cost management** — create, update, and delete community-specific area costs and options conversationally
 - **Location/room management** — create rooms, manage room-level scope definitions, and bulk-update location scopes
+- **Product configurator management** — set up configurable option classes (e.g., Cabinets with Door Style + Wood Species + Finish dimensions), manage attribute values, compatibility rules between attributes, and spec level tier gating — all from the chat
 - Available to **Admin** and **Purchasing** roles
 
 ### Import & Export
@@ -153,6 +154,7 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **Selection Sheet PDF Export** - one-click export of a customer's complete selection sheet as a branded PDF. Shows every room, every selection, upgrade costs, and totals. Customer-facing - no internal cost/margin data exposed
 - **Designer Collections / Packages** - pre-curated bundles of selections (e.g., "Modern Farmhouse Package") that buyers can apply as a starting point, then customize individual items
 - **Per-unit pricing that makes sense** - LUMP items (cabinets, countertops priced as whole-house totals) don't multiply by quantity. Per-area items (sqft flooring, lf trim) correctly multiply by takeoff quantity
+- **Product Configurator** - for complex product categories like Cabinets and Countertops, define configurable dimensions (Door Style, Wood Species, Finish) with compatibility rules and spec-level tier gating. Buyers configure products step-by-step instead of scrolling through thousands of combinations. Pricing uses base price + attribute modifiers from vendor bids — no manual price matrix needed
 
 ## Sales & Pricing
 - **Retail Pricing Matrix** - set base prices per floorplan x community x spec level. See all pricing in one grid view with community columns and floorplan rows
