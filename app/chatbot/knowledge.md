@@ -155,6 +155,10 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **Designer Collections / Packages** - pre-curated bundles of selections (e.g., "Modern Farmhouse Package") that buyers can apply as a starting point, then customize individual items
 - **Per-unit pricing that makes sense** - LUMP items (cabinets, countertops priced as whole-house totals) don't multiply by quantity. Per-area items (sqft flooring, lf trim) correctly multiply by takeoff quantity
 - **Product Configurator** - for complex product categories like Cabinets and Countertops, define configurable dimensions (Door Style, Wood Species, Finish) with compatibility rules and spec-level tier gating. Buyers configure products step-by-step instead of scrolling through thousands of combinations. Pricing uses base price + attribute modifiers from vendor bids — no manual price matrix needed
+- **Smart Architecture for Complex Categories** - Cornerstone PM recommends two patterns depending on the product:
+  - **Same product, different variations** (e.g., Cabinets): Use ONE Option Class with attributes. All cabinet series share the same dimensions (door style, wood species, finish), just at different quality tiers. Compatibility rules filter invalid combos.
+  - **Fundamentally different product types** (e.g., Flooring): Use SEPARATE Option Classes per material type (Carpet, Tile, LVP, Hardwood). Each class has its own relevant attributes — no complex compatibility rules needed. Each room gets an FLS entry per material type, buyer picks their preferred material, then configures within that type.
+  - This approach eliminates thousands of compatibility rules while keeping the buyer experience clean and intuitive. Flooring example: 4 classes × 5 spec levels × material-specific attributes = full configurability with zero cross-material complexity.
 
 ## Sales & Pricing
 - **Retail Pricing Matrix** - set base prices per floorplan x community x spec level. See all pricing in one grid view with community columns and floorplan rows
