@@ -117,9 +117,9 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - Bid requests can now be linked to specific design and structural options, so vendors see exactly which options they're pricing
 - Awarded bids flow into the base budget and purchase orders automatically
 
-### Bid Import AI (NEW)
+### Bid Import AI
 - Upload vendor bids in **any format** — Excel, PDF, scanned documents, even photos of handwritten quotes
-- AI (GPT-4o-mini) reads the document, extracts line items with quantities, prices, part numbers, and trade/scope assignments
+- AI reads the document, extracts line items with quantities, prices, part numbers, and trade/scope assignments
 - **Automatic fuzzy matching** — items are matched to your existing parts catalog and scope items with confidence scores
 - Interactive review table with color-coded confidence: green (high match), amber (needs review), red (manual mapping)
 - Edit any field, re-map items to different catalog entries, or create new parts/scope items on the fly
@@ -127,6 +127,15 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - Import the same parsed data multiple ways without re-uploading — e.g. import as takeoffs first, then go back and import as a bid
 - If a vendor fills out YOUR bid template, the AI detects the format and maps with 90%+ confidence automatically
 - Costs pennies per import vs. hours of manual data entry — no more squinting at vendor spreadsheets
+
+### Blueprint AI — AI Floor Plan Reader
+- Upload a floor plan PDF and AI automatically extracts rooms, fixtures, flooring quantities, baseboard linear feet, countertops, cabinets, doors, door hardware, and whole-house scope quantities
+- **Smart scope matching** — AI-extracted scope names are automatically matched to your org's existing scopes using 6-tier intelligent matching (exact → option class → contains → word overlap → alias → keep original). Works with any naming conventions
+- **Editable preview** — review in a 3-tab editor (Rooms / Room Option Classes / Whole House) with separate Scope and Option Class dropdowns on each row. Change anything before importing
+- **Carpet defaults** — automatically sets carpet as default in dry rooms (bedrooms, living areas) and tile in wet rooms (bathrooms, kitchen, laundry). No manual setup
+- **One-click import** creates actual takeoff records for every room/scope combination — items appear immediately on the Locations tab
+- Extracts Plan at a Glance stats: total sqft, building footprint, exterior perimeter, garage/porch area, slab concrete, roofing squares, drywall boards
+- Powered by Anthropic AI Vision. Costs ~$0.75-2.00 per analysis. Requires digital CAD plans (not hand-drawn)
 
 ### Database Backup & Export
 - **Settings → Backups** (Admin only): download your full database in **CSV** (Excel-friendly) or **JSON** format
