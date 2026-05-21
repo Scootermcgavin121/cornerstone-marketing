@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import PainPoints from "./components/PainPoints";
 import Features from "./components/Features";
+import InteractiveFloorplan from "./components/InteractiveFloorplan";
 import Comparison from "./components/Comparison";
 import Pricing from "./components/Pricing";
 import CTA from "./components/CTA";
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <PainPoints />
         <Features />
+        <InteractiveFloorplan />
         <Comparison />
         <Pricing />
         <CTA />
