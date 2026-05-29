@@ -72,6 +72,7 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **Builder preference learning** — Foreman learns your material standards from existing rooms and replicates them across new floorplans automatically
 - **Context quality meter** — visual indicator showing conversation health. Foreman manages memory automatically during long work sessions
 - **Structural options management** — full create, update, delete, and takeoff management for structural options right from the chat. **Global options** let you mark an option so its takeoffs and retail price apply identically across all floorplans — edit once, syncs everywhere. Source picker shows per-floorplan differences before syncing
+- **Elevation management** — create, update, delete elevations per floorplan; add parts and scope items to elevation takeoffs; set retail price adders; dedicated Elevations Manager page for visual management
 - **Area cost management** — create, update, and delete community-specific area costs and options conversationally
 - **Location/room management** — create rooms, manage room-level scope definitions, and bulk-update location scopes
 - **Product configurator management** — set up configurable option classes (e.g., Cabinets with Door Style + Wood Species + Finish dimensions), manage attribute values, compatibility rules between attributes, and spec level tier gating — all from the chat
