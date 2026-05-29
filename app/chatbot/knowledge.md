@@ -71,7 +71,7 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **Room-by-room setup** — one-shot lighting and plumbing package skills that configure an entire room's fixtures from a single command
 - **Builder preference learning** — Foreman learns your material standards from existing rooms and replicates them across new floorplans automatically
 - **Context quality meter** — visual indicator showing conversation health. Foreman manages memory automatically during long work sessions
-- **Structural options management** — full create, update, delete, and takeoff management for structural options right from the chat
+- **Structural options management** — full create, update, delete, and takeoff management for structural options right from the chat. **Global options** let you mark an option so its takeoffs and retail price apply identically across all floorplans — edit once, syncs everywhere. Source picker shows per-floorplan differences before syncing
 - **Area cost management** — create, update, and delete community-specific area costs and options conversationally
 - **Location/room management** — create rooms, manage room-level scope definitions, and bulk-update location scopes
 - **Product configurator management** — set up configurable option classes (e.g., Cabinets with Door Style + Wood Species + Finish dimensions), manage attribute values, compatibility rules between attributes, and spec level tier gating — all from the chat
@@ -184,6 +184,7 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **Retail Pricing Matrix** - set base prices per floorplan x community x spec level. See all pricing in one grid view with community columns and floorplan rows
 - **Community Filter** - filter the pricing grid by specific community or view all at once
 - **Structural Options Pricing** - 12+ structural options per floorplan with cost and retail pricing tracked separately. Examples: Bonus Room Over Garage (~$42K), Finished Basement (~$112.5K), 8' Interior Doors (~$7.2K), Irrigation Well (~$9.75K), Dual Vanity, Kitchen Expansion, Garage Extension, etc.
+- **Global Structural Options** - mark options as "global" so takeoffs and retail pricing apply identically across ALL floorplans. Edit once, syncs everywhere. Source picker lets you choose which floorplan's takeoffs to use when they differ. Inline editable retail price for global options. Saves hours of duplicate data entry for options that don't vary by floorplan (gutters, irrigation, fireplace packages, etc.)
 - **Promotions & Incentives** - create time-limited promotions with types: Closing Cost Credit, Discount, Credit, or Custom. Set date ranges, amounts, and optionally tie to specific communities. Show on the Active Promotions section of the Sales Pricing page. Automatically applied during new home creation.
 - **Net After Promotions** - pricing page automatically shows net prices after applying active promotions, so sales agents always quote the right number
 - **PDF Price Sheets** - export branded, customer-facing PDF price sheets per community. Shows floorplan details (beds/baths/sqft), base prices, active promotions with expiry dates, and net prices. Professional formatting with builder branding. No internal cost/margin data exposed
