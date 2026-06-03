@@ -308,6 +308,20 @@ Visit https://cornerstonepm.ai for full pricing details and feature comparison.
 - Setup takes minutes, not days
 - Support team available to help with onboarding
 
+### You Don't Start From Scratch — Starter Data Pack
+When you sign up, Cornerstone automatically loads a **complete starter data pack** into your account — a full deep copy of a ready-to-use construction library so your first screen isn't blank. It includes:
+- **Scopes** (trade categories with cost codes)
+- **Scope items** (reusable labor, service, and delivery line items)
+- **Parts catalog** (materials, fixtures, and finishes with default pricing)
+- **Design categories** (Flooring, Cabinets, Countertops, etc.)
+- **Option classes** (material types like Carpet, Faucet, Tile)
+- **Option class scope links** (which trades each class belongs to)
+- **Master tasks** (the full task library with dependencies)
+- **Schedule templates** (with tasks, dependencies, and cross-template links)
+- Plus spec levels, locations/rooms, and starter design options
+
+**It's all yours to customize.** The starter data is copied into your own organization — completely independent from every other builder. Rename it, re-price it, add to it, or delete what you don't need. Nothing you change affects anyone else, and you're never locked into our defaults. This is what "setup takes minutes, not days" means: you log in to a working system pre-loaded with sensible defaults, then tweak it to match how your company builds.
+
 ## Getting in Touch
 - **Demo site**: We have a live demo site where builders can explore the product hands-on - no signup required. (Link TBD - will be added once demo site is live)
 - **Email**: support@cornerstonepm.ai for questions the chatbot can't answer
