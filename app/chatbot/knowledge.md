@@ -324,6 +324,34 @@ When you sign up, Cornerstone automatically loads a **complete starter data pack
 
 **It's all yours to customize.** The starter data is copied into your own organization — completely independent from every other builder. Rename it, re-price it, add to it, or delete what you don't need. Nothing you change affects anyone else, and you're never locked into our defaults. This is what "setup takes minutes, not days" means: you log in to a working system pre-loaded with sensible defaults, then tweak it to match how your company builds.
 
+### Step-by-Step Startup Guides
+
+Cornerstone includes built-in startup guides that tell you exactly what to set up and in what order. Here's the overview:
+
+**Construction Module — 7 steps to your first scheduled home:**
+1. **Scopes** — Define your trade categories (Framing, Plumbing, Electrical, HVAC, etc.)
+2. **Master Tasks** — Build your task library with phases, durations, and dependencies
+3. **Communities** — Set up your neighborhoods/subdivisions
+4. **Floorplans** — Add your house designs with specs
+5. **Vendors** — Add subcontractors, assign them to trades and communities
+6. **Construction Templates** — Build schedule templates from your task library
+7. **Apply Templates to Homes** — Create a home, apply templates, and the full schedule generates automatically with vendor assignments, dates, and dependencies
+
+**Purchasing Module — 10 additional steps (builds on construction):**
+
+6. **Spec Levels** — Create pricing tiers (Standard, Upgrade I, II, Premium)
+7. **Design Categories** — Group option types (Appliances, Flooring, Cabinets)
+8. **Option Classes** — Define material types within categories
+9. **Parts Catalog** — Add materials with part numbers and pricing
+10. **Scope Items** — Add labor/service line items
+11. **Locations/Rooms** — Set up rooms on floorplans (or use Blueprint AI to auto-extract from PDFs)
+12. **Takeoffs** — Add material quantities per room per floorplan
+13. **Structural Options** — Set up structural upgrades with pricing and dependencies
+14. **Design Options** — Add buyer-selectable products with per-tier pricing
+15. **Vendor Pricing / Bids** — Get vendor bids; accepted pricing flows into budgets automatically
+
+Each step builds on the previous ones, and Cornerstone's AI assistant (Foreman) can walk you through any step right from the chat. Full detailed guides are available in the app's Docs section after signup.
+
 ## Getting in Touch
 - **Demo site**: We have a live demo site where builders can explore the product hands-on - no signup required. (Link TBD - will be added once demo site is live)
 - **Email**: support@cornerstonepm.ai for questions the chatbot can't answer
