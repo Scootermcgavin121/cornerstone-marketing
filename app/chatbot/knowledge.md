@@ -698,6 +698,39 @@ All exports feature a consistent branded header with builder logo, company name,
 - **Not** a GPS time clock — this is simple shift/hour logging for office and field staff
 - Default: disabled. Admin enables when ready.
 
+## Community Lot Maps & Public Embed (NEW)
+Cornerstone includes interactive community lot maps that builders can embed on their own websites:
+
+### In-App Map
+- Upload the architect's site plan SVG → system auto-extracts lot polygons
+- Color-coded lot statuses: Available (green), Sold (red), Pending (amber), Model (gray), Spec (blue)
+- Click any lot to view details or update its sales status
+- Label controls (size, color), quick-sequence labeling, builder logo overlay
+
+### Embeddable Public Map
+- One-click embed code — paste an `<iframe>` snippet into any website
+- Shows real-time lot availability with color-coded polygons
+- Click any lot for a popup: lot number, status badge, plan name, contextual info
+- Filter buttons, label toggle, builder branding
+- **Auto-refreshes every 2 minutes** — status changes appear on the embed automatically
+- No authentication required — safe for builder websites, CodePen, WordPress, etc.
+
+## Lot-Linked Sales Flow (NEW)
+When creating a new home sale, the lot field is a **searchable dropdown** pulling from the community's lot records:
+- Color-coded status badges on each lot
+- Auto-fills the address when a lot with an address is selected
+- Lot automatically links to the home and updates status (Available → Sold/Spec)
+- **Model lots are locked** — cannot be selected for new sales
+- **Spec lots trigger conversion** — select a spec lot to convert it to a buyer sale (attaches buyer info to the existing spec home without creating new scheduling tasks)
+
+## Builder-Branded Emails (NEW)
+All automated emails are branded with the builder's identity:
+- **Builder's logo** as primary header (large, centered)
+- **Builder's company name** prominently displayed
+- "Powered by Cornerstone PM" as subtle secondary branding
+- Applies to ALL email types: vendor notifications, welcome emails, sales alerts, PO/CO delivery, insurance checks
+- Configure in Admin → Settings (upload logo, set company name)
+
 ## Architecture
 - **Multi-tenant ready** - architected with future SaaS in mind
 - **Next.js 16** App Router with server/client components
