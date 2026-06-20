@@ -155,6 +155,7 @@ Cornerstone helps residential builders schedule, track, budget, and manage their
 - **Active Homes Table** - sortable columns showing budget status, created date, variance tracking across all homes
 - **Change Orders** - track scope changes with cost impact, approval workflow, and automatic budget adjustments
 - **Purchase Orders** - generate POs from budgets, track vendor deliveries and invoicing
+- **Cost Codes** - phase-level buckets under scopes for per-phase PO generation. Split a single trade (e.g., Plumbing) into Underground, Rough, and Trim phases. Each phase gets its own cost code (PLM-001, PLM-002, PLM-003) and its own PO. Manage cost codes from 4 places: dedicated Cost Codes page, Task Library, Scope Items page, and Parts Catalog. Smart dropdowns show scope-matched codes first with all others below a divider. Auto-assign button for scopes with only one code. Completely optional — builders who don't use them get the same behavior as before.
 - **FLOC-Derived Budget Lines (NEW)** - when a room has a FloorplanLocationScope (FLOC) with an option class but no matching takeoff, the budget automatically includes the standard option's price at the appropriate spec level. Community budgets use the community's spec level; global budgets use the org's base spec level. Each line shows its source (takeoff vs FLOC) so builders can see exactly where costs come from.
 
 ## Design Center & Selections
